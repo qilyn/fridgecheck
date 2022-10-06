@@ -1,0 +1,17 @@
+<!doctype html>
+<head>
+    <title>{{ page_title }} @fridgecheck</title>
+</head>
+
+<body>
+    <div class="container">
+        <table>
+            <tr>
+                <th>stops</th>
+            </tr>
+            {% for stop in stops %}
+                {% include 'stop_row.html' %}
+            {% endfor %}
+        </table>
+    </div>
+</body>
