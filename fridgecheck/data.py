@@ -1,88 +1,104 @@
-
+import json
 import os
 from collections import namedtuple
+from dataclasses import dataclass
 from datetime import datetime
+from typing import Iterable, Tuple
 
 import requests
 from dotenv import dotenv_values
 from flask import Blueprint
 
-bp = Blueprint('app', __name__)
+from fridgecheck.structures import Prediction, Route
+
+bp = Blueprint("app", __name__)
 
 config = {
     **dotenv_values(".env"),
     **os.environ,  # override loaded values with environment variables
 }
 
-Stop = namedtuple('Stop', ["stop_id", "name"])
 
-Departure = namedtuple('Departure', [
-    "stop_id",
-    "service_id",
-    "direction",
-    "operator",
-    "origin",
-    "destination",
-    "delay",
-    "status",
-    "monitored",
-])
+class Formatter:
+    @staticmethod
+    def predictions(data):
+        return Prediction(**data)
 
-Prediction = namedtuple('Prediction', ['aimed', 'expected'])
-"""
-Time at which the vehicle is expected to reach a stop. `expected` may be none if the vehicle hasn't started yet.
-"""
+    @staticmethod
+    def routes(data):
+        return [Route(**r) for r in data]
 
-class Predictions:
-    """
-    Get predictions for services arriving at a stop.
-    """
-    @classmethod
-    def get(cls, stop=None):
+class MetlinkApiUrls:
+
+    _PREDICTIONS = "https://api.opendata.metlink.org.nz/v1/stop-predictions?stop_id={stop}"
+    _ROUTES = "https://api.opendata.metlink.org.nz/v1/gtfs/routes?stop_id={stop_id}"
+    
+    def get(self, url):
         response = requests.get(
-            "https://api.opendata.metlink.org.nz/v1/stop-predictions?stop_id={stop}",
+            url,
             headers={
                 "x-api-key": config.get('API_KEY')
             }
         )
-        return response, cls._format(response) if response.status_code  == 200 else []
-        
-        
-    def _format(response):
-        return {
-            "farezone": response["farezone"],
-            "closed": bool(response["closed"]),
-            "departures": [
-                Departure(
-                    **{
-                        "stop_id": d["stop_id"],
-                        "service_id": d["service_id"],
-                        "direction": d["direction"],
-                        "operator": d["operator"],
-                        "origin": Stop(**{
-                            "stop_id": d["origin"]['stop_id'],
-                            "name": d['origin']['name'],
-                        }),
-                        "destination": Stop(**{
-                            "stop_id": d["destination"]['stop_id'],
-                            "name": d['destination']['name'],
-                        }),
-                        "delay": d["delay"],
-                        "vehicle_id": d["vehicle_id"],
-                        "arrival": Prediction(**{
-                            "aimed": datetime.fromisoformat(d['arrival']['aimed']),
-                            "expected": datetime.fromisoformat(d['arrival'].get('expected')) if d['arrival'].get('expected') else None,
-                        }),
-                        "delay": Prediction(**{
-                            "aimed": d["delay"]["aimed"],
-                            "expected": d["delay"]["expected"],
-                        }),
-                        "status": d["status"],
-                        "monitored": d['monitored'],
-                        "wheelchair_accessible": d['wheelchair_accessible'],
-                        'trip_id': d['trip_id'],
-                    }
-                )         
-                for d in response['departures']
-            ]
-        }
+        return response.status_code, response.json()
+    
+    def predictions(self, stop) -> Tuple[int, Prediction]:
+        status_code, data = self.get(self._PREDICTIONS.format(stop=stop))
+        return (
+            status_code,
+            Formatter.predictions(data) if status_code == 200 else data
+        )
+            
+    def routes(self, stop) -> Tuple[int, Iterable[Route]]:
+        status_code, data = self.get(self._ROUTES.format(stop=stop))
+        return (
+            status_code,
+            Formatter.routes(data) if status_code == 200 else data
+        )
+
+    
+class LoadDataFromFiles:
+    
+    _PREDICTIONS = "/fridgecheck/example/predictions_5510.json"
+    _ROUTES = "/fridgecheck/example/routes_response.json"
+    
+    def predictions(self, stop=None):
+        return (
+            200,
+            Formatter.predictions(
+                json.loads(
+                open(os.getcwd() + self._PREDICTIONS).read())
+            )
+        )
+
+    def routes(self, stop=None):
+        return (
+            200,
+            Formatter.routes(
+                json.loads(
+                    open(os.getcwd() + self._ROUTES).read()
+                )
+            )
+        )
+
+
+class Api:
+    """
+    Interface which allows swapping out the actual Metlink API for a mock (which reads JSON from disk)
+    
+    Usage: 
+    Api(mock=True).get_prediction(stop=5515)
+    """
+    
+    def __init__(self, mock=False):
+        if mock:
+            self.data = LoadDataFromFiles()
+        else:
+            self.data = MetlinkApiUrls()            
+    
+    def __getattr__(self, attr):
+        actual = attr.strip('get_')
+        if hasattr(self.data, actual):
+            return getattr(self.data, actual)
+        else:
+            raise Exception("cannot access this property on Api")

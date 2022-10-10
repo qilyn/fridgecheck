@@ -3,7 +3,7 @@ import os
 from dotenv import dotenv_values
 from flask import Blueprint, render_template
 
-from .data import Predictions
+from .data import Api
 
 bp = Blueprint('app', __name__)
 
@@ -17,23 +17,17 @@ config = {
 def home():
     stop="5510"
     
-    response, stops = Predictions.get(stop=stop)
+    status_code, formatted_response_data = Api(mock=True).get_routes(stop=None)
+    error = None
+    
+    if status_code != 200:
+        error = formatted_response_data.get('message', f'Failed with {status_code}')
 
-    error = ""
-
-    if response.status_code != 200:
-        error = f"{response.status_code} - {response.json()}"
-    else:
-        stop = response.json()
-
-        if not stops:
-            error = "No stops retrieved :("
-
-    print(stops)
+    print(formatted_response_data)
     
     return render_template(
         'home.html',
         error=error,
         stop=stop,
-        stops=stops,
+        stops=formatted_response_data,
     )

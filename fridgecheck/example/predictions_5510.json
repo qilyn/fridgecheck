@@ -1,0 +1,2906 @@
+{
+  "farezone": "1",
+  "closed": false,
+  "departures": [
+    {
+      "stop_id": "5510",
+      "service_id": "3",
+      "direction": "outbound",
+      "operator": "NBM",
+      "origin": {
+        "stop_id": "6000",
+        "name": "WgtnStn-B"
+      },
+      "destination": {
+        "stop_id": "7345",
+        "name": "Rongotai"
+      },
+      "delay": "PT0S",
+      "vehicle_id": "5735",
+      "name": "WillisSt at Willban",
+      "arrival": {
+        "aimed": "2022-10-11T09:41:00+13:00",
+        "expected": "2022-10-11T09:41:00+13:00"
+      },
+      "departure": {
+        "aimed": "2022-10-11T09:41:00+13:00",
+        "expected": "2022-10-11T09:42:40+13:00"
+      },
+      "status": "ontime",
+      "monitored": true,
+      "wheelchair_accessible": true,
+      "trip_id": "3__0__133__NBM__35__6__35__6_1"
+    },
+    {
+      "stop_id": "5510",
+      "service_id": "7",
+      "direction": "outbound",
+      "operator": "TZM",
+      "origin": {
+        "stop_id": "6000",
+        "name": "WgtnStn-B"
+      },
+      "destination": {
+        "stop_id": "6733",
+        "name": "Kingston"
+      },
+      "delay": "-PT2M8S",
+      "vehicle_id": "3704",
+      "name": "WillisSt at Willban",
+      "arrival": {
+        "aimed": "2022-10-11T09:41:00+13:00",
+        "expected": "2022-10-11T09:38:52+13:00"
+      },
+      "departure": {
+        "aimed": "2022-10-11T09:41:00+13:00",
+        "expected": "2022-10-11T09:42:43+13:00"
+      },
+      "status": "ontime",
+      "monitored": true,
+      "wheelchair_accessible": true,
+      "trip_id": "7__0__133__TZM__128__1__128__1_1"
+    },
+    {
+      "stop_id": "5510",
+      "service_id": "2",
+      "direction": "inbound",
+      "operator": "NBM",
+      "origin": {
+        "stop_id": "4332",
+        "name": "Karori-AllingtonRd"
+      },
+      "destination": {
+        "stop_id": "6241",
+        "name": "Miramar"
+      },
+      "delay": "PT4M29S",
+      "vehicle_id": "5708",
+      "name": "WillisSt at Willban",
+      "arrival": {
+        "aimed": "2022-10-11T09:36:00+13:00",
+        "expected": "2022-10-11T09:40:29+13:00"
+      },
+      "departure": {
+        "aimed": "2022-10-11T09:36:00+13:00",
+        "expected": "2022-10-11T09:42:44+13:00"
+      },
+      "status": "delayed",
+      "monitored": true,
+      "wheelchair_accessible": true,
+      "trip_id": "2__1__148__NBM__63__1__63__1_1"
+    },
+    {
+      "stop_id": "5510",
+      "service_id": "52",
+      "direction": "inbound",
+      "operator": "MNM",
+      "origin": {
+        "stop_id": "3250",
+        "name": "Johnsonville-C"
+      },
+      "destination": {
+        "stop_id": "5516",
+        "name": "Courtenay Pl"
+      },
+      "delay": "-PT3M12S",
+      "vehicle_id": "7152",
+      "name": "WillisSt at Willban",
+      "arrival": {
+        "aimed": "2022-10-11T09:46:00+13:00",
+        "expected": "2022-10-11T09:42:48+13:00"
+      },
+      "departure": {
+        "aimed": "2022-10-11T09:46:00+13:00",
+        "expected": "2022-10-11T09:42:48+13:00"
+      },
+      "status": "early",
+      "monitored": true,
+      "wheelchair_accessible": true,
+      "trip_id": "52__1__108__MNM__3021__1__3021__1_1"
+    },
+    {
+      "stop_id": "5510",
+      "service_id": "14",
+      "direction": "inbound",
+      "operator": "NBM",
+      "origin": {
+        "stop_id": "4136",
+        "name": "Wilton-SurreySt"
+      },
+      "destination": {
+        "stop_id": "5516",
+        "name": "Courtenay Pl"
+      },
+      "delay": "-PT6M58S",
+      "vehicle_id": "2167",
+      "name": "WillisSt at Willban",
+      "arrival": {
+        "aimed": "2022-10-11T09:50:00+13:00",
+        "expected": "2022-10-11T09:43:02+13:00"
+      },
+      "departure": {
+        "aimed": "2022-10-11T09:50:00+13:00",
+        "expected": "2022-10-11T09:43:02+13:00"
+      },
+      "status": "early",
+      "monitored": true,
+      "wheelchair_accessible": true,
+      "trip_id": "14__1__200__NBM__151__2__151__2_1"
+    },
+    {
+      "stop_id": "5510",
+      "service_id": "83",
+      "direction": "inbound",
+      "operator": "NBM",
+      "origin": {
+        "stop_id": "8858",
+        "name": "EastbourneTmns"
+      },
+      "destination": {
+        "stop_id": "5516",
+        "name": "Courtenay Pl"
+      },
+      "delay": "PT0S",
+      "vehicle_id": null,
+      "name": "WillisSt at Willban",
+      "arrival": {
+        "aimed": "2022-10-11T09:44:00+13:00",
+        "expected": null
+      },
+      "departure": {
+        "aimed": "2022-10-11T09:44:00+13:00",
+        "expected": null
+      },
+      "status": "cancelled",
+      "monitored": false,
+      "wheelchair_accessible": false,
+      "trip_id": "83__1__110__NBM__115__1__115__1_1"
+    },
+    {
+      "stop_id": "5510",
+      "service_id": "1",
+      "direction": "inbound",
+      "operator": "TZM",
+      "origin": {
+        "stop_id": "3050",
+        "name": "J'villeW-McLintockS"
+      },
+      "destination": {
+        "stop_id": "6158",
+        "name": "Island Bay"
+      },
+      "delay": "PT1S",
+      "vehicle_id": "3523",
+      "name": "WillisSt at Willban",
+      "arrival": {
+        "aimed": "2022-10-11T09:44:00+13:00",
+        "expected": "2022-10-11T09:44:01+13:00"
+      },
+      "departure": {
+        "aimed": "2022-10-11T09:44:00+13:00",
+        "expected": "2022-10-11T09:44:01+13:00"
+      },
+      "status": "ontime",
+      "monitored": true,
+      "wheelchair_accessible": true,
+      "trip_id": "1__1__146__TZM__218__2__218__2_1"
+    },
+    {
+      "stop_id": "5510",
+      "service_id": "12",
+      "direction": "outbound",
+      "operator": "NBM",
+      "origin": {
+        "stop_id": "5500",
+        "name": "WgtnStn-A"
+      },
+      "destination": {
+        "stop_id": "7099",
+        "name": "Strathmore Pk"
+      },
+      "delay": "PT3S",
+      "vehicle_id": "5701",
+      "name": "WillisSt at Willban",
+      "arrival": {
+        "aimed": "2022-10-11T09:44:00+13:00",
+        "expected": "2022-10-11T09:44:03+13:00"
+      },
+      "departure": {
+        "aimed": "2022-10-11T09:44:00+13:00",
+        "expected": "2022-10-11T09:44:03+13:00"
+      },
+      "status": "ontime",
+      "monitored": true,
+      "wheelchair_accessible": true,
+      "trip_id": "12__0__115__NBM__74__1__74__1_1"
+    },
+    {
+      "stop_id": "5510",
+      "service_id": "2",
+      "direction": "inbound",
+      "operator": "NBM",
+      "origin": {
+        "stop_id": "4332",
+        "name": "Karori-AllingtonRd"
+      },
+      "destination": {
+        "stop_id": "7042",
+        "name": "Seatoun"
+      },
+      "delay": "PT1M34S",
+      "vehicle_id": "5726",
+      "name": "WillisSt at Willban",
+      "arrival": {
+        "aimed": "2022-10-11T09:43:00+13:00",
+        "expected": "2022-10-11T09:44:34+13:00"
+      },
+      "departure": {
+        "aimed": "2022-10-11T09:43:00+13:00",
+        "expected": "2022-10-11T09:44:34+13:00"
+      },
+      "status": "ontime",
+      "monitored": true,
+      "wheelchair_accessible": true,
+      "trip_id": "2__1__150__NBM__8__6__8__6_1"
+    },
+    {
+      "stop_id": "5510",
+      "service_id": "17",
+      "direction": "outbound",
+      "operator": "TZM",
+      "origin": {
+        "stop_id": "6000",
+        "name": "WgtnStn-B"
+      },
+      "destination": {
+        "stop_id": "7774",
+        "name": "Kowhai Park"
+      },
+      "delay": "PT30S",
+      "vehicle_id": "3002",
+      "name": "WillisSt at Willban",
+      "arrival": {
+        "aimed": "2022-10-11T09:45:00+13:00",
+        "expected": "2022-10-11T09:45:30+13:00"
+      },
+      "departure": {
+        "aimed": "2022-10-11T09:45:00+13:00",
+        "expected": "2022-10-11T09:45:30+13:00"
+      },
+      "status": "ontime",
+      "monitored": true,
+      "wheelchair_accessible": true,
+      "trip_id": "17__0__107__TZM__225__225_1"
+    },
+    {
+      "stop_id": "5510",
+      "service_id": "AX",
+      "direction": "inbound",
+      "operator": "MNM",
+      "origin": {
+        "stop_id": "6000",
+        "name": "WgtnStn-B"
+      },
+      "destination": {
+        "stop_id": "7399",
+        "name": "Airport"
+      },
+      "delay": "PT1M16S",
+      "vehicle_id": "7811",
+      "name": "WillisSt at Willban",
+      "arrival": {
+        "aimed": "2022-10-11T09:45:00+13:00",
+        "expected": "2022-10-11T09:46:16+13:00"
+      },
+      "departure": {
+        "aimed": "2022-10-11T09:45:00+13:00",
+        "expected": "2022-10-11T09:46:16+13:00"
+      },
+      "status": "ontime",
+      "monitored": true,
+      "wheelchair_accessible": true,
+      "trip_id": "AX__1__144__MNM__6031__6031_1"
+    },
+    {
+      "stop_id": "5510",
+      "service_id": "29",
+      "direction": "outbound",
+      "operator": "TZM",
+      "origin": {
+        "stop_id": "5500",
+        "name": "WgtnStn-A"
+      },
+      "destination": {
+        "stop_id": "7720",
+        "name": "Brooklyn"
+      },
+      "delay": "-PT1M37S",
+      "vehicle_id": "3106",
+      "name": "WillisSt at Willban",
+      "arrival": {
+        "aimed": "2022-10-11T09:49:00+13:00",
+        "expected": "2022-10-11T09:47:23+13:00"
+      },
+      "departure": {
+        "aimed": "2022-10-11T09:49:00+13:00",
+        "expected": "2022-10-11T09:47:23+13:00"
+      },
+      "status": "ontime",
+      "monitored": true,
+      "wheelchair_accessible": true,
+      "trip_id": "29__0__143__TZM__138__138_1"
+    },
+    {
+      "stop_id": "5510",
+      "service_id": "83",
+      "direction": "inbound",
+      "operator": "NBM",
+      "origin": {
+        "stop_id": "8858",
+        "name": "EastbourneTmns"
+      },
+      "destination": {
+        "stop_id": "5516",
+        "name": "Courtenay Pl"
+      },
+      "delay": "-PT10M44S",
+      "vehicle_id": "2165",
+      "name": "WillisSt at Willban",
+      "arrival": {
+        "aimed": "2022-10-11T09:59:00+13:00",
+        "expected": "2022-10-11T09:48:16+13:00"
+      },
+      "departure": {
+        "aimed": "2022-10-11T09:59:00+13:00",
+        "expected": "2022-10-11T09:48:16+13:00"
+      },
+      "status": "early",
+      "monitored": true,
+      "wheelchair_accessible": true,
+      "trip_id": "83__1__160__NBM__202__3__202__3_1"
+    },
+    {
+      "stop_id": "5510",
+      "service_id": "1",
+      "direction": "inbound",
+      "operator": "TZM",
+      "origin": {
+        "stop_id": "3297",
+        "name": "ChurtonPk - Melksha"
+      },
+      "destination": {
+        "stop_id": "6158",
+        "name": "Island Bay"
+      },
+      "delay": "-PT2M44S",
+      "vehicle_id": "3709",
+      "name": "WillisSt at Willban",
+      "arrival": {
+        "aimed": "2022-10-11T09:51:00+13:00",
+        "expected": "2022-10-11T09:48:16+13:00"
+      },
+      "departure": {
+        "aimed": "2022-10-11T09:51:00+13:00",
+        "expected": "2022-10-11T09:48:16+13:00"
+      },
+      "status": "early",
+      "monitored": true,
+      "wheelchair_accessible": true,
+      "trip_id": "1__1__148__TZM__112__4__112__4_1"
+    },
+    {
+      "stop_id": "5510",
+      "service_id": "2",
+      "direction": "inbound",
+      "operator": "NBM",
+      "origin": {
+        "stop_id": "4332",
+        "name": "Karori-AllingtonRd"
+      },
+      "destination": {
+        "stop_id": "6241",
+        "name": "Miramar"
+      },
+      "delay": "-PT2M8S",
+      "vehicle_id": "5748",
+      "name": "WillisSt at Willban",
+      "arrival": {
+        "aimed": "2022-10-11T09:51:00+13:00",
+        "expected": "2022-10-11T09:48:52+13:00"
+      },
+      "departure": {
+        "aimed": "2022-10-11T09:51:00+13:00",
+        "expected": "2022-10-11T09:48:52+13:00"
+      },
+      "status": "early",
+      "monitored": true,
+      "wheelchair_accessible": true,
+      "trip_id": "2__1__152__NBM__67__1__67__1_1"
+    },
+    {
+      "stop_id": "5510",
+      "service_id": "3",
+      "direction": "outbound",
+      "operator": "NBM",
+      "origin": {
+        "stop_id": "6000",
+        "name": "WgtnStn-B"
+      },
+      "destination": {
+        "stop_id": "7338",
+        "name": "Lyall Bay"
+      },
+      "delay": "-PT1M24S",
+      "vehicle_id": "5079",
+      "name": "WillisSt at Willban",
+      "arrival": {
+        "aimed": "2022-10-11T09:51:00+13:00",
+        "expected": "2022-10-11T09:49:36+13:00"
+      },
+      "departure": {
+        "aimed": "2022-10-11T09:51:00+13:00",
+        "expected": "2022-10-11T09:49:36+13:00"
+      },
+      "status": "ontime",
+      "monitored": true,
+      "wheelchair_accessible": true,
+      "trip_id": "3__0__135__NBM__37__6__37__6_1"
+    },
+    {
+      "stop_id": "5510",
+      "service_id": "27",
+      "direction": "outbound",
+      "operator": "TZM",
+      "origin": {
+        "stop_id": "6000",
+        "name": "WgtnStn-B"
+      },
+      "destination": {
+        "stop_id": "7730",
+        "name": "Vogeltown"
+      },
+      "delay": "-PT2M24S",
+      "vehicle_id": "3418",
+      "name": "WillisSt at Willban",
+      "arrival": {
+        "aimed": "2022-10-11T09:52:00+13:00",
+        "expected": "2022-10-11T09:49:36+13:00"
+      },
+      "departure": {
+        "aimed": "2022-10-11T09:52:00+13:00",
+        "expected": "2022-10-11T09:49:36+13:00"
+      },
+      "status": "early",
+      "monitored": true,
+      "wheelchair_accessible": true,
+      "trip_id": "27__0__105__TZM__130__130_1"
+    },
+    {
+      "stop_id": "5510",
+      "service_id": "24",
+      "direction": "inbound",
+      "operator": "TZM",
+      "origin": {
+        "stop_id": "3081",
+        "name": "Johnsonville-B"
+      },
+      "destination": {
+        "stop_id": "7083",
+        "name": "Miramar Hgts"
+      },
+      "delay": "-PT1M45S",
+      "vehicle_id": "3192",
+      "name": "WillisSt at Willban",
+      "arrival": {
+        "aimed": "2022-10-11T09:52:00+13:00",
+        "expected": "2022-10-11T09:50:15+13:00"
+      },
+      "departure": {
+        "aimed": "2022-10-11T09:52:00+13:00",
+        "expected": "2022-10-11T09:50:15+13:00"
+      },
+      "status": "ontime",
+      "monitored": true,
+      "wheelchair_accessible": true,
+      "trip_id": "24__1__164__TZM__118__1__118__1_1"
+    },
+    {
+      "stop_id": "5510",
+      "service_id": "25",
+      "direction": "inbound",
+      "operator": "TZM",
+      "origin": {
+        "stop_id": "4419",
+        "name": "KhandallahVlg-A"
+      },
+      "destination": {
+        "stop_id": "4947",
+        "name": "Highbury"
+      },
+      "delay": "-PT1M45S",
+      "vehicle_id": "3184",
+      "name": "WillisSt at Willban",
+      "arrival": {
+        "aimed": "2022-10-11T09:55:00+13:00",
+        "expected": "2022-10-11T09:53:15+13:00"
+      },
+      "departure": {
+        "aimed": "2022-10-11T09:55:00+13:00",
+        "expected": "2022-10-11T09:53:15+13:00"
+      },
+      "status": "ontime",
+      "monitored": true,
+      "wheelchair_accessible": true,
+      "trip_id": "25__1__122__TZM__109__3__109__3_1"
+    },
+    {
+      "stop_id": "5510",
+      "service_id": "7",
+      "direction": "outbound",
+      "operator": "TZM",
+      "origin": {
+        "stop_id": "6000",
+        "name": "WgtnStn-B"
+      },
+      "destination": {
+        "stop_id": "6733",
+        "name": "Kingston"
+      },
+      "delay": "-PT2M25S",
+      "vehicle_id": "3444",
+      "name": "WillisSt at Willban",
+      "arrival": {
+        "aimed": "2022-10-11T09:56:00+13:00",
+        "expected": "2022-10-11T09:53:35+13:00"
+      },
+      "departure": {
+        "aimed": "2022-10-11T09:56:00+13:00",
+        "expected": "2022-10-11T09:53:35+13:00"
+      },
+      "status": "early",
+      "monitored": true,
+      "wheelchair_accessible": true,
+      "trip_id": "7__0__135__TZM__142__142_1"
+    },
+    {
+      "stop_id": "5510",
+      "service_id": "AX",
+      "direction": "inbound",
+      "operator": "MNM",
+      "origin": {
+        "stop_id": "6000",
+        "name": "WgtnStn-B"
+      },
+      "destination": {
+        "stop_id": "7399",
+        "name": "Airport"
+      },
+      "delay": "-PT1M24S",
+      "vehicle_id": "7810",
+      "name": "WillisSt at Willban",
+      "arrival": {
+        "aimed": "2022-10-11T09:55:00+13:00",
+        "expected": "2022-10-11T09:53:36+13:00"
+      },
+      "departure": {
+        "aimed": "2022-10-11T09:55:00+13:00",
+        "expected": "2022-10-11T09:53:36+13:00"
+      },
+      "status": "ontime",
+      "monitored": true,
+      "wheelchair_accessible": true,
+      "trip_id": "AX__1__146__MNM__6091__6091_1"
+    },
+    {
+      "stop_id": "5510",
+      "service_id": "23",
+      "direction": "outbound",
+      "operator": "TZM",
+      "origin": {
+        "stop_id": "5500",
+        "name": "WgtnStn-A"
+      },
+      "destination": {
+        "stop_id": "6937",
+        "name": "Houghton Bay"
+      },
+      "delay": "-PT40S",
+      "vehicle_id": "3500",
+      "name": "WillisSt at Willban",
+      "arrival": {
+        "aimed": "2022-10-11T09:56:00+13:00",
+        "expected": "2022-10-11T09:55:20+13:00"
+      },
+      "departure": {
+        "aimed": "2022-10-11T09:56:00+13:00",
+        "expected": "2022-10-11T09:55:20+13:00"
+      },
+      "status": "ontime",
+      "monitored": true,
+      "wheelchair_accessible": true,
+      "trip_id": "23__0__111__TZM__129__1__129__1_1"
+    },
+    {
+      "stop_id": "5510",
+      "service_id": "2",
+      "direction": "inbound",
+      "operator": "NBM",
+      "origin": {
+        "stop_id": "4332",
+        "name": "Karori-AllingtonRd"
+      },
+      "destination": {
+        "stop_id": "7042",
+        "name": "Seatoun"
+      },
+      "delay": "-PT2M8S",
+      "vehicle_id": "5706",
+      "name": "WillisSt at Willban",
+      "arrival": {
+        "aimed": "2022-10-11T09:58:00+13:00",
+        "expected": "2022-10-11T09:55:52+13:00"
+      },
+      "departure": {
+        "aimed": "2022-10-11T09:58:00+13:00",
+        "expected": "2022-10-11T09:55:52+13:00"
+      },
+      "status": "early",
+      "monitored": true,
+      "wheelchair_accessible": true,
+      "trip_id": "2__1__154__NBM__69__1__69__1_1"
+    },
+    {
+      "stop_id": "5510",
+      "service_id": "1",
+      "direction": "inbound",
+      "operator": "TZM",
+      "origin": {
+        "stop_id": "3451",
+        "name": "GrenadaVlg-GrenadaD"
+      },
+      "destination": {
+        "stop_id": "6158",
+        "name": "Island Bay"
+      },
+      "delay": "-PT2M45S",
+      "vehicle_id": "3712",
+      "name": "WillisSt at Willban",
+      "arrival": {
+        "aimed": "2022-10-11T10:02:00+13:00",
+        "expected": "2022-10-11T09:59:15+13:00"
+      },
+      "departure": {
+        "aimed": "2022-10-11T10:02:00+13:00",
+        "expected": "2022-10-11T09:59:15+13:00"
+      },
+      "status": "early",
+      "monitored": true,
+      "wheelchair_accessible": true,
+      "trip_id": "1__1__150__TZM__209__3__209__3_1"
+    },
+    {
+      "stop_id": "5510",
+      "service_id": "3",
+      "direction": "outbound",
+      "operator": "NBM",
+      "origin": {
+        "stop_id": "6000",
+        "name": "WgtnStn-B"
+      },
+      "destination": {
+        "stop_id": "7345",
+        "name": "Rongotai"
+      },
+      "delay": "PT0S",
+      "vehicle_id": null,
+      "name": "WillisSt at Willban",
+      "arrival": {
+        "aimed": "2022-10-11T10:01:00+13:00",
+        "expected": null
+      },
+      "departure": {
+        "aimed": "2022-10-11T10:01:00+13:00",
+        "expected": null
+      },
+      "status": null,
+      "monitored": false,
+      "wheelchair_accessible": false,
+      "trip_id": "3__0__137__NBM__55__2__55__2_1"
+    },
+    {
+      "stop_id": "5510",
+      "service_id": "83",
+      "direction": "inbound",
+      "operator": "NBM",
+      "origin": {
+        "stop_id": "8858",
+        "name": "EastbourneTmns"
+      },
+      "destination": {
+        "stop_id": "5516",
+        "name": "Courtenay Pl"
+      },
+      "delay": "-PT7M15S",
+      "vehicle_id": "5712",
+      "name": "WillisSt at Willban",
+      "arrival": {
+        "aimed": "2022-10-11T10:09:00+13:00",
+        "expected": "2022-10-11T10:01:45+13:00"
+      },
+      "departure": {
+        "aimed": "2022-10-11T10:09:00+13:00",
+        "expected": "2022-10-11T10:01:45+13:00"
+      },
+      "status": "early",
+      "monitored": true,
+      "wheelchair_accessible": true,
+      "trip_id": "83__1__112__NBM__23__6__23__6_1"
+    },
+    {
+      "stop_id": "5510",
+      "service_id": "2",
+      "direction": "inbound",
+      "operator": "NBM",
+      "origin": {
+        "stop_id": "4332",
+        "name": "Karori-AllingtonRd"
+      },
+      "destination": {
+        "stop_id": "6241",
+        "name": "Miramar"
+      },
+      "delay": "-PT1M47S",
+      "vehicle_id": "5707",
+      "name": "WillisSt at Willban",
+      "arrival": {
+        "aimed": "2022-10-11T10:06:00+13:00",
+        "expected": "2022-10-11T10:04:13+13:00"
+      },
+      "departure": {
+        "aimed": "2022-10-11T10:06:00+13:00",
+        "expected": "2022-10-11T10:04:13+13:00"
+      },
+      "status": "ontime",
+      "monitored": true,
+      "wheelchair_accessible": true,
+      "trip_id": "2__1__156__NBM__28__6__28__6_1"
+    },
+    {
+      "stop_id": "5510",
+      "service_id": "AX",
+      "direction": "inbound",
+      "operator": "MNM",
+      "origin": {
+        "stop_id": "6000",
+        "name": "WgtnStn-B"
+      },
+      "destination": {
+        "stop_id": "7399",
+        "name": "Airport"
+      },
+      "delay": "PT0S",
+      "vehicle_id": null,
+      "name": "WillisSt at Willban",
+      "arrival": {
+        "aimed": "2022-10-11T10:05:00+13:00",
+        "expected": null
+      },
+      "departure": {
+        "aimed": "2022-10-11T10:05:00+13:00",
+        "expected": null
+      },
+      "status": null,
+      "monitored": false,
+      "wheelchair_accessible": false,
+      "trip_id": "AX__1__148__MNM__6012__6012_1"
+    },
+    {
+      "stop_id": "5510",
+      "service_id": "14",
+      "direction": "inbound",
+      "operator": "NBM",
+      "origin": {
+        "stop_id": "4136",
+        "name": "Wilton-SurreySt"
+      },
+      "destination": {
+        "stop_id": "6224",
+        "name": "Kilbirnie"
+      },
+      "delay": "-PT2M45S",
+      "vehicle_id": "5743",
+      "name": "WillisSt at Willban",
+      "arrival": {
+        "aimed": "2022-10-11T10:09:00+13:00",
+        "expected": "2022-10-11T10:06:15+13:00"
+      },
+      "departure": {
+        "aimed": "2022-10-11T10:09:00+13:00",
+        "expected": "2022-10-11T10:06:15+13:00"
+      },
+      "status": "early",
+      "monitored": true,
+      "wheelchair_accessible": true,
+      "trip_id": "14__1__202__NBM__75__1__75__1_1"
+    },
+    {
+      "stop_id": "5510",
+      "service_id": "52",
+      "direction": "inbound",
+      "operator": "MNM",
+      "origin": {
+        "stop_id": "3250",
+        "name": "Johnsonville-C"
+      },
+      "destination": {
+        "stop_id": "5516",
+        "name": "Courtenay Pl"
+      },
+      "delay": "-PT6M33S",
+      "vehicle_id": "7604",
+      "name": "WillisSt at Willban",
+      "arrival": {
+        "aimed": "2022-10-11T10:14:00+13:00",
+        "expected": "2022-10-11T10:07:27+13:00"
+      },
+      "departure": {
+        "aimed": "2022-10-11T10:14:00+13:00",
+        "expected": "2022-10-11T10:07:27+13:00"
+      },
+      "status": "early",
+      "monitored": true,
+      "wheelchair_accessible": true,
+      "trip_id": "52__1__110__MNM__3161__1__3161__1_1"
+    },
+    {
+      "stop_id": "5510",
+      "service_id": "1",
+      "direction": "inbound",
+      "operator": "TZM",
+      "origin": {
+        "stop_id": "3050",
+        "name": "J'villeW-McLintockS"
+      },
+      "destination": {
+        "stop_id": "6158",
+        "name": "Island Bay"
+      },
+      "delay": "-PT2M45S",
+      "vehicle_id": "3511",
+      "name": "WillisSt at Willban",
+      "arrival": {
+        "aimed": "2022-10-11T10:11:00+13:00",
+        "expected": "2022-10-11T10:08:15+13:00"
+      },
+      "departure": {
+        "aimed": "2022-10-11T10:11:00+13:00",
+        "expected": "2022-10-11T10:08:15+13:00"
+      },
+      "status": "early",
+      "monitored": true,
+      "wheelchair_accessible": true,
+      "trip_id": "1__1__152__TZM__212__2__212__2_1"
+    },
+    {
+      "stop_id": "5510",
+      "service_id": "3",
+      "direction": "outbound",
+      "operator": "NBM",
+      "origin": {
+        "stop_id": "6000",
+        "name": "WgtnStn-B"
+      },
+      "destination": {
+        "stop_id": "7338",
+        "name": "Lyall Bay"
+      },
+      "delay": "-PT2M12S",
+      "vehicle_id": "5094",
+      "name": "WillisSt at Willban",
+      "arrival": {
+        "aimed": "2022-10-11T10:11:00+13:00",
+        "expected": "2022-10-11T10:08:48+13:00"
+      },
+      "departure": {
+        "aimed": "2022-10-11T10:11:00+13:00",
+        "expected": "2022-10-11T10:08:48+13:00"
+      },
+      "status": "early",
+      "monitored": true,
+      "wheelchair_accessible": true,
+      "trip_id": "3__0__139__NBM__46__1__46__1_1"
+    },
+    {
+      "stop_id": "5510",
+      "service_id": "2",
+      "direction": "inbound",
+      "operator": "NBM",
+      "origin": {
+        "stop_id": "4332",
+        "name": "Karori-AllingtonRd"
+      },
+      "destination": {
+        "stop_id": "7042",
+        "name": "Seatoun"
+      },
+      "delay": "-PT2M8S",
+      "vehicle_id": "5746",
+      "name": "WillisSt at Willban",
+      "arrival": {
+        "aimed": "2022-10-11T10:13:00+13:00",
+        "expected": "2022-10-11T10:10:52+13:00"
+      },
+      "departure": {
+        "aimed": "2022-10-11T10:13:00+13:00",
+        "expected": "2022-10-11T10:10:52+13:00"
+      },
+      "status": "early",
+      "monitored": true,
+      "wheelchair_accessible": true,
+      "trip_id": "2__1__158__NBM__29__6__29__6_1"
+    },
+    {
+      "stop_id": "5510",
+      "service_id": "7",
+      "direction": "outbound",
+      "operator": "TZM",
+      "origin": {
+        "stop_id": "6000",
+        "name": "WgtnStn-B"
+      },
+      "destination": {
+        "stop_id": "6733",
+        "name": "Kingston"
+      },
+      "delay": "PT0S",
+      "vehicle_id": null,
+      "name": "WillisSt at Willban",
+      "arrival": {
+        "aimed": "2022-10-11T10:11:00+13:00",
+        "expected": null
+      },
+      "departure": {
+        "aimed": "2022-10-11T10:11:00+13:00",
+        "expected": null
+      },
+      "status": null,
+      "monitored": false,
+      "wheelchair_accessible": false,
+      "trip_id": "7__0__137__TZM__106__3__106__3_1"
+    },
+    {
+      "stop_id": "5510",
+      "service_id": "12",
+      "direction": "outbound",
+      "operator": "NBM",
+      "origin": {
+        "stop_id": "5500",
+        "name": "WgtnStn-A"
+      },
+      "destination": {
+        "stop_id": "7099",
+        "name": "Strathmore Pk"
+      },
+      "delay": "-PT1M45S",
+      "vehicle_id": "5719",
+      "name": "WillisSt at Willban",
+      "arrival": {
+        "aimed": "2022-10-11T10:14:00+13:00",
+        "expected": "2022-10-11T10:12:15+13:00"
+      },
+      "departure": {
+        "aimed": "2022-10-11T10:14:00+13:00",
+        "expected": "2022-10-11T10:12:15+13:00"
+      },
+      "status": "ontime",
+      "monitored": true,
+      "wheelchair_accessible": true,
+      "trip_id": "12__0__121__NBM__66__1__66__1_1"
+    },
+    {
+      "stop_id": "5510",
+      "service_id": "17",
+      "direction": "outbound",
+      "operator": "TZM",
+      "origin": {
+        "stop_id": "6000",
+        "name": "WgtnStn-B"
+      },
+      "destination": {
+        "stop_id": "7774",
+        "name": "Kowhai Park"
+      },
+      "delay": "-PT1M24S",
+      "vehicle_id": "3446",
+      "name": "WillisSt at Willban",
+      "arrival": {
+        "aimed": "2022-10-11T10:15:00+13:00",
+        "expected": "2022-10-11T10:13:36+13:00"
+      },
+      "departure": {
+        "aimed": "2022-10-11T10:15:00+13:00",
+        "expected": "2022-10-11T10:13:36+13:00"
+      },
+      "status": "ontime",
+      "monitored": true,
+      "wheelchair_accessible": true,
+      "trip_id": "17__0__147__TZM__134__134_1"
+    },
+    {
+      "stop_id": "5510",
+      "service_id": "83",
+      "direction": "inbound",
+      "operator": "NBM",
+      "origin": {
+        "stop_id": "8858",
+        "name": "EastbourneTmns"
+      },
+      "destination": {
+        "stop_id": "5516",
+        "name": "Courtenay Pl"
+      },
+      "delay": "-PT10M17S",
+      "vehicle_id": "2456",
+      "name": "WillisSt at Willban",
+      "arrival": {
+        "aimed": "2022-10-11T10:24:00+13:00",
+        "expected": "2022-10-11T10:13:43+13:00"
+      },
+      "departure": {
+        "aimed": "2022-10-11T10:24:00+13:00",
+        "expected": "2022-10-11T10:13:43+13:00"
+      },
+      "status": "early",
+      "monitored": true,
+      "wheelchair_accessible": true,
+      "trip_id": "83__1__162__NBM__203__3__203__3_1"
+    },
+    {
+      "stop_id": "5510",
+      "service_id": "1",
+      "direction": "inbound",
+      "operator": "TZM",
+      "origin": {
+        "stop_id": "3297",
+        "name": "ChurtonPk - Melksha"
+      },
+      "destination": {
+        "stop_id": "6158",
+        "name": "Island Bay"
+      },
+      "delay": "-PT2M36S",
+      "vehicle_id": "3710",
+      "name": "WillisSt at Willban",
+      "arrival": {
+        "aimed": "2022-10-11T10:21:00+13:00",
+        "expected": "2022-10-11T10:18:24+13:00"
+      },
+      "departure": {
+        "aimed": "2022-10-11T10:21:00+13:00",
+        "expected": "2022-10-11T10:18:24+13:00"
+      },
+      "status": "early",
+      "monitored": true,
+      "wheelchair_accessible": true,
+      "trip_id": "1__1__154__TZM__104__4__104__4_1"
+    },
+    {
+      "stop_id": "5510",
+      "service_id": "AX",
+      "direction": "inbound",
+      "operator": "MNM",
+      "origin": {
+        "stop_id": "6000",
+        "name": "WgtnStn-B"
+      },
+      "destination": {
+        "stop_id": "7399",
+        "name": "Airport"
+      },
+      "delay": "-PT1M25S",
+      "vehicle_id": "7817",
+      "name": "WillisSt at Willban",
+      "arrival": {
+        "aimed": "2022-10-11T10:20:00+13:00",
+        "expected": "2022-10-11T10:18:35+13:00"
+      },
+      "departure": {
+        "aimed": "2022-10-11T10:20:00+13:00",
+        "expected": "2022-10-11T10:18:35+13:00"
+      },
+      "status": "ontime",
+      "monitored": true,
+      "wheelchair_accessible": true,
+      "trip_id": "AX__1__150__MNM__6151__6151_1"
+    },
+    {
+      "stop_id": "5510",
+      "service_id": "29",
+      "direction": "outbound",
+      "operator": "TZM",
+      "origin": {
+        "stop_id": "5500",
+        "name": "WgtnStn-A"
+      },
+      "destination": {
+        "stop_id": "7720",
+        "name": "Brooklyn"
+      },
+      "delay": "PT0S",
+      "vehicle_id": null,
+      "name": "WillisSt at Willban",
+      "arrival": {
+        "aimed": "2022-10-11T10:19:00+13:00",
+        "expected": null
+      },
+      "departure": {
+        "aimed": "2022-10-11T10:19:00+13:00",
+        "expected": null
+      },
+      "status": null,
+      "monitored": false,
+      "wheelchair_accessible": false,
+      "trip_id": "29__0__107__TZM__110__4__110__4_1"
+    },
+    {
+      "stop_id": "5510",
+      "service_id": "2",
+      "direction": "inbound",
+      "operator": "NBM",
+      "origin": {
+        "stop_id": "4332",
+        "name": "Karori-AllingtonRd"
+      },
+      "destination": {
+        "stop_id": "6241",
+        "name": "Miramar"
+      },
+      "delay": "PT0S",
+      "vehicle_id": null,
+      "name": "WillisSt at Willban",
+      "arrival": {
+        "aimed": "2022-10-11T10:21:00+13:00",
+        "expected": null
+      },
+      "departure": {
+        "aimed": "2022-10-11T10:21:00+13:00",
+        "expected": null
+      },
+      "status": null,
+      "monitored": false,
+      "wheelchair_accessible": false,
+      "trip_id": "2__1__160__NBM__5__6__5__6_1"
+    },
+    {
+      "stop_id": "5510",
+      "service_id": "3",
+      "direction": "outbound",
+      "operator": "NBM",
+      "origin": {
+        "stop_id": "6000",
+        "name": "WgtnStn-B"
+      },
+      "destination": {
+        "stop_id": "7345",
+        "name": "Rongotai"
+      },
+      "delay": "PT0S",
+      "vehicle_id": null,
+      "name": "WillisSt at Willban",
+      "arrival": {
+        "aimed": "2022-10-11T10:21:00+13:00",
+        "expected": null
+      },
+      "departure": {
+        "aimed": "2022-10-11T10:21:00+13:00",
+        "expected": null
+      },
+      "status": null,
+      "monitored": false,
+      "wheelchair_accessible": false,
+      "trip_id": "3__0__141__NBM__58__2__58__2_1"
+    },
+    {
+      "stop_id": "5510",
+      "service_id": "14",
+      "direction": "inbound",
+      "operator": "NBM",
+      "origin": {
+        "stop_id": "4136",
+        "name": "Wilton-SurreySt"
+      },
+      "destination": {
+        "stop_id": "6224",
+        "name": "Kilbirnie"
+      },
+      "delay": "-PT2M45S",
+      "vehicle_id": "5740",
+      "name": "WillisSt at Willban",
+      "arrival": {
+        "aimed": "2022-10-11T10:24:00+13:00",
+        "expected": "2022-10-11T10:21:15+13:00"
+      },
+      "departure": {
+        "aimed": "2022-10-11T10:24:00+13:00",
+        "expected": "2022-10-11T10:21:15+13:00"
+      },
+      "status": "early",
+      "monitored": true,
+      "wheelchair_accessible": true,
+      "trip_id": "14__1__134__NBM__42__5__42__5_1"
+    },
+    {
+      "stop_id": "5510",
+      "service_id": "24",
+      "direction": "inbound",
+      "operator": "TZM",
+      "origin": {
+        "stop_id": "3081",
+        "name": "Johnsonville-B"
+      },
+      "destination": {
+        "stop_id": "7083",
+        "name": "Miramar Hgts"
+      },
+      "delay": "PT0S",
+      "vehicle_id": null,
+      "name": "WillisSt at Willban",
+      "arrival": {
+        "aimed": "2022-10-11T10:22:00+13:00",
+        "expected": null
+      },
+      "departure": {
+        "aimed": "2022-10-11T10:22:00+13:00",
+        "expected": null
+      },
+      "status": null,
+      "monitored": false,
+      "wheelchair_accessible": false,
+      "trip_id": "24__1__122__TZM__114__4__114__4_1"
+    },
+    {
+      "stop_id": "5510",
+      "service_id": "25",
+      "direction": "inbound",
+      "operator": "TZM",
+      "origin": {
+        "stop_id": "4419",
+        "name": "KhandallahVlg-A"
+      },
+      "destination": {
+        "stop_id": "4947",
+        "name": "Highbury"
+      },
+      "delay": "PT0S",
+      "vehicle_id": null,
+      "name": "WillisSt at Willban",
+      "arrival": {
+        "aimed": "2022-10-11T10:25:00+13:00",
+        "expected": null
+      },
+      "departure": {
+        "aimed": "2022-10-11T10:25:00+13:00",
+        "expected": null
+      },
+      "status": null,
+      "monitored": false,
+      "wheelchair_accessible": false,
+      "trip_id": "25__1__124__TZM__219__1__219__1_1"
+    },
+    {
+      "stop_id": "5510",
+      "service_id": "2",
+      "direction": "inbound",
+      "operator": "NBM",
+      "origin": {
+        "stop_id": "4332",
+        "name": "Karori-AllingtonRd"
+      },
+      "destination": {
+        "stop_id": "7042",
+        "name": "Seatoun"
+      },
+      "delay": "-PT2M8S",
+      "vehicle_id": "5739",
+      "name": "WillisSt at Willban",
+      "arrival": {
+        "aimed": "2022-10-11T10:28:00+13:00",
+        "expected": "2022-10-11T10:25:52+13:00"
+      },
+      "departure": {
+        "aimed": "2022-10-11T10:28:00+13:00",
+        "expected": "2022-10-11T10:25:52+13:00"
+      },
+      "status": "early",
+      "monitored": true,
+      "wheelchair_accessible": true,
+      "trip_id": "2__1__162__NBM__47__1__47__1_1"
+    },
+    {
+      "stop_id": "5510",
+      "service_id": "7",
+      "direction": "outbound",
+      "operator": "TZM",
+      "origin": {
+        "stop_id": "6000",
+        "name": "WgtnStn-B"
+      },
+      "destination": {
+        "stop_id": "6733",
+        "name": "Kingston"
+      },
+      "delay": "PT0S",
+      "vehicle_id": null,
+      "name": "WillisSt at Willban",
+      "arrival": {
+        "aimed": "2022-10-11T10:26:00+13:00",
+        "expected": null
+      },
+      "departure": {
+        "aimed": "2022-10-11T10:26:00+13:00",
+        "expected": null
+      },
+      "status": null,
+      "monitored": false,
+      "wheelchair_accessible": false,
+      "trip_id": "7__0__139__TZM__123__1__123__1_1"
+    },
+    {
+      "stop_id": "5510",
+      "service_id": "3",
+      "direction": "outbound",
+      "operator": "NBM",
+      "origin": {
+        "stop_id": "6000",
+        "name": "WgtnStn-B"
+      },
+      "destination": {
+        "stop_id": "7338",
+        "name": "Lyall Bay"
+      },
+      "delay": "-PT2M24S",
+      "vehicle_id": "5718",
+      "name": "WillisSt at Willban",
+      "arrival": {
+        "aimed": "2022-10-11T10:31:00+13:00",
+        "expected": "2022-10-11T10:28:36+13:00"
+      },
+      "departure": {
+        "aimed": "2022-10-11T10:31:00+13:00",
+        "expected": "2022-10-11T10:28:36+13:00"
+      },
+      "status": "early",
+      "monitored": true,
+      "wheelchair_accessible": true,
+      "trip_id": "3__0__143__NBM__33__6__33__6_1"
+    },
+    {
+      "stop_id": "5510",
+      "service_id": "1",
+      "direction": "inbound",
+      "operator": "TZM",
+      "origin": {
+        "stop_id": "3451",
+        "name": "GrenadaVlg-GrenadaD"
+      },
+      "destination": {
+        "stop_id": "6158",
+        "name": "Island Bay"
+      },
+      "delay": "PT0S",
+      "vehicle_id": null,
+      "name": "WillisSt at Willban",
+      "arrival": {
+        "aimed": "2022-10-11T10:32:00+13:00",
+        "expected": null
+      },
+      "departure": {
+        "aimed": "2022-10-11T10:32:00+13:00",
+        "expected": null
+      },
+      "status": null,
+      "monitored": false,
+      "wheelchair_accessible": false,
+      "trip_id": "1__1__156__TZM__217__2__217__2_1"
+    },
+    {
+      "stop_id": "5510",
+      "service_id": "2",
+      "direction": "inbound",
+      "operator": "NBM",
+      "origin": {
+        "stop_id": "4332",
+        "name": "Karori-AllingtonRd"
+      },
+      "destination": {
+        "stop_id": "6241",
+        "name": "Miramar"
+      },
+      "delay": "-PT1M47S",
+      "vehicle_id": "5732",
+      "name": "WillisSt at Willban",
+      "arrival": {
+        "aimed": "2022-10-11T10:36:00+13:00",
+        "expected": "2022-10-11T10:34:13+13:00"
+      },
+      "departure": {
+        "aimed": "2022-10-11T10:36:00+13:00",
+        "expected": "2022-10-11T10:34:13+13:00"
+      },
+      "status": "ontime",
+      "monitored": true,
+      "wheelchair_accessible": true,
+      "trip_id": "2__1__164__NBM__4__7__4__7_1"
+    },
+    {
+      "stop_id": "5510",
+      "service_id": "AX",
+      "direction": "inbound",
+      "operator": "MNM",
+      "origin": {
+        "stop_id": "6000",
+        "name": "WgtnStn-B"
+      },
+      "destination": {
+        "stop_id": "7399",
+        "name": "Airport"
+      },
+      "delay": "PT0S",
+      "vehicle_id": null,
+      "name": "WillisSt at Willban",
+      "arrival": {
+        "aimed": "2022-10-11T10:35:00+13:00",
+        "expected": null
+      },
+      "departure": {
+        "aimed": "2022-10-11T10:35:00+13:00",
+        "expected": null
+      },
+      "status": null,
+      "monitored": false,
+      "wheelchair_accessible": false,
+      "trip_id": "AX__1__152__MNM__6161__6161_1"
+    },
+    {
+      "stop_id": "5510",
+      "service_id": "52",
+      "direction": "inbound",
+      "operator": "MNM",
+      "origin": {
+        "stop_id": "3250",
+        "name": "Johnsonville-C"
+      },
+      "destination": {
+        "stop_id": "5516",
+        "name": "Courtenay Pl"
+      },
+      "delay": "-PT6M33S",
+      "vehicle_id": "7804",
+      "name": "WillisSt at Willban",
+      "arrival": {
+        "aimed": "2022-10-11T10:44:00+13:00",
+        "expected": "2022-10-11T10:37:27+13:00"
+      },
+      "departure": {
+        "aimed": "2022-10-11T10:44:00+13:00",
+        "expected": "2022-10-11T10:37:27+13:00"
+      },
+      "status": "early",
+      "monitored": true,
+      "wheelchair_accessible": true,
+      "trip_id": "52__1__112__MNM__3071__1__3071__1_1"
+    },
+    {
+      "stop_id": "5510",
+      "service_id": "1",
+      "direction": "inbound",
+      "operator": "TZM",
+      "origin": {
+        "stop_id": "3050",
+        "name": "J'villeW-McLintockS"
+      },
+      "destination": {
+        "stop_id": "6158",
+        "name": "Island Bay"
+      },
+      "delay": "-PT2M45S",
+      "vehicle_id": "3706",
+      "name": "WillisSt at Willban",
+      "arrival": {
+        "aimed": "2022-10-11T10:41:00+13:00",
+        "expected": "2022-10-11T10:38:15+13:00"
+      },
+      "departure": {
+        "aimed": "2022-10-11T10:41:00+13:00",
+        "expected": "2022-10-11T10:38:15+13:00"
+      },
+      "status": "early",
+      "monitored": true,
+      "wheelchair_accessible": true,
+      "trip_id": "1__1__158__TZM__124__1__124__1_1"
+    },
+    {
+      "stop_id": "5510",
+      "service_id": "7",
+      "direction": "outbound",
+      "operator": "TZM",
+      "origin": {
+        "stop_id": "6000",
+        "name": "WgtnStn-B"
+      },
+      "destination": {
+        "stop_id": "6733",
+        "name": "Kingston"
+      },
+      "delay": "-PT2M24S",
+      "vehicle_id": "3441",
+      "name": "WillisSt at Willban",
+      "arrival": {
+        "aimed": "2022-10-11T10:41:00+13:00",
+        "expected": "2022-10-11T10:38:36+13:00"
+      },
+      "departure": {
+        "aimed": "2022-10-11T10:41:00+13:00",
+        "expected": "2022-10-11T10:38:36+13:00"
+      },
+      "status": "early",
+      "monitored": true,
+      "wheelchair_accessible": true,
+      "trip_id": "7__0__141__TZM__102__3__102__3_1"
+    },
+    {
+      "stop_id": "5510",
+      "service_id": "83",
+      "direction": "inbound",
+      "operator": "NBM",
+      "origin": {
+        "stop_id": "8858",
+        "name": "EastbourneTmns"
+      },
+      "destination": {
+        "stop_id": "5516",
+        "name": "Courtenay Pl"
+      },
+      "delay": "PT0S",
+      "vehicle_id": null,
+      "name": "WillisSt at Willban",
+      "arrival": {
+        "aimed": "2022-10-11T10:39:00+13:00",
+        "expected": null
+      },
+      "departure": {
+        "aimed": "2022-10-11T10:39:00+13:00",
+        "expected": null
+      },
+      "status": "cancelled",
+      "monitored": false,
+      "wheelchair_accessible": false,
+      "trip_id": "83__1__114__NBM__126__126_1"
+    },
+    {
+      "stop_id": "5510",
+      "service_id": "2",
+      "direction": "inbound",
+      "operator": "NBM",
+      "origin": {
+        "stop_id": "4332",
+        "name": "Karori-AllingtonRd"
+      },
+      "destination": {
+        "stop_id": "7042",
+        "name": "Seatoun"
+      },
+      "delay": "-PT2M8S",
+      "vehicle_id": "5731",
+      "name": "WillisSt at Willban",
+      "arrival": {
+        "aimed": "2022-10-11T10:43:00+13:00",
+        "expected": "2022-10-11T10:40:52+13:00"
+      },
+      "departure": {
+        "aimed": "2022-10-11T10:43:00+13:00",
+        "expected": "2022-10-11T10:40:52+13:00"
+      },
+      "status": "early",
+      "monitored": true,
+      "wheelchair_accessible": true,
+      "trip_id": "2__1__166__NBM__3__6__3__6_1"
+    },
+    {
+      "stop_id": "5510",
+      "service_id": "3",
+      "direction": "outbound",
+      "operator": "NBM",
+      "origin": {
+        "stop_id": "6000",
+        "name": "WgtnStn-B"
+      },
+      "destination": {
+        "stop_id": "7345",
+        "name": "Rongotai"
+      },
+      "delay": "PT0S",
+      "vehicle_id": null,
+      "name": "WillisSt at Willban",
+      "arrival": {
+        "aimed": "2022-10-11T10:41:00+13:00",
+        "expected": null
+      },
+      "departure": {
+        "aimed": "2022-10-11T10:41:00+13:00",
+        "expected": null
+      },
+      "status": null,
+      "monitored": false,
+      "wheelchair_accessible": false,
+      "trip_id": "3__0__145__NBM__24__6__24__6_1"
+    },
+    {
+      "stop_id": "5510",
+      "service_id": "14",
+      "direction": "inbound",
+      "operator": "NBM",
+      "origin": {
+        "stop_id": "4136",
+        "name": "Wilton-SurreySt"
+      },
+      "destination": {
+        "stop_id": "6224",
+        "name": "Kilbirnie"
+      },
+      "delay": "-PT2M45S",
+      "vehicle_id": "5734",
+      "name": "WillisSt at Willban",
+      "arrival": {
+        "aimed": "2022-10-11T10:44:00+13:00",
+        "expected": "2022-10-11T10:41:15+13:00"
+      },
+      "departure": {
+        "aimed": "2022-10-11T10:44:00+13:00",
+        "expected": "2022-10-11T10:41:15+13:00"
+      },
+      "status": "early",
+      "monitored": true,
+      "wheelchair_accessible": true,
+      "trip_id": "14__1__234__NBM__27__6__27__6_1"
+    },
+    {
+      "stop_id": "5510",
+      "service_id": "12",
+      "direction": "outbound",
+      "operator": "NBM",
+      "origin": {
+        "stop_id": "5500",
+        "name": "WgtnStn-A"
+      },
+      "destination": {
+        "stop_id": "7099",
+        "name": "Strathmore Pk"
+      },
+      "delay": "PT0S",
+      "vehicle_id": null,
+      "name": "WillisSt at Willban",
+      "arrival": {
+        "aimed": "2022-10-11T10:44:00+13:00",
+        "expected": null
+      },
+      "departure": {
+        "aimed": "2022-10-11T10:44:00+13:00",
+        "expected": null
+      },
+      "status": null,
+      "monitored": false,
+      "wheelchair_accessible": false,
+      "trip_id": "12__0__119__NBM__150__2__150__2_1"
+    },
+    {
+      "stop_id": "5510",
+      "service_id": "83",
+      "direction": "inbound",
+      "operator": "NBM",
+      "origin": {
+        "stop_id": "8858",
+        "name": "EastbourneTmns"
+      },
+      "destination": {
+        "stop_id": "5516",
+        "name": "Courtenay Pl"
+      },
+      "delay": "-PT9M8S",
+      "vehicle_id": "5750",
+      "name": "WillisSt at Willban",
+      "arrival": {
+        "aimed": "2022-10-11T10:54:00+13:00",
+        "expected": "2022-10-11T10:44:52+13:00"
+      },
+      "departure": {
+        "aimed": "2022-10-11T10:54:00+13:00",
+        "expected": "2022-10-11T10:44:52+13:00"
+      },
+      "status": "early",
+      "monitored": true,
+      "wheelchair_accessible": true,
+      "trip_id": "83__1__164__NBM__52__2__52__2_1"
+    },
+    {
+      "stop_id": "5510",
+      "service_id": "17",
+      "direction": "outbound",
+      "operator": "TZM",
+      "origin": {
+        "stop_id": "6000",
+        "name": "WgtnStn-B"
+      },
+      "destination": {
+        "stop_id": "7774",
+        "name": "Kowhai Park"
+      },
+      "delay": "PT0S",
+      "vehicle_id": null,
+      "name": "WillisSt at Willban",
+      "arrival": {
+        "aimed": "2022-10-11T10:45:00+13:00",
+        "expected": null
+      },
+      "departure": {
+        "aimed": "2022-10-11T10:45:00+13:00",
+        "expected": null
+      },
+      "status": null,
+      "monitored": false,
+      "wheelchair_accessible": false,
+      "trip_id": "17__0__109__TZM__225__225_1"
+    },
+    {
+      "stop_id": "5510",
+      "service_id": "29",
+      "direction": "outbound",
+      "operator": "TZM",
+      "origin": {
+        "stop_id": "5500",
+        "name": "WgtnStn-A"
+      },
+      "destination": {
+        "stop_id": "7720",
+        "name": "Brooklyn"
+      },
+      "delay": "-PT2M45S",
+      "vehicle_id": "3430",
+      "name": "WillisSt at Willban",
+      "arrival": {
+        "aimed": "2022-10-11T10:49:00+13:00",
+        "expected": "2022-10-11T10:46:15+13:00"
+      },
+      "departure": {
+        "aimed": "2022-10-11T10:49:00+13:00",
+        "expected": "2022-10-11T10:46:15+13:00"
+      },
+      "status": "early",
+      "monitored": true,
+      "wheelchair_accessible": true,
+      "trip_id": "29__0__145__TZM__205__5__205__5_1"
+    },
+    {
+      "stop_id": "5510",
+      "service_id": "23",
+      "direction": "outbound",
+      "operator": "TZM",
+      "origin": {
+        "stop_id": "5500",
+        "name": "WgtnStn-A"
+      },
+      "destination": {
+        "stop_id": "6937",
+        "name": "Houghton Bay"
+      },
+      "delay": "PT0S",
+      "vehicle_id": null,
+      "name": "WillisSt at Willban",
+      "arrival": {
+        "aimed": "2022-10-11T10:47:00+13:00",
+        "expected": null
+      },
+      "departure": {
+        "aimed": "2022-10-11T10:47:00+13:00",
+        "expected": null
+      },
+      "status": null,
+      "monitored": false,
+      "wheelchair_accessible": false,
+      "trip_id": "23__0__113__TZM__117__4__117__4_1"
+    },
+    {
+      "stop_id": "5510",
+      "service_id": "1",
+      "direction": "inbound",
+      "operator": "TZM",
+      "origin": {
+        "stop_id": "3297",
+        "name": "ChurtonPk - Melksha"
+      },
+      "destination": {
+        "stop_id": "6158",
+        "name": "Island Bay"
+      },
+      "delay": "-PT2M45S",
+      "vehicle_id": "3727",
+      "name": "WillisSt at Willban",
+      "arrival": {
+        "aimed": "2022-10-11T10:51:00+13:00",
+        "expected": "2022-10-11T10:48:15+13:00"
+      },
+      "departure": {
+        "aimed": "2022-10-11T10:51:00+13:00",
+        "expected": "2022-10-11T10:48:15+13:00"
+      },
+      "status": "early",
+      "monitored": true,
+      "wheelchair_accessible": true,
+      "trip_id": "1__1__160__TZM__223__223_1"
+    },
+    {
+      "stop_id": "5510",
+      "service_id": "2",
+      "direction": "inbound",
+      "operator": "NBM",
+      "origin": {
+        "stop_id": "4332",
+        "name": "Karori-AllingtonRd"
+      },
+      "destination": {
+        "stop_id": "6241",
+        "name": "Miramar"
+      },
+      "delay": "-PT2M8S",
+      "vehicle_id": "5749",
+      "name": "WillisSt at Willban",
+      "arrival": {
+        "aimed": "2022-10-11T10:51:00+13:00",
+        "expected": "2022-10-11T10:48:52+13:00"
+      },
+      "departure": {
+        "aimed": "2022-10-11T10:51:00+13:00",
+        "expected": "2022-10-11T10:48:52+13:00"
+      },
+      "status": "early",
+      "monitored": true,
+      "wheelchair_accessible": true,
+      "trip_id": "2__1__168__NBM__32__6__32__6_1"
+    },
+    {
+      "stop_id": "5510",
+      "service_id": "AX",
+      "direction": "inbound",
+      "operator": "MNM",
+      "origin": {
+        "stop_id": "6000",
+        "name": "WgtnStn-B"
+      },
+      "destination": {
+        "stop_id": "7399",
+        "name": "Airport"
+      },
+      "delay": "PT0S",
+      "vehicle_id": null,
+      "name": "WillisSt at Willban",
+      "arrival": {
+        "aimed": "2022-10-11T10:50:00+13:00",
+        "expected": null
+      },
+      "departure": {
+        "aimed": "2022-10-11T10:50:00+13:00",
+        "expected": null
+      },
+      "status": null,
+      "monitored": false,
+      "wheelchair_accessible": false,
+      "trip_id": "AX__1__154__MNM__6051__6051_1"
+    },
+    {
+      "stop_id": "5510",
+      "service_id": "24",
+      "direction": "inbound",
+      "operator": "TZM",
+      "origin": {
+        "stop_id": "3081",
+        "name": "Johnsonville-B"
+      },
+      "destination": {
+        "stop_id": "7083",
+        "name": "Miramar Hgts"
+      },
+      "delay": "-PT1M22S",
+      "vehicle_id": "3004",
+      "name": "WillisSt at Willban",
+      "arrival": {
+        "aimed": "2022-10-11T10:52:00+13:00",
+        "expected": "2022-10-11T10:50:38+13:00"
+      },
+      "departure": {
+        "aimed": "2022-10-11T10:52:00+13:00",
+        "expected": "2022-10-11T10:50:38+13:00"
+      },
+      "status": "ontime",
+      "monitored": true,
+      "wheelchair_accessible": true,
+      "trip_id": "24__1__166__TZM__122__1__122__1_1"
+    },
+    {
+      "stop_id": "5510",
+      "service_id": "3",
+      "direction": "outbound",
+      "operator": "NBM",
+      "origin": {
+        "stop_id": "6000",
+        "name": "WgtnStn-B"
+      },
+      "destination": {
+        "stop_id": "7338",
+        "name": "Lyall Bay"
+      },
+      "delay": "PT0S",
+      "vehicle_id": "5078",
+      "name": "WillisSt at Willban",
+      "arrival": {
+        "aimed": "2022-10-11T10:51:00+13:00",
+        "expected": null
+      },
+      "departure": {
+        "aimed": "2022-10-11T10:51:00+13:00",
+        "expected": null
+      },
+      "status": "cancelled",
+      "monitored": false,
+      "wheelchair_accessible": false,
+      "trip_id": "3__0__147__NBM__60__1__60__1_1"
+    },
+    {
+      "stop_id": "5510",
+      "service_id": "27",
+      "direction": "outbound",
+      "operator": "TZM",
+      "origin": {
+        "stop_id": "6000",
+        "name": "WgtnStn-B"
+      },
+      "destination": {
+        "stop_id": "7730",
+        "name": "Vogeltown"
+      },
+      "delay": "PT0S",
+      "vehicle_id": null,
+      "name": "WillisSt at Willban",
+      "arrival": {
+        "aimed": "2022-10-11T10:52:00+13:00",
+        "expected": null
+      },
+      "departure": {
+        "aimed": "2022-10-11T10:52:00+13:00",
+        "expected": null
+      },
+      "status": null,
+      "monitored": false,
+      "wheelchair_accessible": false,
+      "trip_id": "27__0__107__TZM__221__1__221__1_1"
+    },
+    {
+      "stop_id": "5510",
+      "service_id": "25",
+      "direction": "inbound",
+      "operator": "TZM",
+      "origin": {
+        "stop_id": "4419",
+        "name": "KhandallahVlg-A"
+      },
+      "destination": {
+        "stop_id": "4947",
+        "name": "Highbury"
+      },
+      "delay": "-PT1M45S",
+      "vehicle_id": "3412",
+      "name": "WillisSt at Willban",
+      "arrival": {
+        "aimed": "2022-10-11T10:55:00+13:00",
+        "expected": "2022-10-11T10:53:15+13:00"
+      },
+      "departure": {
+        "aimed": "2022-10-11T10:55:00+13:00",
+        "expected": "2022-10-11T10:53:15+13:00"
+      },
+      "status": "ontime",
+      "monitored": true,
+      "wheelchair_accessible": true,
+      "trip_id": "25__1__126__TZM__121__1__121__1_1"
+    },
+    {
+      "stop_id": "5510",
+      "service_id": "2",
+      "direction": "inbound",
+      "operator": "NBM",
+      "origin": {
+        "stop_id": "4332",
+        "name": "Karori-AllingtonRd"
+      },
+      "destination": {
+        "stop_id": "7042",
+        "name": "Seatoun"
+      },
+      "delay": "-PT2M8S",
+      "vehicle_id": "5720",
+      "name": "WillisSt at Willban",
+      "arrival": {
+        "aimed": "2022-10-11T10:58:00+13:00",
+        "expected": "2022-10-11T10:55:52+13:00"
+      },
+      "departure": {
+        "aimed": "2022-10-11T10:58:00+13:00",
+        "expected": "2022-10-11T10:55:52+13:00"
+      },
+      "status": "early",
+      "monitored": true,
+      "wheelchair_accessible": true,
+      "trip_id": "2__1__170__NBM__38__6__38__6_1"
+    },
+    {
+      "stop_id": "5510",
+      "service_id": "7",
+      "direction": "outbound",
+      "operator": "TZM",
+      "origin": {
+        "stop_id": "6000",
+        "name": "WgtnStn-B"
+      },
+      "destination": {
+        "stop_id": "6733",
+        "name": "Kingston"
+      },
+      "delay": "PT0S",
+      "vehicle_id": null,
+      "name": "WillisSt at Willban",
+      "arrival": {
+        "aimed": "2022-10-11T10:56:00+13:00",
+        "expected": null
+      },
+      "departure": {
+        "aimed": "2022-10-11T10:56:00+13:00",
+        "expected": null
+      },
+      "status": null,
+      "monitored": false,
+      "wheelchair_accessible": false,
+      "trip_id": "7__0__143__TZM__113__4__113__4_1"
+    },
+    {
+      "stop_id": "5510",
+      "service_id": "1",
+      "direction": "inbound",
+      "operator": "TZM",
+      "origin": {
+        "stop_id": "3451",
+        "name": "GrenadaVlg-GrenadaD"
+      },
+      "destination": {
+        "stop_id": "6158",
+        "name": "Island Bay"
+      },
+      "delay": "-PT1M50S",
+      "vehicle_id": "3701",
+      "name": "WillisSt at Willban",
+      "arrival": {
+        "aimed": "2022-10-11T11:02:00+13:00",
+        "expected": "2022-10-11T11:00:10+13:00"
+      },
+      "departure": {
+        "aimed": "2022-10-11T11:02:00+13:00",
+        "expected": "2022-10-11T11:00:10+13:00"
+      },
+      "status": "ontime",
+      "monitored": true,
+      "wheelchair_accessible": true,
+      "trip_id": "1__1__162__TZM__119__1__119__1_1"
+    },
+    {
+      "stop_id": "5510",
+      "service_id": "3",
+      "direction": "outbound",
+      "operator": "NBM",
+      "origin": {
+        "stop_id": "6000",
+        "name": "WgtnStn-B"
+      },
+      "destination": {
+        "stop_id": "7345",
+        "name": "Rongotai"
+      },
+      "delay": "PT0S",
+      "vehicle_id": null,
+      "name": "WillisSt at Willban",
+      "arrival": {
+        "aimed": "2022-10-11T11:01:00+13:00",
+        "expected": null
+      },
+      "departure": {
+        "aimed": "2022-10-11T11:01:00+13:00",
+        "expected": null
+      },
+      "status": null,
+      "monitored": false,
+      "wheelchair_accessible": false,
+      "trip_id": "3__0__149__NBM__73__1__73__1_1"
+    },
+    {
+      "stop_id": "5510",
+      "service_id": "2",
+      "direction": "inbound",
+      "operator": "NBM",
+      "origin": {
+        "stop_id": "4332",
+        "name": "Karori-AllingtonRd"
+      },
+      "destination": {
+        "stop_id": "6241",
+        "name": "Miramar"
+      },
+      "delay": "-PT2M8S",
+      "vehicle_id": "5737",
+      "name": "WillisSt at Willban",
+      "arrival": {
+        "aimed": "2022-10-11T11:06:00+13:00",
+        "expected": "2022-10-11T11:03:52+13:00"
+      },
+      "departure": {
+        "aimed": "2022-10-11T11:06:00+13:00",
+        "expected": "2022-10-11T11:03:52+13:00"
+      },
+      "status": "early",
+      "monitored": true,
+      "wheelchair_accessible": true,
+      "trip_id": "2__1__172__NBM__36__6__36__6_1"
+    },
+    {
+      "stop_id": "5510",
+      "service_id": "14",
+      "direction": "inbound",
+      "operator": "NBM",
+      "origin": {
+        "stop_id": "4136",
+        "name": "Wilton-SurreySt"
+      },
+      "destination": {
+        "stop_id": "6224",
+        "name": "Kilbirnie"
+      },
+      "delay": "PT0S",
+      "vehicle_id": null,
+      "name": "WillisSt at Willban",
+      "arrival": {
+        "aimed": "2022-10-11T11:04:00+13:00",
+        "expected": null
+      },
+      "departure": {
+        "aimed": "2022-10-11T11:04:00+13:00",
+        "expected": null
+      },
+      "status": null,
+      "monitored": false,
+      "wheelchair_accessible": false,
+      "trip_id": "14__1__136__NBM__51__2__51__2_1"
+    },
+    {
+      "stop_id": "5510",
+      "service_id": "AX",
+      "direction": "inbound",
+      "operator": "MNM",
+      "origin": {
+        "stop_id": "6000",
+        "name": "WgtnStn-B"
+      },
+      "destination": {
+        "stop_id": "7399",
+        "name": "Airport"
+      },
+      "delay": "PT0S",
+      "vehicle_id": null,
+      "name": "WillisSt at Willban",
+      "arrival": {
+        "aimed": "2022-10-11T11:05:00+13:00",
+        "expected": null
+      },
+      "departure": {
+        "aimed": "2022-10-11T11:05:00+13:00",
+        "expected": null
+      },
+      "status": null,
+      "monitored": false,
+      "wheelchair_accessible": false,
+      "trip_id": "AX__1__156__MNM__6061__6061_1"
+    },
+    {
+      "stop_id": "5510",
+      "service_id": "1",
+      "direction": "inbound",
+      "operator": "TZM",
+      "origin": {
+        "stop_id": "3050",
+        "name": "J'villeW-McLintockS"
+      },
+      "destination": {
+        "stop_id": "6158",
+        "name": "Island Bay"
+      },
+      "delay": "-PT2M45S",
+      "vehicle_id": "3720",
+      "name": "WillisSt at Willban",
+      "arrival": {
+        "aimed": "2022-10-11T11:11:00+13:00",
+        "expected": "2022-10-11T11:08:15+13:00"
+      },
+      "departure": {
+        "aimed": "2022-10-11T11:11:00+13:00",
+        "expected": "2022-10-11T11:08:15+13:00"
+      },
+      "status": "early",
+      "monitored": true,
+      "wheelchair_accessible": true,
+      "trip_id": "1__1__164__TZM__222__222_1"
+    },
+    {
+      "stop_id": "5510",
+      "service_id": "7",
+      "direction": "outbound",
+      "operator": "TZM",
+      "origin": {
+        "stop_id": "6000",
+        "name": "WgtnStn-B"
+      },
+      "destination": {
+        "stop_id": "6733",
+        "name": "Kingston"
+      },
+      "delay": "-PT2M24S",
+      "vehicle_id": "3435",
+      "name": "WillisSt at Willban",
+      "arrival": {
+        "aimed": "2022-10-11T11:11:00+13:00",
+        "expected": "2022-10-11T11:08:36+13:00"
+      },
+      "departure": {
+        "aimed": "2022-10-11T11:11:00+13:00",
+        "expected": "2022-10-11T11:08:36+13:00"
+      },
+      "status": "early",
+      "monitored": true,
+      "wheelchair_accessible": true,
+      "trip_id": "7__0__145__TZM__105__3__105__3_1"
+    },
+    {
+      "stop_id": "5510",
+      "service_id": "83",
+      "direction": "inbound",
+      "operator": "NBM",
+      "origin": {
+        "stop_id": "8858",
+        "name": "EastbourneTmns"
+      },
+      "destination": {
+        "stop_id": "5516",
+        "name": "Courtenay Pl"
+      },
+      "delay": "PT0S",
+      "vehicle_id": null,
+      "name": "WillisSt at Willban",
+      "arrival": {
+        "aimed": "2022-10-11T11:09:00+13:00",
+        "expected": null
+      },
+      "departure": {
+        "aimed": "2022-10-11T11:09:00+13:00",
+        "expected": null
+      },
+      "status": "cancelled",
+      "monitored": false,
+      "wheelchair_accessible": false,
+      "trip_id": "83__1__116__NBM__65__1__65__1_1"
+    },
+    {
+      "stop_id": "5510",
+      "service_id": "3",
+      "direction": "outbound",
+      "operator": "NBM",
+      "origin": {
+        "stop_id": "6000",
+        "name": "WgtnStn-B"
+      },
+      "destination": {
+        "stop_id": "7338",
+        "name": "Lyall Bay"
+      },
+      "delay": "PT0S",
+      "vehicle_id": null,
+      "name": "WillisSt at Willban",
+      "arrival": {
+        "aimed": "2022-10-11T11:11:00+13:00",
+        "expected": null
+      },
+      "departure": {
+        "aimed": "2022-10-11T11:11:00+13:00",
+        "expected": null
+      },
+      "status": null,
+      "monitored": false,
+      "wheelchair_accessible": false,
+      "trip_id": "3__0__151__NBM__56__2__56__2_1"
+    },
+    {
+      "stop_id": "5510",
+      "service_id": "2",
+      "direction": "inbound",
+      "operator": "NBM",
+      "origin": {
+        "stop_id": "4332",
+        "name": "Karori-AllingtonRd"
+      },
+      "destination": {
+        "stop_id": "7042",
+        "name": "Seatoun"
+      },
+      "delay": "PT0S",
+      "vehicle_id": null,
+      "name": "WillisSt at Willban",
+      "arrival": {
+        "aimed": "2022-10-11T11:13:00+13:00",
+        "expected": null
+      },
+      "departure": {
+        "aimed": "2022-10-11T11:13:00+13:00",
+        "expected": null
+      },
+      "status": null,
+      "monitored": false,
+      "wheelchair_accessible": false,
+      "trip_id": "2__1__174__NBM__2__6__2__6_1"
+    },
+    {
+      "stop_id": "5510",
+      "service_id": "17",
+      "direction": "outbound",
+      "operator": "TZM",
+      "origin": {
+        "stop_id": "6000",
+        "name": "WgtnStn-B"
+      },
+      "destination": {
+        "stop_id": "7774",
+        "name": "Kowhai Park"
+      },
+      "delay": "-PT1M24S",
+      "vehicle_id": "3171",
+      "name": "WillisSt at Willban",
+      "arrival": {
+        "aimed": "2022-10-11T11:15:00+13:00",
+        "expected": "2022-10-11T11:13:36+13:00"
+      },
+      "departure": {
+        "aimed": "2022-10-11T11:15:00+13:00",
+        "expected": "2022-10-11T11:13:36+13:00"
+      },
+      "status": "ontime",
+      "monitored": true,
+      "wheelchair_accessible": true,
+      "trip_id": "17__0__149__TZM__226__226_1"
+    },
+    {
+      "stop_id": "5510",
+      "service_id": "52",
+      "direction": "inbound",
+      "operator": "MNM",
+      "origin": {
+        "stop_id": "3250",
+        "name": "Johnsonville-C"
+      },
+      "destination": {
+        "stop_id": "5516",
+        "name": "Courtenay Pl"
+      },
+      "delay": "PT0S",
+      "vehicle_id": null,
+      "name": "WillisSt at Willban",
+      "arrival": {
+        "aimed": "2022-10-11T11:14:00+13:00",
+        "expected": null
+      },
+      "departure": {
+        "aimed": "2022-10-11T11:14:00+13:00",
+        "expected": null
+      },
+      "status": null,
+      "monitored": false,
+      "wheelchair_accessible": false,
+      "trip_id": "52__1__114__MNM__3192__1__3192__1_1"
+    },
+    {
+      "stop_id": "5510",
+      "service_id": "12",
+      "direction": "outbound",
+      "operator": "NBM",
+      "origin": {
+        "stop_id": "5500",
+        "name": "WgtnStn-A"
+      },
+      "destination": {
+        "stop_id": "7099",
+        "name": "Strathmore Pk"
+      },
+      "delay": "PT0S",
+      "vehicle_id": null,
+      "name": "WillisSt at Willban",
+      "arrival": {
+        "aimed": "2022-10-11T11:14:00+13:00",
+        "expected": null
+      },
+      "departure": {
+        "aimed": "2022-10-11T11:14:00+13:00",
+        "expected": null
+      },
+      "status": null,
+      "monitored": false,
+      "wheelchair_accessible": false,
+      "trip_id": "12__0__125__NBM__43__5__43__5_1"
+    },
+    {
+      "stop_id": "5510",
+      "service_id": "29",
+      "direction": "outbound",
+      "operator": "TZM",
+      "origin": {
+        "stop_id": "5500",
+        "name": "WgtnStn-A"
+      },
+      "destination": {
+        "stop_id": "7720",
+        "name": "Brooklyn"
+      },
+      "delay": "-PT2M45S",
+      "vehicle_id": "3447",
+      "name": "WillisSt at Willban",
+      "arrival": {
+        "aimed": "2022-10-11T11:19:00+13:00",
+        "expected": "2022-10-11T11:16:15+13:00"
+      },
+      "departure": {
+        "aimed": "2022-10-11T11:19:00+13:00",
+        "expected": "2022-10-11T11:16:15+13:00"
+      },
+      "status": "early",
+      "monitored": true,
+      "wheelchair_accessible": true,
+      "trip_id": "29__0__109__TZM__125__1__125__1_1"
+    },
+    {
+      "stop_id": "5510",
+      "service_id": "23",
+      "direction": "outbound",
+      "operator": "TZM",
+      "origin": {
+        "stop_id": "5500",
+        "name": "WgtnStn-A"
+      },
+      "destination": {
+        "stop_id": "6937",
+        "name": "Houghton Bay"
+      },
+      "delay": "PT0S",
+      "vehicle_id": null,
+      "name": "WillisSt at Willban",
+      "arrival": {
+        "aimed": "2022-10-11T11:18:00+13:00",
+        "expected": null
+      },
+      "departure": {
+        "aimed": "2022-10-11T11:18:00+13:00",
+        "expected": null
+      },
+      "status": null,
+      "monitored": false,
+      "wheelchair_accessible": false,
+      "trip_id": "23__0__153__TZM__129__1__129__1_1"
+    },
+    {
+      "stop_id": "5510",
+      "service_id": "1",
+      "direction": "inbound",
+      "operator": "TZM",
+      "origin": {
+        "stop_id": "3297",
+        "name": "ChurtonPk - Melksha"
+      },
+      "destination": {
+        "stop_id": "6158",
+        "name": "Island Bay"
+      },
+      "delay": "-PT2M45S",
+      "vehicle_id": "3714",
+      "name": "WillisSt at Willban",
+      "arrival": {
+        "aimed": "2022-10-11T11:21:00+13:00",
+        "expected": "2022-10-11T11:18:15+13:00"
+      },
+      "departure": {
+        "aimed": "2022-10-11T11:21:00+13:00",
+        "expected": "2022-10-11T11:18:15+13:00"
+      },
+      "status": "early",
+      "monitored": true,
+      "wheelchair_accessible": true,
+      "trip_id": "1__1__166__TZM__227__227_1"
+    },
+    {
+      "stop_id": "5510",
+      "service_id": "3",
+      "direction": "outbound",
+      "operator": "NBM",
+      "origin": {
+        "stop_id": "6000",
+        "name": "WgtnStn-B"
+      },
+      "destination": {
+        "stop_id": "7345",
+        "name": "Rongotai"
+      },
+      "delay": "-PT2M18S",
+      "vehicle_id": "5089",
+      "name": "WillisSt at Willban",
+      "arrival": {
+        "aimed": "2022-10-11T11:21:00+13:00",
+        "expected": "2022-10-11T11:18:42+13:00"
+      },
+      "departure": {
+        "aimed": "2022-10-11T11:21:00+13:00",
+        "expected": "2022-10-11T11:18:42+13:00"
+      },
+      "status": "early",
+      "monitored": true,
+      "wheelchair_accessible": true,
+      "trip_id": "3__0__153__NBM__40__5__40__5_1"
+    },
+    {
+      "stop_id": "5510",
+      "service_id": "2",
+      "direction": "inbound",
+      "operator": "NBM",
+      "origin": {
+        "stop_id": "4332",
+        "name": "Karori-AllingtonRd"
+      },
+      "destination": {
+        "stop_id": "6241",
+        "name": "Miramar"
+      },
+      "delay": "-PT2M8S",
+      "vehicle_id": "5711",
+      "name": "WillisSt at Willban",
+      "arrival": {
+        "aimed": "2022-10-11T11:21:00+13:00",
+        "expected": "2022-10-11T11:18:52+13:00"
+      },
+      "departure": {
+        "aimed": "2022-10-11T11:21:00+13:00",
+        "expected": "2022-10-11T11:18:52+13:00"
+      },
+      "status": "early",
+      "monitored": true,
+      "wheelchair_accessible": true,
+      "trip_id": "2__1__176__NBM__9__6__9__6_1"
+    },
+    {
+      "stop_id": "5510",
+      "service_id": "AX",
+      "direction": "inbound",
+      "operator": "MNM",
+      "origin": {
+        "stop_id": "6000",
+        "name": "WgtnStn-B"
+      },
+      "destination": {
+        "stop_id": "7399",
+        "name": "Airport"
+      },
+      "delay": "PT0S",
+      "vehicle_id": null,
+      "name": "WillisSt at Willban",
+      "arrival": {
+        "aimed": "2022-10-11T11:20:00+13:00",
+        "expected": null
+      },
+      "departure": {
+        "aimed": "2022-10-11T11:20:00+13:00",
+        "expected": null
+      },
+      "status": null,
+      "monitored": false,
+      "wheelchair_accessible": false,
+      "trip_id": "AX__1__158__MNM__6012__6012_1"
+    },
+    {
+      "stop_id": "5510",
+      "service_id": "24",
+      "direction": "inbound",
+      "operator": "TZM",
+      "origin": {
+        "stop_id": "3081",
+        "name": "Johnsonville-B"
+      },
+      "destination": {
+        "stop_id": "7083",
+        "name": "Miramar Hgts"
+      },
+      "delay": "PT0S",
+      "vehicle_id": null,
+      "name": "WillisSt at Willban",
+      "arrival": {
+        "aimed": "2022-10-11T11:22:00+13:00",
+        "expected": null
+      },
+      "departure": {
+        "aimed": "2022-10-11T11:22:00+13:00",
+        "expected": null
+      },
+      "status": null,
+      "monitored": false,
+      "wheelchair_accessible": false,
+      "trip_id": "24__1__124__TZM__131__131_1"
+    },
+    {
+      "stop_id": "5510",
+      "service_id": "25",
+      "direction": "inbound",
+      "operator": "TZM",
+      "origin": {
+        "stop_id": "4419",
+        "name": "KhandallahVlg-A"
+      },
+      "destination": {
+        "stop_id": "4947",
+        "name": "Highbury"
+      },
+      "delay": "-PT1M45S",
+      "vehicle_id": "3437",
+      "name": "WillisSt at Willban",
+      "arrival": {
+        "aimed": "2022-10-11T11:25:00+13:00",
+        "expected": "2022-10-11T11:23:15+13:00"
+      },
+      "departure": {
+        "aimed": "2022-10-11T11:25:00+13:00",
+        "expected": "2022-10-11T11:23:15+13:00"
+      },
+      "status": "ontime",
+      "monitored": true,
+      "wheelchair_accessible": true,
+      "trip_id": "25__1__128__TZM__208__3__208__3_1"
+    },
+    {
+      "stop_id": "5510",
+      "service_id": "14",
+      "direction": "inbound",
+      "operator": "NBM",
+      "origin": {
+        "stop_id": "4136",
+        "name": "Wilton-SurreySt"
+      },
+      "destination": {
+        "stop_id": "6224",
+        "name": "Kilbirnie"
+      },
+      "delay": "PT0S",
+      "vehicle_id": null,
+      "name": "WillisSt at Willban",
+      "arrival": {
+        "aimed": "2022-10-11T11:24:00+13:00",
+        "expected": null
+      },
+      "departure": {
+        "aimed": "2022-10-11T11:24:00+13:00",
+        "expected": null
+      },
+      "status": null,
+      "monitored": false,
+      "wheelchair_accessible": false,
+      "trip_id": "14__1__138__NBM__57__2__57__2_1"
+    },
+    {
+      "stop_id": "5510",
+      "service_id": "83",
+      "direction": "inbound",
+      "operator": "NBM",
+      "origin": {
+        "stop_id": "8858",
+        "name": "EastbourneTmns"
+      },
+      "destination": {
+        "stop_id": "5516",
+        "name": "Courtenay Pl"
+      },
+      "delay": "PT0S",
+      "vehicle_id": null,
+      "name": "WillisSt at Willban",
+      "arrival": {
+        "aimed": "2022-10-11T11:24:00+13:00",
+        "expected": null
+      },
+      "departure": {
+        "aimed": "2022-10-11T11:24:00+13:00",
+        "expected": null
+      },
+      "status": "cancelled",
+      "monitored": false,
+      "wheelchair_accessible": false,
+      "trip_id": "83__1__166__NBM__119__119_1"
+    },
+    {
+      "stop_id": "5510",
+      "service_id": "7",
+      "direction": "outbound",
+      "operator": "TZM",
+      "origin": {
+        "stop_id": "6000",
+        "name": "WgtnStn-B"
+      },
+      "destination": {
+        "stop_id": "6733",
+        "name": "Kingston"
+      },
+      "delay": "PT0S",
+      "vehicle_id": null,
+      "name": "WillisSt at Willban",
+      "arrival": {
+        "aimed": "2022-10-11T11:26:00+13:00",
+        "expected": null
+      },
+      "departure": {
+        "aimed": "2022-10-11T11:26:00+13:00",
+        "expected": null
+      },
+      "status": null,
+      "monitored": false,
+      "wheelchair_accessible": false,
+      "trip_id": "7__0__147__TZM__123__1__123__1_1"
+    },
+    {
+      "stop_id": "5510",
+      "service_id": "2",
+      "direction": "inbound",
+      "operator": "NBM",
+      "origin": {
+        "stop_id": "4332",
+        "name": "Karori-AllingtonRd"
+      },
+      "destination": {
+        "stop_id": "7042",
+        "name": "Seatoun"
+      },
+      "delay": "PT0S",
+      "vehicle_id": null,
+      "name": "WillisSt at Willban",
+      "arrival": {
+        "aimed": "2022-10-11T11:28:00+13:00",
+        "expected": null
+      },
+      "departure": {
+        "aimed": "2022-10-11T11:28:00+13:00",
+        "expected": null
+      },
+      "status": null,
+      "monitored": false,
+      "wheelchair_accessible": false,
+      "trip_id": "2__1__178__NBM__70__1__70__1_1"
+    },
+    {
+      "stop_id": "5510",
+      "service_id": "1",
+      "direction": "inbound",
+      "operator": "TZM",
+      "origin": {
+        "stop_id": "3451",
+        "name": "GrenadaVlg-GrenadaD"
+      },
+      "destination": {
+        "stop_id": "6158",
+        "name": "Island Bay"
+      },
+      "delay": "-PT2M45S",
+      "vehicle_id": "3711",
+      "name": "WillisSt at Willban",
+      "arrival": {
+        "aimed": "2022-10-11T11:32:00+13:00",
+        "expected": "2022-10-11T11:29:15+13:00"
+      },
+      "departure": {
+        "aimed": "2022-10-11T11:32:00+13:00",
+        "expected": "2022-10-11T11:29:15+13:00"
+      },
+      "status": "early",
+      "monitored": true,
+      "wheelchair_accessible": true,
+      "trip_id": "1__1__168__TZM__224__224_1"
+    },
+    {
+      "stop_id": "5510",
+      "service_id": "3",
+      "direction": "outbound",
+      "operator": "NBM",
+      "origin": {
+        "stop_id": "6000",
+        "name": "WgtnStn-B"
+      },
+      "destination": {
+        "stop_id": "7338",
+        "name": "Lyall Bay"
+      },
+      "delay": "PT0S",
+      "vehicle_id": null,
+      "name": "WillisSt at Willban",
+      "arrival": {
+        "aimed": "2022-10-11T11:31:00+13:00",
+        "expected": null
+      },
+      "departure": {
+        "aimed": "2022-10-11T11:31:00+13:00",
+        "expected": null
+      },
+      "status": null,
+      "monitored": false,
+      "wheelchair_accessible": false,
+      "trip_id": "3__0__155__NBM__153__2__153__2_1"
+    },
+    {
+      "stop_id": "5510",
+      "service_id": "AX",
+      "direction": "inbound",
+      "operator": "MNM",
+      "origin": {
+        "stop_id": "6000",
+        "name": "WgtnStn-B"
+      },
+      "destination": {
+        "stop_id": "7399",
+        "name": "Airport"
+      },
+      "delay": "PT0S",
+      "vehicle_id": null,
+      "name": "WillisSt at Willban",
+      "arrival": {
+        "aimed": "2022-10-11T11:35:00+13:00",
+        "expected": null
+      },
+      "departure": {
+        "aimed": "2022-10-11T11:35:00+13:00",
+        "expected": null
+      },
+      "status": null,
+      "monitored": false,
+      "wheelchair_accessible": false,
+      "trip_id": "AX__1__160__MNM__6022__6022_1"
+    }
+  ]
+}
