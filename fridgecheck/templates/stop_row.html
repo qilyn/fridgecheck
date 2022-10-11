@@ -17,12 +17,10 @@
             {% if departure.status %}
             <tr>
                 <td><b>{{ departure.destination.name }}</b> ({{ departure.destination.stop_id }})</td>
-                <td>{{ departure.arrival.aimed_date }}  </td>
-                {#<td>{{ departure.arrival.aimed.strftime('%H:%M') }}</td>#}
+                <td>{{ departure.arrival.aimed_date.strftime('%H:%M') }}</td>
                 <td>
                     {% if departure.arrival.expected_date %}
-                        {{ departure.arrival.expected_date }}
-                        {# {{ departure.arrival.expected.strftime('%H:%M:%S')|default('=', true) }}#}
+                        {{ departure.arrival.expected_date.strftime('%H:%M:%S')|default('=', true) }}
                     {% else %}
                         -
                     {% endif %}

@@ -9,12 +9,12 @@ class PredictionTime:
 
     @property
     def aimed_date(self):
-        return datetime.fron_iso_format(self.aimed) if self.aimed is not None else None
+        return datetime.fromisoformat(self.aimed) if self.aimed is not None else None
 
     @property
     def expected_date(self):
         return (
-            datetime.fron_iso_format(self.expected)
+            datetime.fromisoformat(self.expected)
             if self.expected is not None
             else None
         )
@@ -63,7 +63,7 @@ class Prediction:
     
     @staticmethod
     def from_dict(data):
-        return Prediction(**{
+        x = Prediction(**{
             **data,
             "departures": [
                 Departure(**{
@@ -74,6 +74,11 @@ class Prediction:
                 for departure in data['departures']
             ]
         })
+        # print(x.departures[0])
+        print('==============================')
+        print(x.departures[0].arrival.aimed_date)
+        print('==============================')
+        return x
 
 
 @dataclass

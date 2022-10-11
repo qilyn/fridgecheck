@@ -23,7 +23,7 @@ def home():
     if status_code != 200:
         error = formatted_response_data.get('message', f'Failed with {status_code}')
 
-    print(formatted_response_data)
+    # print(formatted_response_data)
     
     return render_template(
         'predictions.html',
