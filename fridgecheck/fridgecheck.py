@@ -17,7 +17,7 @@ config = {
 def home():
     stop="5510"
     
-    status_code, formatted_response_data = Api(mock=True).get_routes(stop=None)
+    status_code, formatted_response_data = Api(mock=True).get_predictions(stop=None)
     error = None
     
     if status_code != 200:
@@ -26,8 +26,8 @@ def home():
     print(formatted_response_data)
     
     return render_template(
-        'home.html',
+        'predictions.html',
         error=error,
         stop=stop,
-        stops=formatted_response_data,
+        prediction=formatted_response_data,
     )

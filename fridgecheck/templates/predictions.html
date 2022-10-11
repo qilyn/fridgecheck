@@ -1,0 +1,16 @@
+{% extends 'home.html' %}
+
+{% block body %}
+<div class="container">
+    <table>
+            <tr>
+                <th>Upcoming departures</th>
+            </tr>
+            {% if prediction and prediction.departures %}
+            {% include 'stop_row.html' %}
+            {% else %}
+            <tr><td>Alas! No departures are upcoming.</td></tr>
+            {% endif %}
+        </table>
+    </div>
+{% endblock %}

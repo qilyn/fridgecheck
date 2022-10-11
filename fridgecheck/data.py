@@ -22,7 +22,7 @@ config = {
 class Formatter:
     @staticmethod
     def predictions(data):
-        return Prediction(**data)
+        return Prediction.from_dict(data)
 
     @staticmethod
     def routes(data):

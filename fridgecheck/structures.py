@@ -3,7 +3,7 @@ from datetime import datetime
 
 
 @dataclass
-class Prediction:
+class PredictionTime:
     aimed: str
     expected: str
 
@@ -36,8 +36,10 @@ class Departure:
     destination: Stop
     delay: str
     vehicle_id: str
-    arrival: Prediction
-    delay: Prediction
+    arrival: PredictionTime
+    departure: PredictionTime
+    delay: str
+    name: str
     #     **{
     #         "aimed": d["delay"]["aimed"],
     #         "expected": d["delay"]["expected"],
@@ -58,6 +60,20 @@ class Prediction:
     farezone: str
     closed: bool
     departures: "list[Departure]"
+    
+    @staticmethod
+    def from_dict(data):
+        return Prediction(**{
+            **data,
+            "departures": [
+                Departure(**{
+                    **departure,
+                    "arrival": PredictionTime(**departure['arrival']),
+                    "departure": PredictionTime(**departure['departure']),
+                })
+                for departure in data['departures']
+            ]
+        })
 
 
 @dataclass
