@@ -14,6 +14,25 @@ pip install requirements.txt
 ```
 - Create .env in the project root (not in `fridgecheck` the module) and add your API_KEY, as shown in `example.env`
 
+#### Frontend
+
+Much as I love Python, let's do a React with this. Reminder:
+
+```bash
+nvm use 14
+# npx create-react-app frontend
+npm start
+```
+##### Deployment
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+
+##### `npm run build` fails to minify
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+
+
 ### Starting the project
 
 ```bash
