@@ -8,6 +8,13 @@ interface Stop {
     name: string
 }
 
+const enum Status {
+    DELAYED = "delayed",
+    ONTIME = "ontime",
+    CANCELLED = "cancelled",
+    EARLY = "early"
+}
+
 interface Departure {
     stop_id: string
     service_id: string
@@ -20,8 +27,16 @@ interface Departure {
     departure: PredictionTime
     delay: string
     name: string
-    status: string
+    status: Status
     monitored: boolean
     wheelchair_accessible: boolean
     trip_id: string
 }
+
+interface Prediction {
+    farezone: string
+    closed: boolean
+    departures: Departure[]
+}
+
+export { Departure, Prediction, PredictionTime, Status, Stop }
