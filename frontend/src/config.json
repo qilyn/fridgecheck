@@ -1,0 +1,5 @@
+{
+    "API_KEY": "qAqVscRNug9LpgmoETWWGarPHi7OizVkgLaEbSRe",
+    "PREDICTIONS": "https://api.opendata.metlink.org.nz/v1/stop-predictions?stop_id=",
+    "ROUTES": "https://api.opendata.metlink.org.nz/v1/gtfs/routes?stop_id="
+}
