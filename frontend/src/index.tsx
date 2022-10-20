@@ -4,7 +4,7 @@ import ReactDOM from 'react-dom/client';
 import cachedPrediction from "./cached_prediction.json";
 import configData from "./config.json";
 import './index.css';
-import { Departure, Prediction, Status } from './type';
+import { Departure, Prediction } from './type.tsx';
 
 
 interface DeparturesTableProps {
@@ -32,10 +32,8 @@ class DeparturesTable extends React.Component<Prediction> {
     if (add(parseISO(departure.arrival.expected), {hours: 1})) {
       classes.push('far-away');
     }
-    if (departure.status === Status.CANCELLED) {
-      classes.push('cancelled')
-    }
-    return classes
+    classes.push(departure.status)
+    return classes.join(' ')
   }
 
   formatPrediction(now: Date, prediction: Prediction) {

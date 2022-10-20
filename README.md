@@ -39,6 +39,15 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 flask --app fridgecheck --debug run
 ```
 
+### Todo
+
+* Add a database for persistent data storage. (We all knew this day would come!)
+  * Once that's done, we can refactor the frontend. 
+    1. Enter the stop you're interested in (or choose a saved prediction)
+    2. Load the predictions. At the top will be two inputs:
+       * Time to walk to stop (mins). Departures will style differently depending on whether you can walk there.
+       * Filter by services you're interested in. Departures will be removed if they are not in this list.
+
 ### Credentials
 
 Get yours by registering: https://opendata.metlink.org.nz/dashboard

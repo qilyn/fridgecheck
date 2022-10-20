@@ -1,6 +1,21 @@
 body {
     background-color: antiquewhite;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 10pt;
+}
+
+table {
+  border-collapse: separate;
+  border-spacing: 0;
+}
+
+table, tr, td {
+    margin: 0px;
+}
+
+td {
+    border: solid 0px transparent;
+    padding: 8px;
 }
 
 tr.far-away td.destination-name {
@@ -13,6 +28,57 @@ tr.far-away td.status {
     font-style: italic;
 }
 
+/* Cancelled */
+
 tr.cancelled {
-    opacity: 0.5;
+    opacity: 0.9;
+}
+
+tr.cancelled td {
+    background-color: rgba(255, 0, 0, 0.5)
+}
+tr.cancelled td:first-child {
+    display: block;
+    border: 0px solid transparent;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    color:purple;
+}
+
+tr.cancelled td:last-child {
+    border: 0px solid transparent;
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+tr.cancelled {
+    color: black;
+}
+
+
+/* Delayed */
+
+tr.delayed {
+    opacity: 0.9;
+}
+
+tr.delayed td {
+    background-color: rgba(255, 255, 0, 0.5)
+}
+tr.delayed td:first-child {
+    display: block;
+    border: 0px solid transparent;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    color:purple;
+}
+
+tr.delayed td:last-child {
+    border: 0px solid transparent;
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+tr.delayed {
+    color: black;
 }
