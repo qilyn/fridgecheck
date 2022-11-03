@@ -30,6 +30,15 @@ tr.far-away td.status {
 
 /* Cancelled */
 
+.cancellations > div {
+    border-radius: 10px;
+    border: 0px solid transparent;
+    background-color:rgba(255, 0, 0, 0.5);
+    margin-top: 5px;
+    font-weight: normal;
+    padding: 4px;
+}
+
 tr.cancelled {
     opacity: 0.9;
 }

@@ -26,7 +26,7 @@
                 "aimed": "2022-10-17T17:50:00+13:00",
                 "expected": "2022-10-17T17:52:17+13:00"
             },
-            "status": "delayed",
+            "status": "cancelled",
             "monitored": true,
             "wheelchair_accessible": true,
             "trip_id": "27__0__127__TZM__106__6__106__6"

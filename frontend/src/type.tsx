@@ -39,4 +39,11 @@ interface Prediction {
     departures: Departure[]
 }
 
-export { Departure, Prediction, PredictionTime, Status, Stop }
+interface Recommendation {
+    departure: Departure,
+    nextDeparture?: Departure,
+    earlierDeparture?: Departure,
+}
+
+export { Departure, Recommendation, Prediction, PredictionTime, Status, Stop }
+
