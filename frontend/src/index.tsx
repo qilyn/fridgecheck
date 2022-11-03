@@ -4,8 +4,8 @@ import cachedPrediction from "./cached_prediction.json";
 import configData from "./config.json";
 import { DeparturesTable } from './departuresFromStop/departures.tsx';
 import './index.css';
+import { RoutePicker as Journey } from './journey/routePicker.tsx';
 import type { Prediction } from './type';
-
 
 // TODO: show all times as relative. hover to show actual time?
 
@@ -66,6 +66,7 @@ class App extends React.Component<AppProps> {
         {/* <input type="text" value={search} onChange={onInputChange}/> */}
         <div className="game-board">
           <DeparturesTable prediction={this.state.prediction} />
+          <Journey state={this.state} />
         </div>
       </div>
     );
