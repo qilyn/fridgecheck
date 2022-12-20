@@ -41,12 +41,10 @@ flask --app fridgecheck --debug run
 
 ### Todo
 
-* Add a database for persistent data storage. (We all knew this day would come!)
-  * Once that's done, we can refactor the frontend. 
-    1. Enter the stop you're interested in (or choose a saved prediction)
-    2. Load the predictions. At the top will be two inputs:
-       * Time to walk to stop (mins). Departures will style differently depending on whether you can walk there.
-       * Filter by services you're interested in. Departures will be removed if they are not in this list.
+1. Stop selection menu
+2. Weather
+3. Push notifications
+4. Convert to android app
 
 ### Credentials
 
