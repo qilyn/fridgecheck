@@ -1,0 +1,615 @@
+{
+    "farezone": "2",
+    "closed": false,
+    "departures": [
+        {
+            "stop_id": "7750",
+            "service_id": "27",
+            "direction": "inbound",
+            "operator": "TZM",
+            "origin": {
+                "stop_id": "6730",
+                "name": "Kingston-B"
+            },
+            "destination": {
+                "stop_id": "5016",
+                "name": "Wgtn Station"
+            },
+            "delay": "PT0S",
+            "vehicle_id": null,
+            "name": "McCollSt at Krull",
+            "arrival": {
+                "aimed": "2022-12-20T12:26:00+13:00",
+                "expected": null
+            },
+            "departure": {
+                "aimed": "2022-12-20T12:26:00+13:00",
+                "expected": null
+            },
+            "status": null,
+            "monitored": false,
+            "wheelchair_accessible": false,
+            "trip_id": "27__1__118__TZM__147__1__147__1_1"
+        },
+        {
+            "stop_id": "7750",
+            "service_id": "27",
+            "direction": "inbound",
+            "operator": "TZM",
+            "origin": {
+                "stop_id": "6730",
+                "name": "Kingston-B"
+            },
+            "destination": {
+                "stop_id": "5016",
+                "name": "Wgtn Station"
+            },
+            "delay": "PT0S",
+            "vehicle_id": null,
+            "name": "McCollSt at Krull",
+            "arrival": {
+                "aimed": "2022-12-20T13:28:00+13:00",
+                "expected": null
+            },
+            "departure": {
+                "aimed": "2022-12-20T13:28:00+13:00",
+                "expected": null
+            },
+            "status": null,
+            "monitored": false,
+            "wheelchair_accessible": false,
+            "trip_id": "27__1__120__TZM__206__10__206__10_1"
+        },
+        {
+            "stop_id": "7750",
+            "service_id": "27",
+            "direction": "inbound",
+            "operator": "TZM",
+            "origin": {
+                "stop_id": "6730",
+                "name": "Kingston-B"
+            },
+            "destination": {
+                "stop_id": "5016",
+                "name": "Wgtn Station"
+            },
+            "delay": "PT0S",
+            "vehicle_id": null,
+            "name": "McCollSt at Krull",
+            "arrival": {
+                "aimed": "2022-12-20T14:23:00+13:00",
+                "expected": null
+            },
+            "departure": {
+                "aimed": "2022-12-20T14:23:00+13:00",
+                "expected": null
+            },
+            "status": null,
+            "monitored": false,
+            "wheelchair_accessible": false,
+            "trip_id": "27__1__122__TZM__139__1__139__1_1"
+        },
+        {
+            "stop_id": "7750",
+            "service_id": "27",
+            "direction": "inbound",
+            "operator": "TZM",
+            "origin": {
+                "stop_id": "6730",
+                "name": "Kingston-B"
+            },
+            "destination": {
+                "stop_id": "5016",
+                "name": "Wgtn Station"
+            },
+            "delay": "PT0S",
+            "vehicle_id": null,
+            "name": "McCollSt at Krull",
+            "arrival": {
+                "aimed": "2022-12-20T15:27:00+13:00",
+                "expected": null
+            },
+            "departure": {
+                "aimed": "2022-12-20T15:27:00+13:00",
+                "expected": null
+            },
+            "status": null,
+            "monitored": false,
+            "wheelchair_accessible": false,
+            "trip_id": "27__1__124__TZM__147__1__147__1_1"
+        },
+        {
+            "stop_id": "7750",
+            "service_id": "27",
+            "direction": "inbound",
+            "operator": "TZM",
+            "origin": {
+                "stop_id": "6730",
+                "name": "Kingston-B"
+            },
+            "destination": {
+                "stop_id": "5016",
+                "name": "Wgtn Station"
+            },
+            "delay": "PT0S",
+            "vehicle_id": null,
+            "name": "McCollSt at Krull",
+            "arrival": {
+                "aimed": "2022-12-20T16:29:00+13:00",
+                "expected": null
+            },
+            "departure": {
+                "aimed": "2022-12-20T16:29:00+13:00",
+                "expected": null
+            },
+            "status": null,
+            "monitored": false,
+            "wheelchair_accessible": false,
+            "trip_id": "27__1__126__TZM__228__1__228__1_1"
+        },
+        {
+            "stop_id": "7750",
+            "service_id": "27",
+            "direction": "inbound",
+            "operator": "TZM",
+            "origin": {
+                "stop_id": "6730",
+                "name": "Kingston-B"
+            },
+            "destination": {
+                "stop_id": "5016",
+                "name": "Wgtn Station"
+            },
+            "delay": "PT0S",
+            "vehicle_id": null,
+            "name": "McCollSt at Krull",
+            "arrival": {
+                "aimed": "2022-12-20T17:29:00+13:00",
+                "expected": null
+            },
+            "departure": {
+                "aimed": "2022-12-20T17:29:00+13:00",
+                "expected": null
+            },
+            "status": null,
+            "monitored": false,
+            "wheelchair_accessible": false,
+            "trip_id": "27__1__128__TZM__110__6__110__6_1"
+        },
+        {
+            "stop_id": "7750",
+            "service_id": "27",
+            "direction": "inbound",
+            "operator": "TZM",
+            "origin": {
+                "stop_id": "6730",
+                "name": "Kingston-B"
+            },
+            "destination": {
+                "stop_id": "5016",
+                "name": "Wgtn Station"
+            },
+            "delay": "PT0S",
+            "vehicle_id": null,
+            "name": "McCollSt at Krull",
+            "arrival": {
+                "aimed": "2022-12-20T18:28:00+13:00",
+                "expected": null
+            },
+            "departure": {
+                "aimed": "2022-12-20T18:28:00+13:00",
+                "expected": null
+            },
+            "status": null,
+            "monitored": false,
+            "wheelchair_accessible": false,
+            "trip_id": "27__1__130__TZM__106__5__106__5_1"
+        },
+        {
+            "stop_id": "7750",
+            "service_id": "27",
+            "direction": "inbound",
+            "operator": "TZM",
+            "origin": {
+                "stop_id": "6730",
+                "name": "Kingston-B"
+            },
+            "destination": {
+                "stop_id": "5016",
+                "name": "Wgtn Station"
+            },
+            "delay": "PT0S",
+            "vehicle_id": null,
+            "name": "McCollSt at Krull",
+            "arrival": {
+                "aimed": "2022-12-20T19:28:00+13:00",
+                "expected": null
+            },
+            "departure": {
+                "aimed": "2022-12-20T19:28:00+13:00",
+                "expected": null
+            },
+            "status": null,
+            "monitored": false,
+            "wheelchair_accessible": false,
+            "trip_id": "27__1__132__TZM__209__6__209__6_1"
+        },
+        {
+            "stop_id": "7750",
+            "service_id": "27",
+            "direction": "inbound",
+            "operator": "TZM",
+            "origin": {
+                "stop_id": "6730",
+                "name": "Kingston-B"
+            },
+            "destination": {
+                "stop_id": "5016",
+                "name": "Wgtn Station"
+            },
+            "delay": "PT0S",
+            "vehicle_id": null,
+            "name": "McCollSt at Krull",
+            "arrival": {
+                "aimed": "2022-12-20T20:53:00+13:00",
+                "expected": null
+            },
+            "departure": {
+                "aimed": "2022-12-20T20:53:00+13:00",
+                "expected": null
+            },
+            "status": "cancelled",
+            "monitored": false,
+            "wheelchair_accessible": false,
+            "trip_id": "27__1__134__TZM__126__2__126__2_1"
+        },
+        {
+            "stop_id": "7750",
+            "service_id": "27",
+            "direction": "inbound",
+            "operator": "TZM",
+            "origin": {
+                "stop_id": "6730",
+                "name": "Kingston-B"
+            },
+            "destination": {
+                "stop_id": "5016",
+                "name": "Wgtn Station"
+            },
+            "delay": "PT0S",
+            "vehicle_id": null,
+            "name": "McCollSt at Krull",
+            "arrival": {
+                "aimed": "2022-12-20T21:44:00+13:00",
+                "expected": null
+            },
+            "departure": {
+                "aimed": "2022-12-20T21:44:00+13:00",
+                "expected": null
+            },
+            "status": null,
+            "monitored": false,
+            "wheelchair_accessible": false,
+            "trip_id": "27__1__136__TZM__108__5__108__5_1"
+        },
+        {
+            "stop_id": "7750",
+            "service_id": "27",
+            "direction": "inbound",
+            "operator": "TZM",
+            "origin": {
+                "stop_id": "6730",
+                "name": "Kingston-B"
+            },
+            "destination": {
+                "stop_id": "5016",
+                "name": "Wgtn Station"
+            },
+            "delay": "PT0S",
+            "vehicle_id": null,
+            "name": "McCollSt at Krull",
+            "arrival": {
+                "aimed": "2022-12-20T22:44:00+13:00",
+                "expected": null
+            },
+            "departure": {
+                "aimed": "2022-12-20T22:44:00+13:00",
+                "expected": null
+            },
+            "status": null,
+            "monitored": false,
+            "wheelchair_accessible": false,
+            "trip_id": "27__1__138__TZM__130__1__130__1_1"
+        },
+        {
+            "stop_id": "7750",
+            "service_id": "27",
+            "direction": "inbound",
+            "operator": "TZM",
+            "origin": {
+                "stop_id": "6730",
+                "name": "Kingston-B"
+            },
+            "destination": {
+                "stop_id": "5016",
+                "name": "Wgtn Station"
+            },
+            "delay": "PT0S",
+            "vehicle_id": null,
+            "name": "McCollSt at Krull",
+            "arrival": {
+                "aimed": "2022-12-21T07:03:00+13:00",
+                "expected": null
+            },
+            "departure": {
+                "aimed": "2022-12-21T07:03:00+13:00",
+                "expected": null
+            },
+            "status": null,
+            "monitored": false,
+            "wheelchair_accessible": false,
+            "trip_id": "27__1__100__TZM__208__6__208__6_1"
+        },
+        {
+            "stop_id": "7750",
+            "service_id": "27",
+            "direction": "inbound",
+            "operator": "TZM",
+            "origin": {
+                "stop_id": "6730",
+                "name": "Kingston-B"
+            },
+            "destination": {
+                "stop_id": "5016",
+                "name": "Wgtn Station"
+            },
+            "delay": "PT0S",
+            "vehicle_id": null,
+            "name": "McCollSt at Krull",
+            "arrival": {
+                "aimed": "2022-12-21T07:33:00+13:00",
+                "expected": null
+            },
+            "departure": {
+                "aimed": "2022-12-21T07:33:00+13:00",
+                "expected": null
+            },
+            "status": null,
+            "monitored": false,
+            "wheelchair_accessible": false,
+            "trip_id": "27__1__102__TZM__130__1__130__1_1"
+        },
+        {
+            "stop_id": "7750",
+            "service_id": "734",
+            "direction": "inbound",
+            "operator": "TZM",
+            "origin": {
+                "stop_id": "6718",
+                "name": "OhiroRd at Bretby"
+            },
+            "destination": {
+                "stop_id": "6008",
+                "name": "School Bus"
+            },
+            "delay": "PT0S",
+            "vehicle_id": null,
+            "name": "McCollSt at Krull",
+            "arrival": {
+                "aimed": "2022-12-21T08:07:00+13:00",
+                "expected": null
+            },
+            "departure": {
+                "aimed": "2022-12-21T08:07:00+13:00",
+                "expected": null
+            },
+            "status": null,
+            "monitored": false,
+            "wheelchair_accessible": false,
+            "trip_id": "734__1__100__TZM__113__8__113__8_1"
+        },
+        {
+            "stop_id": "7750",
+            "service_id": "27",
+            "direction": "inbound",
+            "operator": "TZM",
+            "origin": {
+                "stop_id": "6730",
+                "name": "Kingston-B"
+            },
+            "destination": {
+                "stop_id": "5016",
+                "name": "Wgtn Station"
+            },
+            "delay": "PT0S",
+            "vehicle_id": null,
+            "name": "McCollSt at Krull",
+            "arrival": {
+                "aimed": "2022-12-21T08:07:00+13:00",
+                "expected": null
+            },
+            "departure": {
+                "aimed": "2022-12-21T08:07:00+13:00",
+                "expected": null
+            },
+            "status": null,
+            "monitored": false,
+            "wheelchair_accessible": false,
+            "trip_id": "27__1__104__TZM__210__6__210__6_1"
+        },
+        {
+            "stop_id": "7750",
+            "service_id": "770",
+            "direction": "inbound",
+            "operator": "TZM",
+            "origin": {
+                "stop_id": "7774",
+                "name": "KowhaiPk-MitchellSt"
+            },
+            "destination": {
+                "stop_id": "6018",
+                "name": "School Bus"
+            },
+            "delay": "PT0S",
+            "vehicle_id": null,
+            "name": "McCollSt at Krull",
+            "arrival": {
+                "aimed": "2022-12-21T08:10:00+13:00",
+                "expected": null
+            },
+            "departure": {
+                "aimed": "2022-12-21T08:10:00+13:00",
+                "expected": null
+            },
+            "status": null,
+            "monitored": false,
+            "wheelchair_accessible": false,
+            "trip_id": "770__1__100__TZM__136__3__136__3_1"
+        },
+        {
+            "stop_id": "7750",
+            "service_id": "27",
+            "direction": "inbound",
+            "operator": "TZM",
+            "origin": {
+                "stop_id": "6730",
+                "name": "Kingston-B"
+            },
+            "destination": {
+                "stop_id": "5016",
+                "name": "Wgtn Station"
+            },
+            "delay": "PT0S",
+            "vehicle_id": null,
+            "name": "McCollSt at Krull",
+            "arrival": {
+                "aimed": "2022-12-21T08:28:00+13:00",
+                "expected": null
+            },
+            "departure": {
+                "aimed": "2022-12-21T08:28:00+13:00",
+                "expected": null
+            },
+            "status": null,
+            "monitored": false,
+            "wheelchair_accessible": false,
+            "trip_id": "27__1__106__TZM__127__2__127__2_1"
+        },
+        {
+            "stop_id": "7750",
+            "service_id": "27",
+            "direction": "inbound",
+            "operator": "TZM",
+            "origin": {
+                "stop_id": "6730",
+                "name": "Kingston-B"
+            },
+            "destination": {
+                "stop_id": "5016",
+                "name": "Wgtn Station"
+            },
+            "delay": "PT0S",
+            "vehicle_id": null,
+            "name": "McCollSt at Krull",
+            "arrival": {
+                "aimed": "2022-12-21T08:58:00+13:00",
+                "expected": null
+            },
+            "departure": {
+                "aimed": "2022-12-21T08:58:00+13:00",
+                "expected": null
+            },
+            "status": null,
+            "monitored": false,
+            "wheelchair_accessible": false,
+            "trip_id": "27__1__108__TZM__205__11__205__11_1"
+        },
+        {
+            "stop_id": "7750",
+            "service_id": "27",
+            "direction": "inbound",
+            "operator": "TZM",
+            "origin": {
+                "stop_id": "6730",
+                "name": "Kingston-B"
+            },
+            "destination": {
+                "stop_id": "5016",
+                "name": "Wgtn Station"
+            },
+            "delay": "PT0S",
+            "vehicle_id": null,
+            "name": "McCollSt at Krull",
+            "arrival": {
+                "aimed": "2022-12-21T09:26:00+13:00",
+                "expected": null
+            },
+            "departure": {
+                "aimed": "2022-12-21T09:26:00+13:00",
+                "expected": null
+            },
+            "status": null,
+            "monitored": false,
+            "wheelchair_accessible": false,
+            "trip_id": "27__1__110__TZM__209__6__209__6_1"
+        },
+        {
+            "stop_id": "7750",
+            "service_id": "27",
+            "direction": "inbound",
+            "operator": "TZM",
+            "origin": {
+                "stop_id": "6730",
+                "name": "Kingston-B"
+            },
+            "destination": {
+                "stop_id": "5016",
+                "name": "Wgtn Station"
+            },
+            "delay": "PT0S",
+            "vehicle_id": null,
+            "name": "McCollSt at Krull",
+            "arrival": {
+                "aimed": "2022-12-21T09:56:00+13:00",
+                "expected": null
+            },
+            "departure": {
+                "aimed": "2022-12-21T09:56:00+13:00",
+                "expected": null
+            },
+            "status": null,
+            "monitored": false,
+            "wheelchair_accessible": false,
+            "trip_id": "27__1__112__TZM__137__1__137__1_1"
+        },
+        {
+            "stop_id": "7750",
+            "service_id": "27",
+            "direction": "inbound",
+            "operator": "TZM",
+            "origin": {
+                "stop_id": "6730",
+                "name": "Kingston-B"
+            },
+            "destination": {
+                "stop_id": "5016",
+                "name": "Wgtn Station"
+            },
+            "delay": "PT0S",
+            "vehicle_id": null,
+            "name": "McCollSt at Krull",
+            "arrival": {
+                "aimed": "2022-12-21T10:26:00+13:00",
+                "expected": null
+            },
+            "departure": {
+                "aimed": "2022-12-21T10:26:00+13:00",
+                "expected": null
+            },
+            "status": null,
+            "monitored": false,
+            "wheelchair_accessible": false,
+            "trip_id": "27__1__114__TZM__109__5__109__5_1"
+        }
+    ]
+}

@@ -45,5 +45,13 @@ interface Recommendation {
     earlierDeparture?: Departure,
 }
 
-export { Departure, Recommendation, Prediction, PredictionTime, Status, Stop }
+
+interface RideOption {
+    name: string,
+    stop: string,
+    trip: string,
+    file: Object,
+  }
+
+export { Departure, Recommendation, Prediction, PredictionTime, Status, Stop, RideOption }
 

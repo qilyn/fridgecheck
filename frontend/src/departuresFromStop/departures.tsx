@@ -2,28 +2,66 @@ import { add, format, formatDistance, parseISO } from 'date-fns';
 import React from 'react';
 import '../index.css';
 import type { Departure, Prediction, Recommendation } from '../type';
-import { Status } from '../type.tsx';
-import { DeparturesTableProps } from './types';
+import { RideOption, Status } from '../type.tsx';
 
-  
-class DeparturesTable extends React.Component<Prediction> {
+
+interface State {
+  now: Date,
+  prediction: Prediction,
+  ride: RideOption,
+}
+
+
+interface Props {
+  prediction: Prediction,
+  ride: RideOption,
+}
+
+function clonePrediction(prediction) {
+  let copiedPrediction = { ...prediction};
+  copiedPrediction.departures = [...prediction.departures];
+  return copiedPrediction as Prediction
+}
+
+
+class DeparturesTable extends React.Component<Props, State> {
   /**
    * Show the information related to a predicted departure from a stop.
    */
-  state: DeparturesTableProps
-  filterStops = ["7730"]
-  filterTrips = ["27"]
+  // filterStops = ["7750"]
+  // filterTrips = ["27"]
   
-  constructor(props) {
+  constructor(props: Props) {
     super(props);
+
     this.state = {
       now: new Date(),
-      prediction: props.prediction
+      // prediction does get mutated! don't forget to take a copy!
+      prediction: clonePrediction(props.prediction),
+      ride: props.ride,
+    }
+  }
+
+  shouldComponentUpdate(nextProps: Readonly<Props>, nextState: Readonly<State>, nextContext: any): boolean {
+      return (
+        nextProps.prediction !== this.props.prediction ||
+        nextProps.ride !== this.props.ride
+      );
+  }
+
+  componentDidUpdate(prevProps: Readonly<Props>, prevState: Readonly<State>, snapshot?: any): void {
+    if (prevProps.prediction !== this.props.prediction || prevProps.ride !== this.props.ride) {
+      this.setState((prevState) => {
+        const newState = {...prevState};
+        newState.prediction = clonePrediction(this.props.prediction);
+        newState.ride = this.props.ride;
+        return newState;
+      })
     }
   }
 
   departureClass(now: Date, departure: Departure) {
-    let classes = Array();
+    let classes: string[]  = [];
     // If more than an hour
     if (add(parseISO(departure.arrival.expected), {hours: 1})) {
       classes.push('far-away');
@@ -33,7 +71,8 @@ class DeparturesTable extends React.Component<Prediction> {
   }
 
   formatPrediction(now: Date, prediction: Prediction) {
-    let departures = Array();
+    let departures: any[] = [];
+    
     
     prediction.departures.forEach((departure) => {
       // Parse the incoming dates into date-fns
@@ -71,16 +110,18 @@ class DeparturesTable extends React.Component<Prediction> {
   }
 
   filterPredictionDepartures(prediction: Prediction) {
-    if (this.filterStops) {
-      prediction.departures = prediction.departures.filter((departure: Departure) => {
-        console.log(departure.trip_id)
-        return departure.trip_id.slice(0, 4) === "27__"
-      })
+    if (!prediction || !prediction.departures) {
+      return;
     }
+    console.log(prediction.departures.length, this.state.ride.trip);
+    prediction.departures = prediction.departures.filter((departure: Departure) => {
+      return departure.service_id === this.state.ride.trip
+    });
+    console.log(prediction.departures.length, this.state.ride.trip);
   }
 
   findFutureCancellations(prediction: Prediction) {
-    let futureCancellations = new Array();
+    let futureCancellations: Recommendation[] = [];
 
     for (var i = 0; i < prediction.departures.length; i ++) {
       let departure = prediction.departures[i];
@@ -108,10 +149,10 @@ class DeparturesTable extends React.Component<Prediction> {
           r.nextDeparture ? format(parseISO(r.nextDeparture.arrival.aimed), 'h:mma') : null
         )
       return (
-        <div key="r.departure.arrival.aimed">
+        <div key={r.departure.arrival.aimed}>
           <div>{ cancelledTime } was cancelled.</div>
           {earlierTime && laterTime && <div>
-            You could <b>go earlier</b> to catch the { earlierTime }, or catch the later { laterTime };
+            Either go earlier on the <b>{ earlierTime }</b>, or later ({ laterTime }).
           </div>}
           {!earlierTime && laterTime && <div>
             The next one is at <b>{ laterTime }</b>
@@ -127,7 +168,7 @@ class DeparturesTable extends React.Component<Prediction> {
 
   render() {
     let now = new Date();
-    let departures = new Array();
+    let departures: any[] = [];
     let cancellations;
 
     if (this.state.prediction && this.state.prediction.departures) {
@@ -141,18 +182,15 @@ class DeparturesTable extends React.Component<Prediction> {
       <table>
         <tbody>
           <tr>
-              <th colSpan="5">Upcoming departures</th>
+              <th colSpan="4">Upcoming departures</th>
           </tr>
           { cancellations && <tr>
-            <th colSpan="5" className="cancellations">
+            <th colSpan="4" className="cancellations">
               Cancellations
               { cancellations}
             </th>
           </tr> }
           <tr>
-            <td colSpan="1">
-              { this.state.prediction.farezone }
-            </td>
             <td>
               { this.state.prediction.closed }
             </td>
