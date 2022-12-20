@@ -50,8 +50,13 @@ interface RideOption {
     name: string,
     stop: string,
     trip: string,
-    file: Object,
+    data: Object,
   }
 
-export { Departure, Recommendation, Prediction, PredictionTime, Status, Stop, RideOption }
+interface PredictionAndRide {
+    prediction: Prediction,
+    ride: RideOption,
+}
+
+export { Departure, Recommendation, Prediction, PredictionAndRide, PredictionTime, Status, Stop, RideOption }
 

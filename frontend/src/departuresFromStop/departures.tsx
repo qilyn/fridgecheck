@@ -1,20 +1,18 @@
 import { add, format, formatDistance, parseISO } from 'date-fns';
 import React from 'react';
 import '../index.css';
-import type { Departure, Prediction, Recommendation } from '../type';
+import type { Departure, Prediction, PredictionAndRide, Recommendation } from '../type';
 import { RideOption, Status } from '../type.tsx';
 
 
 interface State {
   now: Date,
-  prediction: Prediction,
+  prediction?: Prediction | null,
   ride: RideOption,
 }
 
-
 interface Props {
-  prediction: Prediction,
-  ride: RideOption,
+  predictionAndRide: PredictionAndRide,
 }
 
 function clonePrediction(prediction) {
@@ -23,43 +21,51 @@ function clonePrediction(prediction) {
   return copiedPrediction as Prediction
 }
 
-
+/**
+ * Show the information related to a predicted departure from a stop.
+ */
 class DeparturesTable extends React.Component<Props, State> {
-  /**
-   * Show the information related to a predicted departure from a stop.
-   */
-  // filterStops = ["7750"]
-  // filterTrips = ["27"]
   
   constructor(props: Props) {
     super(props);
+    console.log(props.predictionAndRide)
+    let prediction = clonePrediction(props.predictionAndRide.prediction);
+    this.filterPredictionDepartures(prediction, props.predictionAndRide.ride);
 
     this.state = {
       now: new Date(),
-      // prediction does get mutated! don't forget to take a copy!
-      prediction: clonePrediction(props.prediction),
-      ride: props.ride,
+      // prediction does get mutated! don't forget to copy!
+      prediction: prediction,
+      ride: props.predictionAndRide.ride,
     }
   }
 
   shouldComponentUpdate(nextProps: Readonly<Props>, nextState: Readonly<State>, nextContext: any): boolean {
       return (
-        nextProps.prediction !== this.props.prediction ||
-        nextProps.ride !== this.props.ride
+        nextProps.predictionAndRide.prediction !== this.props.predictionAndRide.prediction ||
+        nextProps.predictionAndRide.ride !== this.props.predictionAndRide.ride
       );
   }
 
   componentDidUpdate(prevProps: Readonly<Props>, prevState: Readonly<State>, snapshot?: any): void {
-    if (prevProps.prediction !== this.props.prediction || prevProps.ride !== this.props.ride) {
-      this.setState((prevState) => {
-        const newState = {...prevState};
-        newState.prediction = clonePrediction(this.props.prediction);
-        newState.ride = this.props.ride;
-        return newState;
-      })
-    }
+    const newState = {...prevState};
+    newState.prediction = clonePrediction(newState.prediction)
+    
+    this.filterPredictionDepartures(newState.prediction, this.props.predictionAndRide.ride);
+    this.setState((prevState) => {
+      newState.ride = this.props.predictionAndRide.ride;
+      newState.prediction = null;
+      newState.prediction = this.props.predictionAndRide.prediction;
+      return newState;
+    });
   }
 
+  /** Determine the class of a departure row.
+   * 
+   * @param now 
+   * @param departure 
+   * @returns 
+   */
   departureClass(now: Date, departure: Departure) {
     let classes: string[]  = [];
     // If more than an hour
@@ -70,9 +76,14 @@ class DeparturesTable extends React.Component<Props, State> {
     return classes.join(' ')
   }
 
+  /**
+   * Format all the incoming departures in the prediction.
+   * @param now Current time
+   * @param prediction Prediction
+   * @returns 
+   */
   formatPrediction(now: Date, prediction: Prediction) {
     let departures: any[] = [];
-    
     
     prediction.departures.forEach((departure) => {
       // Parse the incoming dates into date-fns
@@ -109,15 +120,16 @@ class DeparturesTable extends React.Component<Props, State> {
     return departures
   }
 
-  filterPredictionDepartures(prediction: Prediction) {
+  /** Filter departures to the service (bus number) in the selected ride. */
+  filterPredictionDepartures(prediction: Prediction, ride: RideOption) {
     if (!prediction || !prediction.departures) {
       return;
     }
-    console.log(prediction.departures.length, this.state.ride.trip);
+    console.log(prediction.departures.length, ride);
     prediction.departures = prediction.departures.filter((departure: Departure) => {
-      return departure.service_id === this.state.ride.trip
+      return departure.service_id == ride.trip /* eslint-disable-line */
     });
-    console.log(prediction.departures.length, this.state.ride.trip);
+    console.log(prediction.departures.length, ride);
   }
 
   findFutureCancellations(prediction: Prediction) {
@@ -172,7 +184,6 @@ class DeparturesTable extends React.Component<Props, State> {
     let cancellations;
 
     if (this.state.prediction && this.state.prediction.departures) {
-      this.filterPredictionDepartures(this.state.prediction);
       cancellations = this.findFutureCancellations(this.state.prediction);
       cancellations = this.formatCancellations(cancellations)
       departures = this.formatPrediction(now, this.state.prediction);
@@ -182,7 +193,7 @@ class DeparturesTable extends React.Component<Props, State> {
       <table>
         <tbody>
           <tr>
-              <th colSpan="4">Upcoming departures</th>
+              <th colSpan="4">Upcoming departures: {this.state.ride.name }</th>
           </tr>
           { cancellations && <tr>
             <th colSpan="4" className="cancellations">
@@ -214,4 +225,5 @@ class DeparturesTable extends React.Component<Props, State> {
   }
 };
 
-export { DeparturesTable };
+  export { DeparturesTable };
+

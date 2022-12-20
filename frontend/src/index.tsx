@@ -8,7 +8,7 @@ import cached7750 from './cached_predictions/7750.json';
 import configData from "./config.json";
 import { DeparturesTable } from './departuresFromStop/departures.tsx';
 import './index.css';
-import type { Prediction, RideOption } from './type';
+import type { Prediction, PredictionAndRide, RideOption } from './type';
 
 // var requirejs = require('requirejs');
 
@@ -19,37 +19,43 @@ interface AppProps {
 }
 
 interface AppState {
-  rideFromStop: string,
+  searchForStop: string,
+  rideFromStop: string | null,
   availableStops: Array<RideOption>,
   fromFile: boolean,
-  prediction?: Prediction,
+  prediction: Prediction | null,
   disableStops: boolean,
 }
+
 
 class App extends React.Component<AppProps, AppState> {
 
   state: AppState;
   
   RIDE = {
-    "5510": {"name": "Going home", "stop": "5510", "trip": "27", file: cached5510} as RideOption,
-    "7750": {"name": "Going to work - McColl", "stop": "7750", "trip": "27", file: cached7750} as RideOption,
-    "7724": {"name": "Going to work - Mills Rd", "stop": "7724", "trip": "7", file: cached7724} as RideOption,
+    "5510": {"name": "Going home", "stop": "5510", "trip": "27", data: cached5510} as RideOption,
+    "7750": {"name": "Going to work - McColl", "stop": "7750", "trip": "27", data: cached7750} as RideOption,
+    "7724": {"name": "Going to work - Mills Rd", "stop": "7724", "trip": "7", data: cached7724} as RideOption,
   }
 
   constructor (props) {
     super(props);
 
+    const stop = "7724";
+
     this.handleStopChange = this.handleStopChange.bind(this);
     
     this.state = {
-      rideFromStop: "7724",
+      searchForStop: stop,
+      rideFromStop: null,
+      prediction: null,
       fromFile: props.fromFile || false,
       availableStops: [
         this.RIDE['5510'],
         this.RIDE['7750'],
         this.RIDE['7724'],
       ],
-      disableStops: false,
+      disableStops: true,
     };
   }
   
@@ -61,17 +67,22 @@ class App extends React.Component<AppProps, AppState> {
     // TODO: select stop via dropdown
   }
 
+  handleUpdate() {
+
+  }
+
   getPredictions() {
     // disableStops may be true if an error was encountered
     if (this.state.fromFile) {
       this.setState({
+        rideFromStop: this.state.searchForStop,
         prediction: this.getRide().file as Prediction,
         disableStops: false,
       });
       return;
     }
     
-    if (!this.state.rideFromStop) {
+    if (!this.state.searchForStop) {
       console.error('No stop set')
       return;
     }
@@ -83,32 +94,52 @@ class App extends React.Component<AppProps, AppState> {
     // disableStops may be true if an error was encountered
     try {
       axios.get(
-        configData.PREDICTIONS + this.state.rideFromStop,
+        configData.PREDICTIONS + this.state.searchForStop,
         {
           headers: {
             "x-api-key": configData.API_KEY
           }
         }
-      ).then(response => this.setState({ prediction: response.data, disableStops: false }));
+      ).then(response => this.setState({ 
+        rideFromStop: this.state.searchForStop, 
+        prediction: response.data, 
+        disableStops: false,
+      }));
     } catch(e) {
       console.error(e.toString());
     }
   }
 
   getRide() {
-    return this.RIDE[this.state.rideFromStop];
+    if (this.state.rideFromStop != null) {
+      return this.RIDE[this.state.rideFromStop];
+    }
+  }
+
+  hasPredictionAndRide() {
+    return this.state.prediction !== null && this.state.rideFromStop !== null;
+  }
+
+  getPredictionAndRide() {
+    return {
+      prediction: this.state.prediction,
+      ride: this.getRide(),
+    } as PredictionAndRide
   }
 
   handleStopChange(e) {
-    console.log(this.state.rideFromStop, this.getRide().name)
-    console.log(e.target.value, this.RIDE[e.target.value].name)
-    this.setState({ rideFromStop: e.target.value, disableStops: true }, () => this.getPredictions());
+    this.setState({
+      rideFromStop: null,
+      prediction: null,
+      searchForStop: e.target.value,
+      disableStops: true,
+    }, () => this.getPredictions());
   }
 
   render() {
     let stopOptions = this.state.availableStops.map((stop) => {
       return (
-        <option key={stop.stop} value={stop.stop}>{stop.stop} - {stop.name}</option>
+        <option key={stop.stop} value={stop.stop}>{stop.trip} - {stop.name}</option>
       )
     });
 
@@ -119,11 +150,14 @@ class App extends React.Component<AppProps, AppState> {
             { stopOptions }
           </select>
         </div>
-        {/* <input type="text" value={search} onChange={onInputChange}/> */}
-        <div className="game-board">
-          { this.state && this.state.prediction && this.state.rideFromStop &&
-            <DeparturesTable prediction={this.state.prediction} ride={this.getRide()}/> }
-        </div>
+        { this.hasPredictionAndRide() && (
+          <div>
+            <div className="game-board">
+              { this.state && this.state.prediction && this.state.rideFromStop &&
+                <DeparturesTable predictionAndRide={this.getPredictionAndRide()}/> }
+            </div>
+          </div>
+        )}
       </div>
     );
   }
@@ -132,4 +166,4 @@ class App extends React.Component<AppProps, AppState> {
 // ========================================
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
-root.render(<App fromFile={true}/>);
+root.render(<App fromFile={false}/>);
