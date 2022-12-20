@@ -15,339 +15,20 @@
                 "stop_id": "5016",
                 "name": "Wgtn Station"
             },
-            "delay": "PT0S",
-            "vehicle_id": null,
-            "name": "MillsRd at Veronica",
-            "arrival": {
-                "aimed": "2022-12-20T18:08:00+13:00",
-                "expected": null
-            },
-            "departure": {
-                "aimed": "2022-12-20T18:08:00+13:00",
-                "expected": null
-            },
-            "status": "cancelled",
-            "monitored": false,
-            "wheelchair_accessible": false,
-            "trip_id": "7__1__208__TZM__114__7__114__7_1"
-        },
-        {
-            "stop_id": "7724",
-            "service_id": "7",
-            "direction": "inbound",
-            "operator": "TZM",
-            "origin": {
-                "stop_id": "7730",
-                "name": "Kingston-C"
-            },
-            "destination": {
-                "stop_id": "5016",
-                "name": "Wgtn Station"
-            },
-            "delay": "-PT55S",
-            "vehicle_id": "3711",
-            "name": "MillsRd at Veronica",
-            "arrival": {
-                "aimed": "2022-12-20T18:23:00+13:00",
-                "expected": "2022-12-20T18:22:05+13:00"
-            },
-            "departure": {
-                "aimed": "2022-12-20T18:23:00+13:00",
-                "expected": "2022-12-20T18:22:05+13:00"
-            },
-            "status": "ontime",
-            "monitored": true,
-            "wheelchair_accessible": true,
-            "trip_id": "7__1__210__TZM__216__5__216__5_1"
-        },
-        {
-            "stop_id": "7724",
-            "service_id": "7",
-            "direction": "inbound",
-            "operator": "TZM",
-            "origin": {
-                "stop_id": "7730",
-                "name": "Kingston-C"
-            },
-            "destination": {
-                "stop_id": "5016",
-                "name": "Wgtn Station"
-            },
             "delay": "-PT1M1S",
-            "vehicle_id": "3703",
-            "name": "MillsRd at Veronica",
-            "arrival": {
-                "aimed": "2022-12-20T18:38:00+13:00",
-                "expected": "2022-12-20T18:36:59+13:00"
-            },
-            "departure": {
-                "aimed": "2022-12-20T18:38:00+13:00",
-                "expected": "2022-12-20T18:36:59+13:00"
-            },
-            "status": "ontime",
-            "monitored": true,
-            "wheelchair_accessible": true,
-            "trip_id": "7__1__212__TZM__126__2__126__2_1"
-        },
-        {
-            "stop_id": "7724",
-            "service_id": "7",
-            "direction": "inbound",
-            "operator": "TZM",
-            "origin": {
-                "stop_id": "7730",
-                "name": "Kingston-C"
-            },
-            "destination": {
-                "stop_id": "5016",
-                "name": "Wgtn Station"
-            },
-            "delay": "-PT1M1S",
-            "vehicle_id": "3718",
-            "name": "MillsRd at Veronica",
-            "arrival": {
-                "aimed": "2022-12-20T18:53:00+13:00",
-                "expected": "2022-12-20T18:51:59+13:00"
-            },
-            "departure": {
-                "aimed": "2022-12-20T18:53:00+13:00",
-                "expected": "2022-12-20T18:51:59+13:00"
-            },
-            "status": "ontime",
-            "monitored": true,
-            "wheelchair_accessible": true,
-            "trip_id": "7__1__214__TZM__113__7__113__7_1"
-        },
-        {
-            "stop_id": "7724",
-            "service_id": "7",
-            "direction": "inbound",
-            "operator": "TZM",
-            "origin": {
-                "stop_id": "7730",
-                "name": "Kingston-C"
-            },
-            "destination": {
-                "stop_id": "5016",
-                "name": "Wgtn Station"
-            },
-            "delay": "PT0S",
-            "vehicle_id": null,
-            "name": "MillsRd at Veronica",
-            "arrival": {
-                "aimed": "2022-12-20T19:08:00+13:00",
-                "expected": null
-            },
-            "departure": {
-                "aimed": "2022-12-20T19:08:00+13:00",
-                "expected": null
-            },
-            "status": null,
-            "monitored": false,
-            "wheelchair_accessible": false,
-            "trip_id": "7__1__216__TZM__219__3__219__3_1"
-        },
-        {
-            "stop_id": "7724",
-            "service_id": "7",
-            "direction": "inbound",
-            "operator": "TZM",
-            "origin": {
-                "stop_id": "7730",
-                "name": "Kingston-C"
-            },
-            "destination": {
-                "stop_id": "5016",
-                "name": "Wgtn Station"
-            },
-            "delay": "PT0S",
-            "vehicle_id": null,
-            "name": "MillsRd at Veronica",
-            "arrival": {
-                "aimed": "2022-12-20T19:23:00+13:00",
-                "expected": null
-            },
-            "departure": {
-                "aimed": "2022-12-20T19:23:00+13:00",
-                "expected": null
-            },
-            "status": null,
-            "monitored": false,
-            "wheelchair_accessible": false,
-            "trip_id": "7__1__234__TZM__216__5__216__5_1"
-        },
-        {
-            "stop_id": "7724",
-            "service_id": "7",
-            "direction": "inbound",
-            "operator": "TZM",
-            "origin": {
-                "stop_id": "7730",
-                "name": "Kingston-C"
-            },
-            "destination": {
-                "stop_id": "5016",
-                "name": "Wgtn Station"
-            },
-            "delay": "PT0S",
-            "vehicle_id": null,
-            "name": "MillsRd at Veronica",
-            "arrival": {
-                "aimed": "2022-12-20T19:43:00+13:00",
-                "expected": null
-            },
-            "departure": {
-                "aimed": "2022-12-20T19:43:00+13:00",
-                "expected": null
-            },
-            "status": null,
-            "monitored": false,
-            "wheelchair_accessible": false,
-            "trip_id": "7__1__218__TZM__126__2__126__2_1"
-        },
-        {
-            "stop_id": "7724",
-            "service_id": "7",
-            "direction": "inbound",
-            "operator": "TZM",
-            "origin": {
-                "stop_id": "7730",
-                "name": "Kingston-C"
-            },
-            "destination": {
-                "stop_id": "5016",
-                "name": "Wgtn Station"
-            },
-            "delay": "PT0S",
-            "vehicle_id": null,
-            "name": "MillsRd at Veronica",
-            "arrival": {
-                "aimed": "2022-12-20T20:11:00+13:00",
-                "expected": null
-            },
-            "departure": {
-                "aimed": "2022-12-20T20:11:00+13:00",
-                "expected": null
-            },
-            "status": "cancelled",
-            "monitored": false,
-            "wheelchair_accessible": false,
-            "trip_id": "7__1__220__TZM__135__2__135__2_1"
-        },
-        {
-            "stop_id": "7724",
-            "service_id": "7",
-            "direction": "inbound",
-            "operator": "TZM",
-            "origin": {
-                "stop_id": "7730",
-                "name": "Kingston-C"
-            },
-            "destination": {
-                "stop_id": "5016",
-                "name": "Wgtn Station"
-            },
-            "delay": "PT0S",
-            "vehicle_id": null,
-            "name": "MillsRd at Veronica",
-            "arrival": {
-                "aimed": "2022-12-20T20:38:00+13:00",
-                "expected": null
-            },
-            "departure": {
-                "aimed": "2022-12-20T20:38:00+13:00",
-                "expected": null
-            },
-            "status": null,
-            "monitored": false,
-            "wheelchair_accessible": false,
-            "trip_id": "7__1__222__TZM__108__5__108__5_1"
-        },
-        {
-            "stop_id": "7724",
-            "service_id": "7",
-            "direction": "inbound",
-            "operator": "TZM",
-            "origin": {
-                "stop_id": "7730",
-                "name": "Kingston-C"
-            },
-            "destination": {
-                "stop_id": "5016",
-                "name": "Wgtn Station"
-            },
-            "delay": "PT0S",
-            "vehicle_id": null,
-            "name": "MillsRd at Veronica",
-            "arrival": {
-                "aimed": "2022-12-20T21:12:00+13:00",
-                "expected": null
-            },
-            "departure": {
-                "aimed": "2022-12-20T21:12:00+13:00",
-                "expected": null
-            },
-            "status": "cancelled",
-            "monitored": false,
-            "wheelchair_accessible": false,
-            "trip_id": "7__1__224__TZM__135__2__135__2_1"
-        },
-        {
-            "stop_id": "7724",
-            "service_id": "7",
-            "direction": "inbound",
-            "operator": "TZM",
-            "origin": {
-                "stop_id": "7730",
-                "name": "Kingston-C"
-            },
-            "destination": {
-                "stop_id": "5016",
-                "name": "Wgtn Station"
-            },
-            "delay": "PT0S",
-            "vehicle_id": null,
-            "name": "MillsRd at Veronica",
-            "arrival": {
-                "aimed": "2022-12-20T21:38:00+13:00",
-                "expected": null
-            },
-            "departure": {
-                "aimed": "2022-12-20T21:38:00+13:00",
-                "expected": null
-            },
-            "status": null,
-            "monitored": false,
-            "wheelchair_accessible": false,
-            "trip_id": "7__1__226__TZM__130__1__130__1_1"
-        },
-        {
-            "stop_id": "7724",
-            "service_id": "7",
-            "direction": "inbound",
-            "operator": "TZM",
-            "origin": {
-                "stop_id": "7730",
-                "name": "Kingston-C"
-            },
-            "destination": {
-                "stop_id": "5016",
-                "name": "Wgtn Station"
-            },
-            "delay": "PT0S",
-            "vehicle_id": null,
+            "vehicle_id": "3411",
             "name": "MillsRd at Veronica",
             "arrival": {
                 "aimed": "2022-12-20T22:10:00+13:00",
-                "expected": null
+                "expected": "2022-12-20T22:08:59+13:00"
             },
             "departure": {
                 "aimed": "2022-12-20T22:10:00+13:00",
-                "expected": null
+                "expected": "2022-12-20T22:08:59+13:00"
             },
-            "status": null,
-            "monitored": false,
-            "wheelchair_accessible": false,
+            "status": "ontime",
+            "monitored": true,
+            "wheelchair_accessible": true,
             "trip_id": "7__1__228__TZM__135__2__135__2_1"
         },
         {
@@ -1886,6 +1567,441 @@
             "monitored": false,
             "wheelchair_accessible": false,
             "trip_id": "7__1__194__TZM__135__2__135__2_1"
+        },
+        {
+            "stop_id": "7724",
+            "service_id": "7",
+            "direction": "inbound",
+            "operator": "TZM",
+            "origin": {
+                "stop_id": "7730",
+                "name": "Kingston-C"
+            },
+            "destination": {
+                "stop_id": "5016",
+                "name": "Wgtn Station"
+            },
+            "delay": "PT0S",
+            "vehicle_id": null,
+            "name": "MillsRd at Veronica",
+            "arrival": {
+                "aimed": "2022-12-21T17:08:00+13:00",
+                "expected": null
+            },
+            "departure": {
+                "aimed": "2022-12-21T17:08:00+13:00",
+                "expected": null
+            },
+            "status": null,
+            "monitored": false,
+            "wheelchair_accessible": false,
+            "trip_id": "7__1__196__TZM__107__6__107__6_1"
+        },
+        {
+            "stop_id": "7724",
+            "service_id": "7",
+            "direction": "inbound",
+            "operator": "TZM",
+            "origin": {
+                "stop_id": "7730",
+                "name": "Kingston-C"
+            },
+            "destination": {
+                "stop_id": "5016",
+                "name": "Wgtn Station"
+            },
+            "delay": "PT0S",
+            "vehicle_id": null,
+            "name": "MillsRd at Veronica",
+            "arrival": {
+                "aimed": "2022-12-21T17:18:00+13:00",
+                "expected": null
+            },
+            "departure": {
+                "aimed": "2022-12-21T17:18:00+13:00",
+                "expected": null
+            },
+            "status": null,
+            "monitored": false,
+            "wheelchair_accessible": false,
+            "trip_id": "7__1__198__TZM__126__2__126__2_1"
+        },
+        {
+            "stop_id": "7724",
+            "service_id": "7",
+            "direction": "inbound",
+            "operator": "TZM",
+            "origin": {
+                "stop_id": "7730",
+                "name": "Kingston-C"
+            },
+            "destination": {
+                "stop_id": "5016",
+                "name": "Wgtn Station"
+            },
+            "delay": "PT0S",
+            "vehicle_id": null,
+            "name": "MillsRd at Veronica",
+            "arrival": {
+                "aimed": "2022-12-21T17:28:00+13:00",
+                "expected": null
+            },
+            "departure": {
+                "aimed": "2022-12-21T17:28:00+13:00",
+                "expected": null
+            },
+            "status": null,
+            "monitored": false,
+            "wheelchair_accessible": false,
+            "trip_id": "7__1__200__TZM__113__7__113__7_1"
+        },
+        {
+            "stop_id": "7724",
+            "service_id": "7",
+            "direction": "inbound",
+            "operator": "TZM",
+            "origin": {
+                "stop_id": "7730",
+                "name": "Kingston-C"
+            },
+            "destination": {
+                "stop_id": "5016",
+                "name": "Wgtn Station"
+            },
+            "delay": "PT0S",
+            "vehicle_id": null,
+            "name": "MillsRd at Veronica",
+            "arrival": {
+                "aimed": "2022-12-21T17:38:00+13:00",
+                "expected": null
+            },
+            "departure": {
+                "aimed": "2022-12-21T17:38:00+13:00",
+                "expected": null
+            },
+            "status": null,
+            "monitored": false,
+            "wheelchair_accessible": false,
+            "trip_id": "7__1__202__TZM__121__3__121__3_1"
+        },
+        {
+            "stop_id": "7724",
+            "service_id": "7",
+            "direction": "inbound",
+            "operator": "TZM",
+            "origin": {
+                "stop_id": "7730",
+                "name": "Kingston-C"
+            },
+            "destination": {
+                "stop_id": "5016",
+                "name": "Wgtn Station"
+            },
+            "delay": "PT0S",
+            "vehicle_id": null,
+            "name": "MillsRd at Veronica",
+            "arrival": {
+                "aimed": "2022-12-21T17:48:00+13:00",
+                "expected": null
+            },
+            "departure": {
+                "aimed": "2022-12-21T17:48:00+13:00",
+                "expected": null
+            },
+            "status": null,
+            "monitored": false,
+            "wheelchair_accessible": false,
+            "trip_id": "7__1__204__TZM__219__3__219__3_1"
+        },
+        {
+            "stop_id": "7724",
+            "service_id": "7",
+            "direction": "inbound",
+            "operator": "TZM",
+            "origin": {
+                "stop_id": "7730",
+                "name": "Kingston-C"
+            },
+            "destination": {
+                "stop_id": "5016",
+                "name": "Wgtn Station"
+            },
+            "delay": "PT0S",
+            "vehicle_id": null,
+            "name": "MillsRd at Veronica",
+            "arrival": {
+                "aimed": "2022-12-21T17:58:00+13:00",
+                "expected": null
+            },
+            "departure": {
+                "aimed": "2022-12-21T17:58:00+13:00",
+                "expected": null
+            },
+            "status": null,
+            "monitored": false,
+            "wheelchair_accessible": false,
+            "trip_id": "7__1__206__TZM__144__2__144__2_1"
+        },
+        {
+            "stop_id": "7724",
+            "service_id": "7",
+            "direction": "inbound",
+            "operator": "TZM",
+            "origin": {
+                "stop_id": "7730",
+                "name": "Kingston-C"
+            },
+            "destination": {
+                "stop_id": "5016",
+                "name": "Wgtn Station"
+            },
+            "delay": "PT0S",
+            "vehicle_id": null,
+            "name": "MillsRd at Veronica",
+            "arrival": {
+                "aimed": "2022-12-21T18:08:00+13:00",
+                "expected": null
+            },
+            "departure": {
+                "aimed": "2022-12-21T18:08:00+13:00",
+                "expected": null
+            },
+            "status": null,
+            "monitored": false,
+            "wheelchair_accessible": false,
+            "trip_id": "7__1__208__TZM__114__7__114__7_1"
+        },
+        {
+            "stop_id": "7724",
+            "service_id": "7",
+            "direction": "inbound",
+            "operator": "TZM",
+            "origin": {
+                "stop_id": "7730",
+                "name": "Kingston-C"
+            },
+            "destination": {
+                "stop_id": "5016",
+                "name": "Wgtn Station"
+            },
+            "delay": "PT0S",
+            "vehicle_id": null,
+            "name": "MillsRd at Veronica",
+            "arrival": {
+                "aimed": "2022-12-21T18:23:00+13:00",
+                "expected": null
+            },
+            "departure": {
+                "aimed": "2022-12-21T18:23:00+13:00",
+                "expected": null
+            },
+            "status": null,
+            "monitored": false,
+            "wheelchair_accessible": false,
+            "trip_id": "7__1__210__TZM__216__5__216__5_1"
+        },
+        {
+            "stop_id": "7724",
+            "service_id": "7",
+            "direction": "inbound",
+            "operator": "TZM",
+            "origin": {
+                "stop_id": "7730",
+                "name": "Kingston-C"
+            },
+            "destination": {
+                "stop_id": "5016",
+                "name": "Wgtn Station"
+            },
+            "delay": "PT0S",
+            "vehicle_id": null,
+            "name": "MillsRd at Veronica",
+            "arrival": {
+                "aimed": "2022-12-21T18:38:00+13:00",
+                "expected": null
+            },
+            "departure": {
+                "aimed": "2022-12-21T18:38:00+13:00",
+                "expected": null
+            },
+            "status": null,
+            "monitored": false,
+            "wheelchair_accessible": false,
+            "trip_id": "7__1__212__TZM__126__2__126__2_1"
+        },
+        {
+            "stop_id": "7724",
+            "service_id": "7",
+            "direction": "inbound",
+            "operator": "TZM",
+            "origin": {
+                "stop_id": "7730",
+                "name": "Kingston-C"
+            },
+            "destination": {
+                "stop_id": "5016",
+                "name": "Wgtn Station"
+            },
+            "delay": "PT0S",
+            "vehicle_id": null,
+            "name": "MillsRd at Veronica",
+            "arrival": {
+                "aimed": "2022-12-21T18:53:00+13:00",
+                "expected": null
+            },
+            "departure": {
+                "aimed": "2022-12-21T18:53:00+13:00",
+                "expected": null
+            },
+            "status": null,
+            "monitored": false,
+            "wheelchair_accessible": false,
+            "trip_id": "7__1__214__TZM__113__7__113__7_1"
+        },
+        {
+            "stop_id": "7724",
+            "service_id": "7",
+            "direction": "inbound",
+            "operator": "TZM",
+            "origin": {
+                "stop_id": "7730",
+                "name": "Kingston-C"
+            },
+            "destination": {
+                "stop_id": "5016",
+                "name": "Wgtn Station"
+            },
+            "delay": "PT0S",
+            "vehicle_id": null,
+            "name": "MillsRd at Veronica",
+            "arrival": {
+                "aimed": "2022-12-21T19:08:00+13:00",
+                "expected": null
+            },
+            "departure": {
+                "aimed": "2022-12-21T19:08:00+13:00",
+                "expected": null
+            },
+            "status": null,
+            "monitored": false,
+            "wheelchair_accessible": false,
+            "trip_id": "7__1__216__TZM__219__3__219__3_1"
+        },
+        {
+            "stop_id": "7724",
+            "service_id": "7",
+            "direction": "inbound",
+            "operator": "TZM",
+            "origin": {
+                "stop_id": "7730",
+                "name": "Kingston-C"
+            },
+            "destination": {
+                "stop_id": "5016",
+                "name": "Wgtn Station"
+            },
+            "delay": "PT0S",
+            "vehicle_id": null,
+            "name": "MillsRd at Veronica",
+            "arrival": {
+                "aimed": "2022-12-21T19:23:00+13:00",
+                "expected": null
+            },
+            "departure": {
+                "aimed": "2022-12-21T19:23:00+13:00",
+                "expected": null
+            },
+            "status": null,
+            "monitored": false,
+            "wheelchair_accessible": false,
+            "trip_id": "7__1__234__TZM__216__5__216__5_1"
+        },
+        {
+            "stop_id": "7724",
+            "service_id": "7",
+            "direction": "inbound",
+            "operator": "TZM",
+            "origin": {
+                "stop_id": "7730",
+                "name": "Kingston-C"
+            },
+            "destination": {
+                "stop_id": "5016",
+                "name": "Wgtn Station"
+            },
+            "delay": "PT0S",
+            "vehicle_id": null,
+            "name": "MillsRd at Veronica",
+            "arrival": {
+                "aimed": "2022-12-21T19:43:00+13:00",
+                "expected": null
+            },
+            "departure": {
+                "aimed": "2022-12-21T19:43:00+13:00",
+                "expected": null
+            },
+            "status": null,
+            "monitored": false,
+            "wheelchair_accessible": false,
+            "trip_id": "7__1__218__TZM__126__2__126__2_1"
+        },
+        {
+            "stop_id": "7724",
+            "service_id": "7",
+            "direction": "inbound",
+            "operator": "TZM",
+            "origin": {
+                "stop_id": "7730",
+                "name": "Kingston-C"
+            },
+            "destination": {
+                "stop_id": "5016",
+                "name": "Wgtn Station"
+            },
+            "delay": "PT0S",
+            "vehicle_id": null,
+            "name": "MillsRd at Veronica",
+            "arrival": {
+                "aimed": "2022-12-21T20:11:00+13:00",
+                "expected": null
+            },
+            "departure": {
+                "aimed": "2022-12-21T20:11:00+13:00",
+                "expected": null
+            },
+            "status": null,
+            "monitored": false,
+            "wheelchair_accessible": false,
+            "trip_id": "7__1__220__TZM__135__2__135__2_1"
+        },
+        {
+            "stop_id": "7724",
+            "service_id": "7",
+            "direction": "inbound",
+            "operator": "TZM",
+            "origin": {
+                "stop_id": "7730",
+                "name": "Kingston-C"
+            },
+            "destination": {
+                "stop_id": "5016",
+                "name": "Wgtn Station"
+            },
+            "delay": "PT0S",
+            "vehicle_id": null,
+            "name": "MillsRd at Veronica",
+            "arrival": {
+                "aimed": "2022-12-21T20:38:00+13:00",
+                "expected": null
+            },
+            "departure": {
+                "aimed": "2022-12-21T20:38:00+13:00",
+                "expected": null
+            },
+            "status": null,
+            "monitored": false,
+            "wheelchair_accessible": false,
+            "trip_id": "7__1__222__TZM__108__5__108__5_1"
         }
     ]
 }
