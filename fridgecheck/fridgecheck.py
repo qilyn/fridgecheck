@@ -84,7 +84,7 @@ def stops():
             )
         results.append(stop_data)
 
-    return CachedResponse(response=Response(jsonify(results)), timeout=120)
+    return CachedResponse(response=jsonify(results), timeout=240)
 
 
 @app.route('/stops/<stop>', methods=("GET",))

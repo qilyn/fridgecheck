@@ -1,0 +1,478 @@
+[
+    {'farezone': '2', 'closed': False, 'departures': [
+            {'stop_id': '7724', 'service_id': '7', 'direction': 'inbound', 'operator': 'TZM', 'origin': {'stop_id': '7730', 'name': 'Kingston-C'
+                }, 'destination': {'stop_id': '5016', 'name': 'Wgtn Station'
+                }, 'delay': 'PT1M10S', 'vehicle_id': '3437', 'name': 'MillsRd at Veronica', 'arrival': {'aimed': datetime.datetime(2026,
+                    2,
+                    22,
+                    14,
+                    17, tzinfo=datetime.timezone(datetime.timedelta(seconds=46800))), 'expected': datetime.datetime(2026,
+                    2,
+                    22,
+                    14,
+                    18,
+                    10, tzinfo=datetime.timezone(datetime.timedelta(seconds=46800)))
+                }, 'departure': {'aimed': '2026-02-22T14: 17: 00+13: 00', 'expected': '2026-02-22T14: 18: 23+13: 00'
+                }, 'status': 'ontime', 'monitored': True, 'wheelchair_accessible': True, 'trip_id': '7__1__726__TZM__112__3__112__3_20260125', 'trip_headsign': 'Wellington Station'
+            },
+            {'stop_id': '7724', 'service_id': '7', 'direction': 'inbound', 'operator': 'TZM', 'origin': {'stop_id': '7730', 'name': 'Kingston-C'
+                }, 'destination': {'stop_id': '5016', 'name': 'Wgtn Station'
+                }, 'delay': 'PT5S', 'vehicle_id': '3432', 'name': 'MillsRd at Veronica', 'arrival': {'aimed': datetime.datetime(2026,
+                    2,
+                    22,
+                    14,
+                    47, tzinfo=datetime.timezone(datetime.timedelta(seconds=46800))), 'expected': datetime.datetime(2026,
+                    2,
+                    22,
+                    14,
+                    47,
+                    5, tzinfo=datetime.timezone(datetime.timedelta(seconds=46800)))
+                }, 'departure': {'aimed': '2026-02-22T14: 47: 00+13: 00', 'expected': '2026-02-22T14: 47: 18+13: 00'
+                }, 'status': 'ontime', 'monitored': True, 'wheelchair_accessible': True, 'trip_id': '7__1__728__TZM__117__3__117__3_20260125', 'trip_headsign': 'Wellington Station'
+            },
+            {'stop_id': '7724', 'service_id': '7', 'direction': 'inbound', 'operator': 'TZM', 'origin': {'stop_id': '7730', 'name': 'Kingston-C'
+                }, 'destination': {'stop_id': '5016', 'name': 'Wgtn Station'
+                }, 'delay': 'PT0S', 'vehicle_id': None, 'name': 'MillsRd at Veronica', 'arrival': {'aimed': datetime.datetime(2026,
+                    2,
+                    22,
+                    15,
+                    17, tzinfo=datetime.timezone(datetime.timedelta(seconds=46800))), 'expected': None
+                }, 'departure': {'aimed': '2026-02-22T15: 17: 00+13: 00', 'expected': None
+                }, 'status': None, 'monitored': False, 'wheelchair_accessible': True, 'trip_id': '7__1__730__TZM__116__3__116__3_20260125', 'trip_headsign': 'Wellington Station'
+            },
+            {'stop_id': '7724', 'service_id': '7', 'direction': 'inbound', 'operator': 'TZM', 'origin': {'stop_id': '7730', 'name': 'Kingston-C'
+                }, 'destination': {'stop_id': '5016', 'name': 'Wgtn Station'
+                }, 'delay': 'PT0S', 'vehicle_id': None, 'name': 'MillsRd at Veronica', 'arrival': {'aimed': datetime.datetime(2026,
+                    2,
+                    22,
+                    15,
+                    47, tzinfo=datetime.timezone(datetime.timedelta(seconds=46800))), 'expected': None
+                }, 'departure': {'aimed': '2026-02-22T15: 47: 00+13: 00', 'expected': None
+                }, 'status': None, 'monitored': False, 'wheelchair_accessible': True, 'trip_id': '7__1__732__TZM__119__2__119__2_20260125', 'trip_headsign': 'Wellington Station'
+            },
+            {'stop_id': '7724', 'service_id': '7', 'direction': 'inbound', 'operator': 'TZM', 'origin': {'stop_id': '7730', 'name': 'Kingston-C'
+                }, 'destination': {'stop_id': '5016', 'name': 'Wgtn Station'
+                }, 'delay': 'PT0S', 'vehicle_id': None, 'name': 'MillsRd at Veronica', 'arrival': {'aimed': datetime.datetime(2026,
+                    2,
+                    22,
+                    16,
+                    17, tzinfo=datetime.timezone(datetime.timedelta(seconds=46800))), 'expected': None
+                }, 'departure': {'aimed': '2026-02-22T16: 17: 00+13: 00', 'expected': None
+                }, 'status': None, 'monitored': False, 'wheelchair_accessible': True, 'trip_id': '7__1__734__TZM__116__3__116__3_20260125', 'trip_headsign': 'Wellington Station'
+            },
+            {'stop_id': '7724', 'service_id': '7', 'direction': 'inbound', 'operator': 'TZM', 'origin': {'stop_id': '7730', 'name': 'Kingston-C'
+                }, 'destination': {'stop_id': '5016', 'name': 'Wgtn Station'
+                }, 'delay': 'PT0S', 'vehicle_id': None, 'name': 'MillsRd at Veronica', 'arrival': {'aimed': datetime.datetime(2026,
+                    2,
+                    22,
+                    16,
+                    47, tzinfo=datetime.timezone(datetime.timedelta(seconds=46800))), 'expected': None
+                }, 'departure': {'aimed': '2026-02-22T16: 47: 00+13: 00', 'expected': None
+                }, 'status': None, 'monitored': False, 'wheelchair_accessible': True, 'trip_id': '7__1__736__TZM__215__215_20260125', 'trip_headsign': 'Wellington Station'
+            },
+            {'stop_id': '7724', 'service_id': '7', 'direction': 'inbound', 'operator': 'TZM', 'origin': {'stop_id': '7730', 'name': 'Kingston-C'
+                }, 'destination': {'stop_id': '5016', 'name': 'Wgtn Station'
+                }, 'delay': 'PT0S', 'vehicle_id': None, 'name': 'MillsRd at Veronica', 'arrival': {'aimed': datetime.datetime(2026,
+                    2,
+                    22,
+                    17,
+                    17, tzinfo=datetime.timezone(datetime.timedelta(seconds=46800))), 'expected': None
+                }, 'departure': {'aimed': '2026-02-22T17: 17: 00+13: 00', 'expected': None
+                }, 'status': None, 'monitored': False, 'wheelchair_accessible': True, 'trip_id': '7__1__738__TZM__117__3__117__3_20260125', 'trip_headsign': 'Wellington Station'
+            },
+            {'stop_id': '7724', 'service_id': '7', 'direction': 'inbound', 'operator': 'TZM', 'origin': {'stop_id': '7730', 'name': 'Kingston-C'
+                }, 'destination': {'stop_id': '5016', 'name': 'Wgtn Station'
+                }, 'delay': 'PT0S', 'vehicle_id': None, 'name': 'MillsRd at Veronica', 'arrival': {'aimed': datetime.datetime(2026,
+                    2,
+                    22,
+                    17,
+                    47, tzinfo=datetime.timezone(datetime.timedelta(seconds=46800))), 'expected': None
+                }, 'departure': {'aimed': '2026-02-22T17: 47: 00+13: 00', 'expected': None
+                }, 'status': None, 'monitored': False, 'wheelchair_accessible': True, 'trip_id': '7__1__740__TZM__213__2__213__2_20260125', 'trip_headsign': 'Wellington Station'
+            },
+            {'stop_id': '7724', 'service_id': '7', 'direction': 'inbound', 'operator': 'TZM', 'origin': {'stop_id': '7730', 'name': 'Kingston-C'
+                }, 'destination': {'stop_id': '5016', 'name': 'Wgtn Station'
+                }, 'delay': 'PT0S', 'vehicle_id': None, 'name': 'MillsRd at Veronica', 'arrival': {'aimed': datetime.datetime(2026,
+                    2,
+                    22,
+                    18,
+                    15, tzinfo=datetime.timezone(datetime.timedelta(seconds=46800))), 'expected': None
+                }, 'departure': {'aimed': '2026-02-22T18: 15: 00+13: 00', 'expected': None
+                }, 'status': None, 'monitored': False, 'wheelchair_accessible': True, 'trip_id': '7__1__742__TZM__215__215_20260125', 'trip_headsign': 'Wellington Station'
+            },
+            {'stop_id': '7724', 'service_id': '7', 'direction': 'inbound', 'operator': 'TZM', 'origin': {'stop_id': '7730', 'name': 'Kingston-C'
+                }, 'destination': {'stop_id': '5016', 'name': 'Wgtn Station'
+                }, 'delay': 'PT0S', 'vehicle_id': None, 'name': 'MillsRd at Veronica', 'arrival': {'aimed': datetime.datetime(2026,
+                    2,
+                    22,
+                    18,
+                    41, tzinfo=datetime.timezone(datetime.timedelta(seconds=46800))), 'expected': None
+                }, 'departure': {'aimed': '2026-02-22T18: 41: 00+13: 00', 'expected': None
+                }, 'status': None, 'monitored': False, 'wheelchair_accessible': True, 'trip_id': '7__1__744__TZM__201__3__201__3_20260125', 'trip_headsign': 'Wellington Station'
+            },
+            {'stop_id': '7724', 'service_id': '7', 'direction': 'inbound', 'operator': 'TZM', 'origin': {'stop_id': '7730', 'name': 'Kingston-C'
+                }, 'destination': {'stop_id': '5016', 'name': 'Wgtn Station'
+                }, 'delay': 'PT0S', 'vehicle_id': None, 'name': 'MillsRd at Veronica', 'arrival': {'aimed': datetime.datetime(2026,
+                    2,
+                    22,
+                    19,
+                    12, tzinfo=datetime.timezone(datetime.timedelta(seconds=46800))), 'expected': None
+                }, 'departure': {'aimed': '2026-02-22T19: 12: 00+13: 00', 'expected': None
+                }, 'status': None, 'monitored': False, 'wheelchair_accessible': True, 'trip_id': '7__1__746__TZM__119__2__119__2_20260125', 'trip_headsign': 'Wellington Station'
+            },
+            {'stop_id': '7724', 'service_id': '7', 'direction': 'inbound', 'operator': 'TZM', 'origin': {'stop_id': '7730', 'name': 'Kingston-C'
+                }, 'destination': {'stop_id': '5016', 'name': 'Wgtn Station'
+                }, 'delay': 'PT0S', 'vehicle_id': None, 'name': 'MillsRd at Veronica', 'arrival': {'aimed': datetime.datetime(2026,
+                    2,
+                    22,
+                    19,
+                    42, tzinfo=datetime.timezone(datetime.timedelta(seconds=46800))), 'expected': None
+                }, 'departure': {'aimed': '2026-02-22T19: 42: 00+13: 00', 'expected': None
+                }, 'status': None, 'monitored': False, 'wheelchair_accessible': True, 'trip_id': '7__1__748__TZM__117__3__117__3_20260125', 'trip_headsign': 'Wellington Station'
+            },
+            {'stop_id': '7724', 'service_id': '7', 'direction': 'inbound', 'operator': 'TZM', 'origin': {'stop_id': '7730', 'name': 'Kingston-C'
+                }, 'destination': {'stop_id': '5016', 'name': 'Wgtn Station'
+                }, 'delay': 'PT0S', 'vehicle_id': None, 'name': 'MillsRd at Veronica', 'arrival': {'aimed': datetime.datetime(2026,
+                    2,
+                    22,
+                    20,
+                    12, tzinfo=datetime.timezone(datetime.timedelta(seconds=46800))), 'expected': None
+                }, 'departure': {'aimed': '2026-02-22T20: 12: 00+13: 00', 'expected': None
+                }, 'status': None, 'monitored': False, 'wheelchair_accessible': True, 'trip_id': '7__1__750__TZM__119__2__119__2_20260125', 'trip_headsign': 'Wellington Station'
+            },
+            {'stop_id': '7724', 'service_id': '7', 'direction': 'inbound', 'operator': 'TZM', 'origin': {'stop_id': '7730', 'name': 'Kingston-C'
+                }, 'destination': {'stop_id': '5016', 'name': 'Wgtn Station'
+                }, 'delay': 'PT0S', 'vehicle_id': None, 'name': 'MillsRd at Veronica', 'arrival': {'aimed': datetime.datetime(2026,
+                    2,
+                    22,
+                    20,
+                    42, tzinfo=datetime.timezone(datetime.timedelta(seconds=46800))), 'expected': None
+                }, 'departure': {'aimed': '2026-02-22T20: 42: 00+13: 00', 'expected': None
+                }, 'status': None, 'monitored': False, 'wheelchair_accessible': True, 'trip_id': '7__1__752__TZM__116__3__116__3_20260125', 'trip_headsign': 'Wellington Station'
+            },
+            {'stop_id': '7724', 'service_id': '7', 'direction': 'inbound', 'operator': 'TZM', 'origin': {'stop_id': '7730', 'name': 'Kingston-C'
+                }, 'destination': {'stop_id': '5016', 'name': 'Wgtn Station'
+                }, 'delay': 'PT0S', 'vehicle_id': None, 'name': 'MillsRd at Veronica', 'arrival': {'aimed': datetime.datetime(2026,
+                    2,
+                    22,
+                    21,
+                    38, tzinfo=datetime.timezone(datetime.timedelta(seconds=46800))), 'expected': None
+                }, 'departure': {'aimed': '2026-02-22T21: 38: 00+13: 00', 'expected': None
+                }, 'status': None, 'monitored': False, 'wheelchair_accessible': True, 'trip_id': '7__1__754__TZM__107__107_20260125', 'trip_headsign': 'Wellington Station'
+            },
+            {'stop_id': '7724', 'service_id': '7', 'direction': 'inbound', 'operator': 'TZM', 'origin': {'stop_id': '7730', 'name': 'Kingston-C'
+                }, 'destination': {'stop_id': '5016', 'name': 'Wgtn Station'
+                }, 'delay': 'PT0S', 'vehicle_id': None, 'name': 'MillsRd at Veronica', 'arrival': {'aimed': datetime.datetime(2026,
+                    2,
+                    22,
+                    22,
+                    38, tzinfo=datetime.timezone(datetime.timedelta(seconds=46800))), 'expected': None
+                }, 'departure': {'aimed': '2026-02-22T22: 38: 00+13: 00', 'expected': None
+                }, 'status': None, 'monitored': False, 'wheelchair_accessible': True, 'trip_id': '7__1__756__TZM__107__107_20260125', 'trip_headsign': 'Wellington Station'
+            }
+        ]
+    },
+    {'farezone': '5', 'closed': False, 'departures': [
+            {'stop_id': 'NAEN', 'service_id': 'HVL', 'direction': 'inbound', 'operator': 'RAIL', 'origin': {'stop_id': 'UPPE', 'name': 'UpperHuttStn'
+                }, 'destination': {'stop_id': 'WELL1', 'name': 'WELL-All stops'
+                }, 'delay': 'PT0S', 'vehicle_id': None, 'name': 'NaenaeStn', 'arrival': {'aimed': datetime.datetime(2026,
+                    2,
+                    22,
+                    14,
+                    21, tzinfo=datetime.timezone(datetime.timedelta(seconds=46800))), 'expected': None
+                }, 'departure': {'aimed': '2026-02-22T14: 21: 00+13: 00', 'expected': None
+                }, 'status': None, 'monitored': False, 'wheelchair_accessible': True, 'trip_id': 'HVL__1__3839__RAIL__Rail_SaSu_+_Hol_20260125', 'trip_headsign': 'Wellington'
+            },
+            {'stop_id': 'NAEN', 'service_id': 'HVL', 'direction': 'outbound', 'operator': 'RAIL', 'origin': {'stop_id': 'WELL1', 'name': 'WgtnStn'
+                }, 'destination': {'stop_id': 'UPPE', 'name': 'UPPE - All stops'
+                }, 'delay': 'PT0S', 'vehicle_id': None, 'name': 'NaenaeStn', 'arrival': {'aimed': datetime.datetime(2026,
+                    2,
+                    22,
+                    14,
+                    29, tzinfo=datetime.timezone(datetime.timedelta(seconds=46800))), 'expected': None
+                }, 'departure': {'aimed': '2026-02-22T14: 29: 00+13: 00', 'expected': None
+                }, 'status': None, 'monitored': False, 'wheelchair_accessible': True, 'trip_id': 'HVL__0__3842__RAIL__Rail_SaSu_+_Hol_20260125', 'trip_headsign': 'Upper Hutt'
+            },
+            {'stop_id': 'NAEN', 'service_id': 'HVL', 'direction': 'inbound', 'operator': 'RAIL', 'origin': {'stop_id': 'UPPE', 'name': 'UpperHuttStn'
+                }, 'destination': {'stop_id': 'WELL1', 'name': 'WELL-All stops'
+                }, 'delay': 'PT0S', 'vehicle_id': None, 'name': 'NaenaeStn', 'arrival': {'aimed': datetime.datetime(2026,
+                    2,
+                    22,
+                    14,
+                    51, tzinfo=datetime.timezone(datetime.timedelta(seconds=46800))), 'expected': None
+                }, 'departure': {'aimed': '2026-02-22T14: 51: 00+13: 00', 'expected': None
+                }, 'status': None, 'monitored': False, 'wheelchair_accessible': True, 'trip_id': 'HVL__1__3841__RAIL__Rail_SaSu_+_Hol_20260125', 'trip_headsign': 'Wellington'
+            },
+            {'stop_id': 'NAEN', 'service_id': 'HVL', 'direction': 'outbound', 'operator': 'RAIL', 'origin': {'stop_id': 'WELL1', 'name': 'WgtnStn'
+                }, 'destination': {'stop_id': 'UPPE', 'name': 'UPPE - All stops'
+                }, 'delay': 'PT0S', 'vehicle_id': None, 'name': 'NaenaeStn', 'arrival': {'aimed': datetime.datetime(2026,
+                    2,
+                    22,
+                    14,
+                    59, tzinfo=datetime.timezone(datetime.timedelta(seconds=46800))), 'expected': None
+                }, 'departure': {'aimed': '2026-02-22T14: 59: 00+13: 00', 'expected': None
+                }, 'status': None, 'monitored': False, 'wheelchair_accessible': True, 'trip_id': 'HVL__0__3844__RAIL__Rail_SaSu_+_Hol_20260125', 'trip_headsign': 'Upper Hutt'
+            },
+            {'stop_id': 'NAEN', 'service_id': 'HVL', 'direction': 'inbound', 'operator': 'RAIL', 'origin': {'stop_id': 'UPPE', 'name': 'UpperHuttStn'
+                }, 'destination': {'stop_id': 'WELL1', 'name': 'WELL-All stops'
+                }, 'delay': 'PT0S', 'vehicle_id': None, 'name': 'NaenaeStn', 'arrival': {'aimed': datetime.datetime(2026,
+                    2,
+                    22,
+                    15,
+                    21, tzinfo=datetime.timezone(datetime.timedelta(seconds=46800))), 'expected': None
+                }, 'departure': {'aimed': '2026-02-22T15: 21: 00+13: 00', 'expected': None
+                }, 'status': None, 'monitored': False, 'wheelchair_accessible': True, 'trip_id': 'HVL__1__3843__RAIL__Rail_SaSu_+_Hol_20260125', 'trip_headsign': 'Wellington'
+            },
+            {'stop_id': 'NAEN', 'service_id': 'HVL', 'direction': 'outbound', 'operator': 'RAIL', 'origin': {'stop_id': 'WELL1', 'name': 'WgtnStn'
+                }, 'destination': {'stop_id': 'UPPE', 'name': 'UPPE - All stops'
+                }, 'delay': 'PT0S', 'vehicle_id': None, 'name': 'NaenaeStn', 'arrival': {'aimed': datetime.datetime(2026,
+                    2,
+                    22,
+                    15,
+                    29, tzinfo=datetime.timezone(datetime.timedelta(seconds=46800))), 'expected': None
+                }, 'departure': {'aimed': '2026-02-22T15: 29: 00+13: 00', 'expected': None
+                }, 'status': None, 'monitored': False, 'wheelchair_accessible': True, 'trip_id': 'HVL__0__3846__RAIL__Rail_SaSu_+_Hol_20260125', 'trip_headsign': 'Upper Hutt'
+            },
+            {'stop_id': 'NAEN', 'service_id': 'HVL', 'direction': 'inbound', 'operator': 'RAIL', 'origin': {'stop_id': 'UPPE', 'name': 'UpperHuttStn'
+                }, 'destination': {'stop_id': 'WELL1', 'name': 'WELL-All stops'
+                }, 'delay': 'PT0S', 'vehicle_id': None, 'name': 'NaenaeStn', 'arrival': {'aimed': datetime.datetime(2026,
+                    2,
+                    22,
+                    15,
+                    51, tzinfo=datetime.timezone(datetime.timedelta(seconds=46800))), 'expected': None
+                }, 'departure': {'aimed': '2026-02-22T15: 51: 00+13: 00', 'expected': None
+                }, 'status': None, 'monitored': False, 'wheelchair_accessible': True, 'trip_id': 'HVL__1__3845__RAIL__Rail_SaSu_+_Hol_20260125', 'trip_headsign': 'Wellington'
+            },
+            {'stop_id': 'NAEN', 'service_id': 'HVL', 'direction': 'outbound', 'operator': 'RAIL', 'origin': {'stop_id': 'WELL1', 'name': 'WgtnStn'
+                }, 'destination': {'stop_id': 'UPPE', 'name': 'UPPE - All stops'
+                }, 'delay': 'PT0S', 'vehicle_id': None, 'name': 'NaenaeStn', 'arrival': {'aimed': datetime.datetime(2026,
+                    2,
+                    22,
+                    15,
+                    59, tzinfo=datetime.timezone(datetime.timedelta(seconds=46800))), 'expected': None
+                }, 'departure': {'aimed': '2026-02-22T15: 59: 00+13: 00', 'expected': None
+                }, 'status': None, 'monitored': False, 'wheelchair_accessible': True, 'trip_id': 'HVL__0__3848__RAIL__Rail_SaSu_+_Hol_20260125', 'trip_headsign': 'Upper Hutt'
+            },
+            {'stop_id': 'NAEN', 'service_id': 'HVL', 'direction': 'inbound', 'operator': 'RAIL', 'origin': {'stop_id': 'UPPE', 'name': 'UpperHuttStn'
+                }, 'destination': {'stop_id': 'WELL1', 'name': 'WELL-All stops'
+                }, 'delay': 'PT0S', 'vehicle_id': None, 'name': 'NaenaeStn', 'arrival': {'aimed': datetime.datetime(2026,
+                    2,
+                    22,
+                    16,
+                    21, tzinfo=datetime.timezone(datetime.timedelta(seconds=46800))), 'expected': None
+                }, 'departure': {'aimed': '2026-02-22T16: 21: 00+13: 00', 'expected': None
+                }, 'status': None, 'monitored': False, 'wheelchair_accessible': True, 'trip_id': 'HVL__1__3847__RAIL__Rail_SaSu_+_Hol_20260125', 'trip_headsign': 'Wellington'
+            },
+            {'stop_id': 'NAEN', 'service_id': 'HVL', 'direction': 'outbound', 'operator': 'RAIL', 'origin': {'stop_id': 'WELL1', 'name': 'WgtnStn'
+                }, 'destination': {'stop_id': 'UPPE', 'name': 'UPPE - All stops'
+                }, 'delay': 'PT0S', 'vehicle_id': None, 'name': 'NaenaeStn', 'arrival': {'aimed': datetime.datetime(2026,
+                    2,
+                    22,
+                    16,
+                    29, tzinfo=datetime.timezone(datetime.timedelta(seconds=46800))), 'expected': None
+                }, 'departure': {'aimed': '2026-02-22T16: 29: 00+13: 00', 'expected': None
+                }, 'status': None, 'monitored': False, 'wheelchair_accessible': True, 'trip_id': 'HVL__0__3850__RAIL__Rail_SaSu_+_Hol_20260125', 'trip_headsign': 'Upper Hutt'
+            },
+            {'stop_id': 'NAEN', 'service_id': 'HVL', 'direction': 'inbound', 'operator': 'RAIL', 'origin': {'stop_id': 'UPPE', 'name': 'UpperHuttStn'
+                }, 'destination': {'stop_id': 'WELL1', 'name': 'WELL-All stops'
+                }, 'delay': 'PT0S', 'vehicle_id': None, 'name': 'NaenaeStn', 'arrival': {'aimed': datetime.datetime(2026,
+                    2,
+                    22,
+                    16,
+                    51, tzinfo=datetime.timezone(datetime.timedelta(seconds=46800))), 'expected': None
+                }, 'departure': {'aimed': '2026-02-22T16: 51: 00+13: 00', 'expected': None
+                }, 'status': None, 'monitored': False, 'wheelchair_accessible': True, 'trip_id': 'HVL__1__3849__RAIL__Rail_SaSu_+_Hol_20260125', 'trip_headsign': 'Wellington'
+            },
+            {'stop_id': 'NAEN', 'service_id': 'HVL', 'direction': 'outbound', 'operator': 'RAIL', 'origin': {'stop_id': 'WELL1', 'name': 'WgtnStn'
+                }, 'destination': {'stop_id': 'UPPE', 'name': 'UPPE - All stops'
+                }, 'delay': 'PT0S', 'vehicle_id': None, 'name': 'NaenaeStn', 'arrival': {'aimed': datetime.datetime(2026,
+                    2,
+                    22,
+                    16,
+                    59, tzinfo=datetime.timezone(datetime.timedelta(seconds=46800))), 'expected': None
+                }, 'departure': {'aimed': '2026-02-22T16: 59: 00+13: 00', 'expected': None
+                }, 'status': None, 'monitored': False, 'wheelchair_accessible': True, 'trip_id': 'HVL__0__3852__RAIL__Rail_SaSu_+_Hol_20260125', 'trip_headsign': 'Upper Hutt'
+            },
+            {'stop_id': 'NAEN', 'service_id': 'HVL', 'direction': 'inbound', 'operator': 'RAIL', 'origin': {'stop_id': 'UPPE', 'name': 'UpperHuttStn'
+                }, 'destination': {'stop_id': 'WELL1', 'name': 'WELL-All stops'
+                }, 'delay': 'PT0S', 'vehicle_id': None, 'name': 'NaenaeStn', 'arrival': {'aimed': datetime.datetime(2026,
+                    2,
+                    22,
+                    17,
+                    21, tzinfo=datetime.timezone(datetime.timedelta(seconds=46800))), 'expected': None
+                }, 'departure': {'aimed': '2026-02-22T17: 21: 00+13: 00', 'expected': None
+                }, 'status': None, 'monitored': False, 'wheelchair_accessible': True, 'trip_id': 'HVL__1__3851__RAIL__Rail_SaSu_+_Hol_20260125', 'trip_headsign': 'Wellington'
+            },
+            {'stop_id': 'NAEN', 'service_id': 'HVL', 'direction': 'outbound', 'operator': 'RAIL', 'origin': {'stop_id': 'WELL1', 'name': 'WgtnStn'
+                }, 'destination': {'stop_id': 'UPPE', 'name': 'UPPE - All stops'
+                }, 'delay': 'PT0S', 'vehicle_id': None, 'name': 'NaenaeStn', 'arrival': {'aimed': datetime.datetime(2026,
+                    2,
+                    22,
+                    17,
+                    29, tzinfo=datetime.timezone(datetime.timedelta(seconds=46800))), 'expected': None
+                }, 'departure': {'aimed': '2026-02-22T17: 29: 00+13: 00', 'expected': None
+                }, 'status': None, 'monitored': False, 'wheelchair_accessible': True, 'trip_id': 'HVL__0__3854__RAIL__Rail_SaSu_+_Hol_20260125', 'trip_headsign': 'Upper Hutt'
+            },
+            {'stop_id': 'NAEN', 'service_id': 'HVL', 'direction': 'inbound', 'operator': 'RAIL', 'origin': {'stop_id': 'UPPE', 'name': 'UpperHuttStn'
+                }, 'destination': {'stop_id': 'WELL1', 'name': 'WELL-All stops'
+                }, 'delay': 'PT0S', 'vehicle_id': None, 'name': 'NaenaeStn', 'arrival': {'aimed': datetime.datetime(2026,
+                    2,
+                    22,
+                    17,
+                    51, tzinfo=datetime.timezone(datetime.timedelta(seconds=46800))), 'expected': None
+                }, 'departure': {'aimed': '2026-02-22T17: 51: 00+13: 00', 'expected': None
+                }, 'status': None, 'monitored': False, 'wheelchair_accessible': True, 'trip_id': 'HVL__1__3853__RAIL__Rail_SaSu_+_Hol_20260125', 'trip_headsign': 'Wellington'
+            },
+            {'stop_id': 'NAEN', 'service_id': 'HVL', 'direction': 'outbound', 'operator': 'RAIL', 'origin': {'stop_id': 'WELL1', 'name': 'WgtnStn'
+                }, 'destination': {'stop_id': 'UPPE', 'name': 'UPPE - All stops'
+                }, 'delay': 'PT0S', 'vehicle_id': None, 'name': 'NaenaeStn', 'arrival': {'aimed': datetime.datetime(2026,
+                    2,
+                    22,
+                    17,
+                    59, tzinfo=datetime.timezone(datetime.timedelta(seconds=46800))), 'expected': None
+                }, 'departure': {'aimed': '2026-02-22T17: 59: 00+13: 00', 'expected': None
+                }, 'status': None, 'monitored': False, 'wheelchair_accessible': True, 'trip_id': 'HVL__0__3856__RAIL__Rail_SaSu_+_Hol_20260125', 'trip_headsign': 'Upper Hutt'
+            },
+            {'stop_id': 'NAEN', 'service_id': 'HVL', 'direction': 'inbound', 'operator': 'RAIL', 'origin': {'stop_id': 'UPPE', 'name': 'UpperHuttStn'
+                }, 'destination': {'stop_id': 'WELL1', 'name': 'WELL-All stops'
+                }, 'delay': 'PT0S', 'vehicle_id': None, 'name': 'NaenaeStn', 'arrival': {'aimed': datetime.datetime(2026,
+                    2,
+                    22,
+                    18,
+                    21, tzinfo=datetime.timezone(datetime.timedelta(seconds=46800))), 'expected': None
+                }, 'departure': {'aimed': '2026-02-22T18: 21: 00+13: 00', 'expected': None
+                }, 'status': None, 'monitored': False, 'wheelchair_accessible': True, 'trip_id': 'HVL__1__3855__RAIL__Rail_SaSu_+_Hol_20260125', 'trip_headsign': 'Wellington'
+            },
+            {'stop_id': 'NAEN', 'service_id': 'HVL', 'direction': 'outbound', 'operator': 'RAIL', 'origin': {'stop_id': 'WELL1', 'name': 'WgtnStn'
+                }, 'destination': {'stop_id': 'UPPE', 'name': 'UPPE - All stops'
+                }, 'delay': 'PT0S', 'vehicle_id': None, 'name': 'NaenaeStn', 'arrival': {'aimed': datetime.datetime(2026,
+                    2,
+                    22,
+                    18,
+                    29, tzinfo=datetime.timezone(datetime.timedelta(seconds=46800))), 'expected': None
+                }, 'departure': {'aimed': '2026-02-22T18: 29: 00+13: 00', 'expected': None
+                }, 'status': None, 'monitored': False, 'wheelchair_accessible': True, 'trip_id': 'HVL__0__3858__RAIL__Rail_SaSu_+_Hol_20260125', 'trip_headsign': 'Upper Hutt'
+            },
+            {'stop_id': 'NAEN', 'service_id': 'HVL', 'direction': 'inbound', 'operator': 'RAIL', 'origin': {'stop_id': 'UPPE', 'name': 'UpperHuttStn'
+                }, 'destination': {'stop_id': 'WELL1', 'name': 'WELL-All stops'
+                }, 'delay': 'PT0S', 'vehicle_id': None, 'name': 'NaenaeStn', 'arrival': {'aimed': datetime.datetime(2026,
+                    2,
+                    22,
+                    18,
+                    51, tzinfo=datetime.timezone(datetime.timedelta(seconds=46800))), 'expected': None
+                }, 'departure': {'aimed': '2026-02-22T18: 51: 00+13: 00', 'expected': None
+                }, 'status': None, 'monitored': False, 'wheelchair_accessible': True, 'trip_id': 'HVL__1__3857__RAIL__Rail_SaSu_+_Hol_20260125', 'trip_headsign': 'Wellington'
+            },
+            {'stop_id': 'NAEN', 'service_id': 'HVL', 'direction': 'outbound', 'operator': 'RAIL', 'origin': {'stop_id': 'WELL1', 'name': 'WgtnStn'
+                }, 'destination': {'stop_id': 'UPPE', 'name': 'UPPE - All stops'
+                }, 'delay': 'PT0S', 'vehicle_id': None, 'name': 'NaenaeStn', 'arrival': {'aimed': datetime.datetime(2026,
+                    2,
+                    22,
+                    18,
+                    59, tzinfo=datetime.timezone(datetime.timedelta(seconds=46800))), 'expected': None
+                }, 'departure': {'aimed': '2026-02-22T18: 59: 00+13: 00', 'expected': None
+                }, 'status': None, 'monitored': False, 'wheelchair_accessible': True, 'trip_id': 'HVL__0__3860__RAIL__Rail_SaSu_+_Hol_20260125', 'trip_headsign': 'Upper Hutt'
+            },
+            {'stop_id': 'NAEN', 'service_id': 'HVL', 'direction': 'inbound', 'operator': 'RAIL', 'origin': {'stop_id': 'UPPE', 'name': 'UpperHuttStn'
+                }, 'destination': {'stop_id': 'WELL1', 'name': 'WELL-All stops'
+                }, 'delay': 'PT0S', 'vehicle_id': None, 'name': 'NaenaeStn', 'arrival': {'aimed': datetime.datetime(2026,
+                    2,
+                    22,
+                    19,
+                    21, tzinfo=datetime.timezone(datetime.timedelta(seconds=46800))), 'expected': None
+                }, 'departure': {'aimed': '2026-02-22T19: 21: 00+13: 00', 'expected': None
+                }, 'status': None, 'monitored': False, 'wheelchair_accessible': True, 'trip_id': 'HVL__1__3859__RAIL__Rail_SaSu_+_Hol_20260125', 'trip_headsign': 'Wellington'
+            },
+            {'stop_id': 'NAEN', 'service_id': 'HVL', 'direction': 'outbound', 'operator': 'RAIL', 'origin': {'stop_id': 'WELL1', 'name': 'WgtnStn'
+                }, 'destination': {'stop_id': 'UPPE', 'name': 'UPPE - All stops'
+                }, 'delay': 'PT0S', 'vehicle_id': None, 'name': 'NaenaeStn', 'arrival': {'aimed': datetime.datetime(2026,
+                    2,
+                    22,
+                    19,
+                    29, tzinfo=datetime.timezone(datetime.timedelta(seconds=46800))), 'expected': None
+                }, 'departure': {'aimed': '2026-02-22T19: 29: 00+13: 00', 'expected': None
+                }, 'status': None, 'monitored': False, 'wheelchair_accessible': True, 'trip_id': 'HVL__0__3862__RAIL__Rail_SaSu_+_Hol_20260125', 'trip_headsign': 'Upper Hutt'
+            },
+            {'stop_id': 'NAEN', 'service_id': 'HVL', 'direction': 'inbound', 'operator': 'RAIL', 'origin': {'stop_id': 'UPPE', 'name': 'UpperHuttStn'
+                }, 'destination': {'stop_id': 'WELL1', 'name': 'WELL-All stops'
+                }, 'delay': 'PT0S', 'vehicle_id': None, 'name': 'NaenaeStn', 'arrival': {'aimed': datetime.datetime(2026,
+                    2,
+                    22,
+                    20,
+                    21, tzinfo=datetime.timezone(datetime.timedelta(seconds=46800))), 'expected': None
+                }, 'departure': {'aimed': '2026-02-22T20: 21: 00+13: 00', 'expected': None
+                }, 'status': None, 'monitored': False, 'wheelchair_accessible': True, 'trip_id': 'HVL__1__3863__RAIL__Rail_SaSu_+_Hol_20260125', 'trip_headsign': 'Wellington'
+            },
+            {'stop_id': 'NAEN', 'service_id': 'HVL', 'direction': 'outbound', 'operator': 'RAIL', 'origin': {'stop_id': 'WELL1', 'name': 'WgtnStn'
+                }, 'destination': {'stop_id': 'UPPE', 'name': 'UPPE - All stops'
+                }, 'delay': 'PT0S', 'vehicle_id': None, 'name': 'NaenaeStn', 'arrival': {'aimed': datetime.datetime(2026,
+                    2,
+                    22,
+                    20,
+                    29, tzinfo=datetime.timezone(datetime.timedelta(seconds=46800))), 'expected': None
+                }, 'departure': {'aimed': '2026-02-22T20: 29: 00+13: 00', 'expected': None
+                }, 'status': None, 'monitored': False, 'wheelchair_accessible': True, 'trip_id': 'HVL__0__3864__RAIL__Rail_SaSu_+_Hol_20260125', 'trip_headsign': 'Upper Hutt'
+            },
+            {'stop_id': 'NAEN', 'service_id': 'HVL', 'direction': 'inbound', 'operator': 'RAIL', 'origin': {'stop_id': 'UPPE', 'name': 'UpperHuttStn'
+                }, 'destination': {'stop_id': 'WELL1', 'name': 'WELL-All stops'
+                }, 'delay': 'PT0S', 'vehicle_id': None, 'name': 'NaenaeStn', 'arrival': {'aimed': datetime.datetime(2026,
+                    2,
+                    22,
+                    21,
+                    21, tzinfo=datetime.timezone(datetime.timedelta(seconds=46800))), 'expected': None
+                }, 'departure': {'aimed': '2026-02-22T21: 21: 00+13: 00', 'expected': None
+                }, 'status': None, 'monitored': False, 'wheelchair_accessible': True, 'trip_id': 'HVL__1__3865__RAIL__Rail_SaSu_+_Hol_20260125', 'trip_headsign': 'Wellington'
+            },
+            {'stop_id': 'NAEN', 'service_id': 'HVL', 'direction': 'outbound', 'operator': 'RAIL', 'origin': {'stop_id': 'WELL1', 'name': 'WgtnStn'
+                }, 'destination': {'stop_id': 'UPPE', 'name': 'UPPE - All stops'
+                }, 'delay': 'PT0S', 'vehicle_id': None, 'name': 'NaenaeStn', 'arrival': {'aimed': datetime.datetime(2026,
+                    2,
+                    22,
+                    21,
+                    29, tzinfo=datetime.timezone(datetime.timedelta(seconds=46800))), 'expected': None
+                }, 'departure': {'aimed': '2026-02-22T21: 29: 00+13: 00', 'expected': None
+                }, 'status': None, 'monitored': False, 'wheelchair_accessible': True, 'trip_id': 'HVL__0__3866__RAIL__Rail_SaSu_+_Hol_20260125', 'trip_headsign': 'Upper Hutt'
+            },
+            {'stop_id': 'NAEN', 'service_id': 'HVL', 'direction': 'inbound', 'operator': 'RAIL', 'origin': {'stop_id': 'UPPE', 'name': 'UpperHuttStn'
+                }, 'destination': {'stop_id': 'WELL1', 'name': 'WELL-All stops'
+                }, 'delay': 'PT0S', 'vehicle_id': None, 'name': 'NaenaeStn', 'arrival': {'aimed': datetime.datetime(2026,
+                    2,
+                    22,
+                    22,
+                    21, tzinfo=datetime.timezone(datetime.timedelta(seconds=46800))), 'expected': None
+                }, 'departure': {'aimed': '2026-02-22T22: 21: 00+13: 00', 'expected': None
+                }, 'status': None, 'monitored': False, 'wheelchair_accessible': True, 'trip_id': 'HVL__1__3867__RAIL__Rail_SaSu_+_Hol_20260125', 'trip_headsign': 'Wellington'
+            },
+            {'stop_id': 'NAEN', 'service_id': 'HVL', 'direction': 'outbound', 'operator': 'RAIL', 'origin': {'stop_id': 'WELL1', 'name': 'WgtnStn'
+                }, 'destination': {'stop_id': 'UPPE', 'name': 'UPPE - All stops'
+                }, 'delay': 'PT0S', 'vehicle_id': None, 'name': 'NaenaeStn', 'arrival': {'aimed': datetime.datetime(2026,
+                    2,
+                    22,
+                    22,
+                    29, tzinfo=datetime.timezone(datetime.timedelta(seconds=46800))), 'expected': None
+                }, 'departure': {'aimed': '2026-02-22T22: 29: 00+13: 00', 'expected': None
+                }, 'status': None, 'monitored': False, 'wheelchair_accessible': True, 'trip_id': 'HVL__0__3868__RAIL__Rail_SaSu_+_Hol_20260125', 'trip_headsign': 'Upper Hutt'
+            },
+            {'stop_id': 'NAEN', 'service_id': 'HVL', 'direction': 'inbound', 'operator': 'RAIL', 'origin': {'stop_id': 'UPPE', 'name': 'UpperHuttStn'
+                }, 'destination': {'stop_id': 'WELL1', 'name': 'WELL-All stops'
+                }, 'delay': 'PT0S', 'vehicle_id': None, 'name': 'NaenaeStn', 'arrival': {'aimed': datetime.datetime(2026,
+                    2,
+                    22,
+                    23,
+                    21, tzinfo=datetime.timezone(datetime.timedelta(seconds=46800))), 'expected': None
+                }, 'departure': {'aimed': '2026-02-22T23: 21: 00+13: 00', 'expected': None
+                }, 'status': None, 'monitored': False, 'wheelchair_accessible': True, 'trip_id': 'HVL__1__3869__RAIL__Rail_SaSu_+_Hol_20260125', 'trip_headsign': 'Wellington'
+            },
+            {'stop_id': 'NAEN', 'service_id': 'HVL', 'direction': 'outbound', 'operator': 'RAIL', 'origin': {'stop_id': 'WELL1', 'name': 'WgtnStn'
+                }, 'destination': {'stop_id': 'UPPE', 'name': 'UPPE - All stops'
+                }, 'delay': 'PT0S', 'vehicle_id': None, 'name': 'NaenaeStn', 'arrival': {'aimed': datetime.datetime(2026,
+                    2,
+                    22,
+                    23,
+                    29, tzinfo=datetime.timezone(datetime.timedelta(seconds=46800))), 'expected': None
+                }, 'departure': {'aimed': '2026-02-22T23: 29: 00+13: 00', 'expected': None
+                }, 'status': None, 'monitored': False, 'wheelchair_accessible': True, 'trip_id': 'HVL__0__3870__RAIL__Rail_SaSu_+_Hol_20260125', 'trip_headsign': 'Upper Hutt'
+            }
+        ]
+    }
+]
