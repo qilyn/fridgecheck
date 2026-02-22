@@ -1,22 +1,20 @@
 <tr>
     <td colspan=2>
-        {{ stop.farezone }}
-    </td>
-    <td>
-        {{ stop.closed }}
+        {{ stop.farezone }} // <b>{{stop.departures[0].stop_id}}</b>
+        {% if stop.closed %}CLOSED{% endif %}
     </td>
     <td>
         <table>
             <tr>
-                <td>To</td>
-                <td>Timetable arrival</td>
-                <td>Estimated arrival</td>
-                <td>Status</td>
+                <th>To</th>
+                <th>Timetable arrival</th>
+                <th>Estimated arrival</th>
+                <th>Status</th>
             </tr>
             {% for departure in stop.departures %}
-            {% if departure.status %}
+            {% if departure.status or (departure.arrival.expected and departure.arrival.expected < max_departure_time) %}
             <tr>
-                <td><b>{{ departure.destination.name }}</b> ({{ departure.destination.stop_id }})</td>
+                <td><img src="{{ url_for('static', filename='train.svg') }}" /><b>{{ departure.destination.name }}</b> ({{ departure.destination.stop_id }})</td>
                 <td>{{ departure.arrival.aimed.strftime('%H:%M') }}</td>
                 <td>
                     {% if departure.arrival.expected %}
@@ -29,7 +27,7 @@
                 {# <td>{{ departure.vehicle_id }}</td> #}
                 <td>{{ departure.status }}</td>
             </tr>
-            {% endif%}
+            {% endif %}
             {% endfor %}
         </table>
     </td>

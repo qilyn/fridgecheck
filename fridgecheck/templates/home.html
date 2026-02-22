@@ -1,6 +1,7 @@
 <!doctype html>
 <head>
     <title>{{ page_title }} @fridgecheck</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
 </head>
 
 <body>
@@ -9,9 +10,17 @@
             <tr>
                 <th>stops</th>
             </tr>
-            {% for stop in stops %}
-                {% include 'stop_row.html' %}
+            {% for stop_data in stops %}
+                {% with stop=stop_data %}
+                    {% include 'stop_row.html' %}
+                {% endwith %}
             {% endfor %}
         </table>
     </div>
 </body>
+
+<footer>
+    <div>
+        Icon sets by <a href="https://icon-sets.iconify.design/mdi/?icon-filter=train" target="_blank">Iconify</a>
+    </div>
+</footer>
