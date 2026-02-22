@@ -1,36 +1,71 @@
-import { useEffect, useState } from 'react';
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
 import './App.css'
-import axios from 'axios'; // Install with npm install axios
+import type {Departure} from './types'
 
 
-function DepartureRow() {
-  const [services, setServices] = useState([]);
-  const serviceHasStarted = service.status !== null;
-  const departureInFuture = new Date();
+function prettyDate(str) {
+  if (str) {
+    return new Date(str).toLocaleTimeString();
+  }
+}
 
+function DepartureRow({departure}) {
+  console.log('row', departure);
+  const serviceHasStarted = departure.status !== null;
+  console.log(departure.arrival, departure.departure, departure.destination
+
+  )
+  // FIXME put this somewhere useful
+  const now = new Date(); 
+  const lookAheadHours = 2;
+  const lookAheadTime = now.getTime() + (lookAheadHours*60*60*1000);
+  let departsSoon = false;
+  
+  if (departure.arrival && departure.arrival.aimed !== null) {
+    const schedule = new Date(departure.arrival.aimed);
+    if (departure.arrival && schedule.getTime() < lookAheadTime) {
+      departsSoon = true;
+    }
+  }
+
+  if (departure.aimed && new Date(departure.aimed).getTime() < lookAheadTime) {
+    departsSoon = true;
+  }
+
+  if (!departsSoon) {
+    return (
+      <><tr><td></td><td></td><td></td><td></td><td></td></tr></>
+    )
+  }
 
   return (
     <>
-      <tr *if departure.status or (departure.arrival.expected and departure.arrival.expected < max_departure_time) %}
-                  <tr>
-                      <td><img src="{{ url_for('static', filename='train.svg') }}" /><b>{{ departure.destination.name }}</b> ({{ departure.destination.stop_id }})</td>
-                      <td>{{ departure.arrival.aimed.strftime('%H:%M') }}</td>
-                      <td>
-                          {% if departure.arrival.expected %}
-                              {{ departure.arrival.expected.strftime('%H:%M:%S')|default('=', true) }}
-                          {% else %}
-                              -
-                          {% endif %}
-                      </td>
-                      {# <td>{{ departure.delay }}</td> #}
-                      {# <td>{{ departure.vehicle_id }}</td> #}
-                      <td>{{ departure.status }}</td>
-                  </tr>
-                  {% endif %}
+      <tr>
+          <td>
+            <img src="/static/train.svg" />
+            { departure.destination &&
+              <span>
+                <b>{ departure.destination.name || '' }</b> ({ departure.destination.stop_id })
+              </span>
+            }
+          </td>
+          <td>{ departure.arrival &&
+            <span>
+              { prettyDate(departure.arrival.aimed) }
+            </span>}
+          </td>
+          <td>
+            {departure.arrival && 
+              <span>
+                { prettyDate(departure.arrival.expected) }
+              </span>
+            }
+          </td>
+          {/* {# <td>{{ departure.delay }}</td> #} */}
+          {/* {# <td>{{ departure.vehicle_id }}</td> #} */}
+          <td>{ serviceHasStarted }</td>
+      </tr>
+      {/* } */}
     </>
-  )
-}
+)}
 
-export default StopServicesRow
+export default DepartureRow

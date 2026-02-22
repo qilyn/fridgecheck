@@ -73,6 +73,14 @@ body {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
+.good {
+  color: green;
+}
+
+.bad {
+  color: red;
+}
+
 table {
     width: 100%;
     border: 0px;

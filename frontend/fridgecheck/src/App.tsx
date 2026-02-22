@@ -4,10 +4,11 @@ import viteLogo from '/vite.svg'
 import './App.css'
 import axios from 'axios'; // Install with npm install axios
 import StopServicesRow from './stop-services-row';
+import type { Stop } from './types';
 
 
 function App() {
-  const [data, setData] = useState([]);
+  const [data, setData] = useState<Stop[]>([]);
   
   useEffect(() => {
     axios.get('http://127.0.0.1:5000/stops')
@@ -19,25 +20,30 @@ function App() {
       });
   }, []);
 
-  return (
+  console.log(data)
+
+  return  (
     <>
     <head>
         <title>@fridgecheck</title>
-        <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}" />
+        {/* <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}" /> */}
     </head>
     <body>
-        <div class="container">
-            <table>
-                <tr>
-                    <th>stops</th>
-                    {
-                      data.map((stops_services) => (
-                        <StopServicesRow stops={stops_services} />
-                      ))
-                    }
-                </tr>
-            </table>
-        </div>
+      {data && <div class="container">
+        <table>
+          <thead>
+            <tr>
+              <th>stops</th>
+            </tr>
+          </thead>
+          <tbody>
+            {data.map((stops_services, index) => (
+                <StopServicesRow stop={stops_services} />
+              ))
+            }
+          </tbody>
+        </table>
+      </div>}
     </body>
     
     <footer>
